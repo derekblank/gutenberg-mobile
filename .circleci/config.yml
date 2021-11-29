@@ -124,11 +124,9 @@ commands:
             fi
             echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> $BASH_ENV
       - run:
-          name: Install node version
-          # Node.js 14 enforced to align with the Gutenberg repository. This
-          # should be updated each time Gutenberg upgrades. https://git.io/Ji8qj
+          name: Install node version specified in .nvmrc using nvm
           command: |
-            nvm install 14
+            nvm install
             # Set the installed version as the default one
             nvm alias default $(nvm current)
             # Enforce to use the default version in the rest of workflow
@@ -365,6 +363,7 @@ workflows:
               ignore:
                 - develop
                 - /^dependabot/submodules/.*/
+                - /^release.*/
       - ios-device-checks:
           name: Test iOS on Device - Full
           requires: [ "Optional UI Tests" ]
@@ -385,7 +384,34 @@ workflows:
           filters:
             branches:
               only: /^dependabot/submodules/.*/
-
+      - ios-device-checks:
+          name: Test iOS on Device - Full (On Develop)
+          post-to-slack: true
+          filters:
+            branches:
+              only: 
+                - develop
+      - android-device-checks:
+          name: Test Android on Device - Full (On Develop)
+          post-to-slack: true
+          filters:
+            branches:
+              only: 
+                - develop
+      - ios-device-checks:
+          name: Test iOS on Device - Full (Release)
+          post-to-slack: true
+          filters:
+            branches:
+              only: 
+                - /^release.*/
+      - android-device-checks:
+          name: Test Android on Device - Full (Release)
+          post-to-slack: true
+          filters:
+            branches:
+              only:
+                - /^release.*/
   ui-tests-full-scheduled:
     jobs:
       - ios-device-checks:
