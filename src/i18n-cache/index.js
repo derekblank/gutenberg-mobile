@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /* eslint-disable no-console */
 
 /**
@@ -6,6 +7,7 @@
 const fs = require( 'fs' );
 const path = require( 'path' );
 const fetch = require( 'node-fetch' );
+const gettextParser = require( 'gettext-parser' );
 
 const supportedLocales = [
 	'ar', // Arabic
@@ -77,7 +79,7 @@ const fetchTranslation = ( locale, plugin ) => {
 		} );
 };
 
-const fetchTranslations = ( plugin ) => {
+const fetchTranslations = ( plugin, filterStrings ) => {
 	const fetchPromises = supportedLocales.map( ( locale ) =>
 		fetchTranslation( locale, plugin )
 	);
@@ -103,9 +105,21 @@ const fetchTranslations = ( plugin ) => {
 						`${ plugin }/${ translationRelativePath }`
 					);
 
+					const translationData = Object.keys(
+						languageResult.response
+					)
+						.filter( filterStrings )
+						.reduce(
+							( result, string ) => ( {
+								...result,
+								[ string ]: languageResult.response[ string ],
+							} ),
+							{}
+						);
+
 					fs.writeFile(
 						translationAbsolutePath,
-						JSON.stringify( languageResult.response ),
+						JSON.stringify( translationData ),
 						'utf8',
 						( err ) => {
 							if ( err ) {
@@ -125,17 +139,41 @@ const fetchTranslations = ( plugin ) => {
 	} );
 };
 
+function getStringsFromPot( potFileName ) {
+	const potData = fs.readFileSync( potFileName );
+	const po = gettextParser.po.parse( potData );
+
+	const getStringsFromContext = ( contextTranslations ) =>
+		Object.values( contextTranslations ).map( ( { msgid, msgctxt } ) =>
+			msgctxt ? `${ msgctxt }\u0004${ msgid }` : msgid
+		);
+
+	return Object.keys( po.translations ).reduce(
+		( result, context ) => [
+			...result,
+			...getStringsFromContext( po.translations[ context ] ),
+		],
+		[]
+	);
+}
+
 // if run as a script
 if ( require.main === module ) {
 	const args = process.argv.slice( 2 );
 	const plugin = args[ 0 ] || 'gutenberg';
+	const potFile =
+		args[ 1 ] ||
+		( plugin === 'gutenberg' ? 'gutenberg-used.pot' : undefined );
 	const pluginDir = path.join( __dirname, plugin );
 
 	if ( ! fs.existsSync( pluginDir ) ) {
 		fs.mkdirSync( pluginDir );
 	}
 
-	fetchTranslations( plugin ).then( ( translations ) => {
+	const usedStrings = getStringsFromPot( potFile );
+	const filterStrings = ( string ) => usedStrings.includes( string );
+
+	fetchTranslations( plugin, filterStrings ).then( ( translations ) => {
 		const indexNative = `/* THIS IS A GENERATED FILE. DO NOT EDIT DIRECTLY. */
 /* eslint-disable prettier/prettier */
 
