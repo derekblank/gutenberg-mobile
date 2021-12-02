@@ -1,4 +1,22 @@
 #!/bin/bash
+# 
+# The I18n update command handles the process of updating the i18n localizations of plugins 
+# including Gutenberg. The main goals of this command are:
+#
+#   1. Download translation files and optimize them by filtering out the unused strings,
+#      previously extracted from the React Native bundle.
+#
+#      This step produces the following output files:
+#      - src/i18n-cache/{PLUGIN_NAME}/data/{LOCALE}.json     [Translation files]
+#      - src/i18n-cache/{PLUGIN_NAME}/data/index.native.json [JS file to import translations]
+#
+#   2. Generate localization strings files that include the strings only used in "*.native.js"
+#      source code files. The translations of these strings are not included in the GlotPress projects 
+#      of their plugins hence, they require to be requested as part of the main apps’ strings.
+#
+#      This step produces the following output files:
+#      - bundle/android/strings.xml                     [Localization strings files for Android platform]
+#      - bundle/ios/GutenbergNativeTranslations.swift   [Localization strings files for iOS platform]
 
 # Exit if any command fails
 set -e
