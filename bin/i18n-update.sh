@@ -97,7 +97,6 @@ function setup_wp_cli() {
 function build_gutenberg() {
   if [[ -z $SKIP_GUTENGERG_BUILD ]]; then
     echo -e "\n\033[1mBuild Gutenberg packages\033[0m"
-    npm run clean:gutenberg
     npm run build:gutenberg
   fi  
 }
@@ -145,17 +144,17 @@ function generate_pot_files() {
     $WP_CLI i18n make-pot $SOURCE_DIR $DEBUG_PARAM --exclude="$EXCLUDE_FILES" --skip-js --skip-php --ignore-domain $OUTPUT_POT_BLOCKS_FILE
     
     echo -e "\nExtract used strings from Android JS bundle:"
-    $WP_CLI i18n make-pot $JS_BUNDLE_ANDROID_DIR $DEBUG_PARAM --include="$JS_BUNDLE_ANDROID_FILENAME" --merge="$PLUGIN_NAME-blocks.pot" $SUBTRACT_PARAM $DOMAIN_PARAM $OUTPUT_POT_USED_ANDROID_FILE
+    $WP_CLI i18n make-pot $JS_BUNDLE_ANDROID_DIR $DEBUG_PARAM --include="$JS_BUNDLE_ANDROID_FILENAME" --merge="$OUTPUT_POT_BLOCKS_FILE" $SUBTRACT_PARAM $DOMAIN_PARAM $OUTPUT_POT_USED_ANDROID_FILE
 
     echo -e "\nExtract used strings from iOS JS bundle:"
-    $WP_CLI i18n make-pot $JS_BUNDLE_IOS_DIR $DEBUG_PARAM --include="$JS_BUNDLE_IOS_FILENAME" --merge="$PLUGIN_NAME-blocks.pot" $SUBTRACT_PARAM $DOMAIN_PARAM $OUTPUT_POT_USED_IOS_FILE
+    $WP_CLI i18n make-pot $JS_BUNDLE_IOS_DIR $DEBUG_PARAM --include="$JS_BUNDLE_IOS_FILENAME" --merge="$OUTPUT_POT_BLOCKS_FILE" $SUBTRACT_PARAM $DOMAIN_PARAM $OUTPUT_POT_USED_IOS_FILE
   fi
 
   if [[ -z $SKIP_LOCALIZATION_STRINGS_FILES ]]; then
     # This POT file is only required for generating the localization strings files
     echo -e "\nExtract strings from non-native JS code:"
     EXCLUDE_FILES_WITH_NATIVE="$EXCLUDE_FILES,*.native.js,*.ios.js,*.android.js,bundle/*"
-    $WP_CLI i18n make-pot $SOURCE_DIR $DEBUG_PARAM --exclude="$EXCLUDE_FILES_WITH_NATIVE" --merge="$PLUGIN_NAME-blocks.pot" --skip-php $DOMAIN_PARAM $OUTPUT_POT_SOURCE_FILE
+    $WP_CLI i18n make-pot $SOURCE_DIR $DEBUG_PARAM --exclude="$EXCLUDE_FILES_WITH_NATIVE" --merge="$OUTPUT_POT_BLOCKS_FILE" --skip-php $DOMAIN_PARAM $OUTPUT_POT_SOURCE_FILE
 
     echo -e "\nExtract strings from Android-specific JS code:"
     $WP_CLI i18n make-pot $SOURCE_DIR $DEBUG_PARAM --exclude="$EXCLUDE_FILES" --include="*.native.js,*.android.js" --skip-php --subtract="$OUTPUT_POT_SOURCE_FILE" $DOMAIN_PARAM $OUTPUT_POT_SOURCE_ANDROID_FILE
@@ -168,8 +167,8 @@ function generate_pot_files() {
 function fetch_translations() {
   local PLUGIN_NAME=$1
   if [[ -z $SKIP_EXTRACT_USED_STRINGS ]]; then
-    local ANDROID_POT_FILE="${PLUGIN_NAME/%/-used-android.pot}"
-    local IOS_POT_FILE="${PLUGIN_NAME/%/-used-ios.pot}"
+    local ANDROID_POT_FILE="$POT_FILES_DIR/${PLUGIN_NAME/%/-used-android.pot}"
+    local IOS_POT_FILE="$POT_FILES_DIR/${PLUGIN_NAME/%/-used-ios.pot}"
   fi
 
   echo -e "\n\033[1mDownload I18n translations for \"$PLUGIN_NAME\" plugin\033[0m"
@@ -184,6 +183,8 @@ function fetch_translations() {
 
 # Get parameters
 PLUGINS=( "$@" )
+
+echo -e "\n\033[1m== Updating i18n localizations ==\033[0m"
 
 # Validate parameters
 if [[ $((${#PLUGINS[@]}%2)) -ne 0 ]]; then
