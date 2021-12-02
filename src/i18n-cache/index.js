@@ -119,7 +119,7 @@ const fetchTranslations = ( plugin, filterStrings ) => {
 
 					fs.writeFile(
 						translationAbsolutePath,
-						JSON.stringify( translationData ),
+						JSON.stringify( translationData, null, 2 ),
 						'utf8',
 						( err ) => {
 							if ( err ) {
