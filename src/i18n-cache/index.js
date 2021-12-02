@@ -139,7 +139,7 @@ const fetchTranslations = ( plugin, filterStrings ) => {
 	} );
 };
 
-function getStringsFromPot( potFileName ) {
+function getStringsFromPotFile( potFileName ) {
 	const potData = fs.readFileSync( potFileName );
 	const po = gettextParser.po.parse( potData );
 
@@ -157,20 +157,27 @@ function getStringsFromPot( potFileName ) {
 	);
 }
 
+function getStringsFromPotFiles( potFiles ) {
+	const strings = potFiles.reduce(
+		( result, potFile ) =>
+			result.concat( getStringsFromPotFile( potFile ) ),
+		[]
+	);
+	return [ ...new Set( strings ) ];
+}
+
 // if run as a script
 if ( require.main === module ) {
 	const args = process.argv.slice( 2 );
 	const plugin = args[ 0 ] || 'gutenberg';
-	const potFile =
-		args[ 1 ] ||
-		( plugin === 'gutenberg' ? 'gutenberg-used.pot' : undefined );
+	const potFiles = args.length > 1 ? args.slice( 1 ) : [];
 	const pluginDir = path.join( __dirname, plugin );
 
 	if ( ! fs.existsSync( pluginDir ) ) {
 		fs.mkdirSync( pluginDir );
 	}
 
-	const usedStrings = getStringsFromPot( potFile );
+	const usedStrings = getStringsFromPotFiles( potFiles );
 	const filterStrings = ( string ) => usedStrings.includes( string );
 
 	fetchTranslations( plugin, filterStrings ).then( ( translations ) => {
