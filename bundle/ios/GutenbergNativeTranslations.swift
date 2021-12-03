@@ -21,7 +21,6 @@ private func dummy() {
     _ = NSLocalizedString("Add a shortcode…", comment: "")
     _ = NSLocalizedString("Add alt text", comment: "")
     _ = NSLocalizedString("ADD AUDIO", comment: "")
-    _ = NSLocalizedString("Add block", comment: "")
     _ = NSLocalizedString("Add Block After", comment: "")
     _ = NSLocalizedString("Add Block Before", comment: "")
     _ = NSLocalizedString("ADD BLOCK HERE", comment: "")
