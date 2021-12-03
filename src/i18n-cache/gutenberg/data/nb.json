@@ -2,71 +2,13 @@
   "100": [
     "100"
   ],
-  "block description\u0004This block is deprecated. Please use the Comments Query Loop block instead.": [],
-  "block title\u0004Post Comment (deprecated)": [],
-  "block description\u0004Show a block pattern.": [
-    "Vis et blokkmønster"
-  ],
-  "block title\u0004Pattern": [
-    "Mønster"
-  ],
-  "block keyword\u0004location": [
-    "posisjon"
-  ],
-  "block description\u0004Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed.": [
-    "Definer et navigasjonsområde for ditt tema. Navigasjonsblokken knyttet til dette området vil bi vist automatisk."
-  ],
-  "block title\u0004Navigation Area": [
-    "Navigasjonsområde"
-  ],
-  "block description\u0004An advanced block that allows displaying post comments based on different query parameters and visual configurations.": [
-    "En avansert blokk som tillater visning av kommentarer basert på ulike spørringsparametre og visuelle konfigurasjoner."
-  ],
-  "block title\u0004Comments Query Loop": [
-    "Spørringsløkke for kommentarer"
-  ],
-  "block description\u0004Contains the block elements used to render a comment, like the title, date, author, avatar and more.": [
-    "Inneholder blokk-elementene som brukes til å gjengi en kommentar, som tittel, dato, avatar, med mer."
-  ],
-  "block title\u0004Comment Template": [
-    "Kommentarmal"
-  ],
-  "block description\u0004Displays a link to reply to a comment.": [
-    "Viser en lenke til å svare på en kommentar."
-  ],
-  "block title\u0004Comment Reply Link": [
-    "Lenke for svar på kommentar"
-  ],
-  "block description\u0004Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability.": [],
-  "block title\u0004Comment Edit Link": [
-    "Redigeringslenke for kommentar"
-  ],
-  "block description\u0004Add the date of this comment.": [
-    "Legg til datoen for denne kommentaren."
-  ],
-  "block description\u0004Displays the contents of a comment.": [
-    "Viser innholdet av en kommentar."
-  ],
-  "block description\u0004Add the author name of this comment.": [
-    "Legg til forfatterennavnet for denne  kommentaren"
-  ],
-  "block title\u0004Comment Author Name": [
-    "Kommentarforfatterens navn"
-  ],
-  "block description\u0004Add the avatar of this comment's author.": [
-    "Legg til avataren til forfatteren av denne kommentaren."
-  ],
   "%s applied.": [
     "%s brukt."
   ],
   "%s removed.": [
     "%s fjernet."
   ],
-  "Editing this Gallery in the WordPress mobile app requires version 18.2 or higher.": [],
   "Embed Wolfram Cloud notebook content.": [],
-  "block title\u0004Comment Author Avatar": [
-    "Avatar for kommentarforfatter"
-  ],
   "Allow to wrap to multiple lines": [
     "Tillat å deles på flere linjer"
   ],
@@ -89,7 +31,6 @@
   "Featured": [
     "Fremhevet"
   ],
-  "block description\u0004Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results.": [],
   "You do not have permission to create Pages.": [],
   "Block spacing": [
     "Blokkavstand"
@@ -97,25 +38,13 @@
   "Max %s wide": [
     "Maks. %s bred"
   ],
-  "block description\u0004Add a submenu to your navigation.": [],
-  "block title\u0004Submenu": [
-    "Undermeny"
-  ],
   "block description\u0004Display content in multiple columns, with blocks added to each column.": [],
   "Minimum height": [
     "Maksimal høyde"
   ],
-  "Update to the new gallery format": [
-    "Oppdater til det nye galleriformatet"
-  ],
-  "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around.": [],
-  "Update gallery": [
-    "Oppdater galleri"
-  ],
   "block description\u0004Create structured content in rows and columns to display information.": [
     "Opprett strukturert innhold i rader og kolonner for å vise informasjon."
   ],
-  "block description\u0004Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different than the site icon, which is the smaller image visible in your dashboard, browser tabs, etc used to help others recognize this site.": [],
   "Preload value\u0004None": [
     "Ingen"
   ],
@@ -182,11 +111,6 @@
   "Top left": [
     "Topp venstre"
   ],
-  "block description\u0004An advanced block that allows displaying post types based on different query parameters and visual configurations.": [],
-  "block description\u0004Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more.": [],
-  "block title\u0004Post Template": [
-    "Innleggsmal"
-  ],
   "block keyword\u0004link": [
     "lenke"
   ],
@@ -214,16 +138,6 @@
   "block style label\u0004Stripes": [
     "Striper"
   ],
-  "block keyword\u0004summary": [
-    "sammendrag"
-  ],
-  "block keyword\u0004document outline": [
-    "dokumentsammendrag"
-  ],
-  "block description\u0004Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.": [],
-  "block title\u0004Table of Contents": [
-    "Innholdsfortegnelse"
-  ],
   "block description\u0004Add white space between blocks and customize its height.": [
     "Legg til mellomrom mellom blokker og tilpass dens høyde."
   ],
@@ -235,10 +149,6 @@
   ],
   "block description\u0004Display icons linking to your social media profiles or sites.": [],
   "block description\u0004Display an icon linking to a social media profile or site.": [],
-  "block keyword\u0004description": [
-    "beskrivelse"
-  ],
-  "block description\u0004Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it's not displayed in the theme design.": [],
   "block description\u0004Insert additional custom elements with a WordPress shortcode.": [
     "Sett inn flere tilpassede elementer med en WordPress-kortkode."
   ],
@@ -284,77 +194,17 @@
   "block keyword\u0004blockquote": [
     "blokksitat"
   ],
-  "block description\u0004Display the query title.": [
-    "Vis spørringstittelen."
-  ],
-  "block title\u0004Query Title": [
-    "Spørringstittel"
-  ],
-  "block description\u0004Displays a paginated navigation to next/previous set of posts, when applicable.": [
-    "Viser en paginert navigasjon til neste/forrige sett med innlegg når aktuelt."
-  ],
-  "block description\u0004Displays the previous posts page link.": [
-    "Viser lenken til forrige innleggsside."
-  ],
-  "block description\u0004Displays a list of page numbers for pagination": [
-    "Viser en liste over sidenumre for paginering"
-  ],
-  "block description\u0004Displays the next posts page link.": [
-    "Viser lenke til neste innleggsside."
-  ],
   "block description\u0004Give special visual emphasis to a quote from your text.": [
     "Legg på spesiell visuell vektlegging til et sitat i teksten din. "
   ],
   "block description\u0004Add text that respects your spacing and tabs, and also allows styling.": [
     "Legg til tekst som respekterer dine avstander og tabuleringer, og dessuten tillater styling."
   ],
-  "block description\u0004Displays the title of a post, page, or any other content-type.": [
-    "Viser tittelen på et innlegg, side eller en annen innholdstype."
-  ],
-  "block description\u0004Post terms.": [
-    "Termer for innlegg."
-  ],
-  "block description\u0004Displays the next or previous post link that is adjacent to the current post.": [
-    "Viser lenken til neste eller forrige innlegg i forhold til inneværende innlegg."
-  ],
-  "block title\u0004Post Navigation Link": [
-    "Navigasjonslenke for innlegg"
-  ],
-  "block description\u0004Display a post's featured image.": [
-    "Viser fremhevet bilde for et innlegg."
-  ],
-  "block description\u0004Display a post's excerpt.": [
-    "Vis utdraget til et innlegg."
-  ],
-  "block description\u0004Add the date of this post.": [
-    "Legg til datoen for dette innlegget."
-  ],
-  "block description\u0004Displays the contents of a post or page.": [
-    "Viser innholdet av et innlegg eller en side."
-  ],
-  "block description\u0004Display a post's comments.": [
-    "Vis et innleggs komentarer."
-  ],
-  "block description\u0004Displays the link to the current post comments.": [
-    "Viser lenken til kommentarene til inneværende innlegg.."
-  ],
-  "block description\u0004Display a post's comments form.": [
-    "Vis et innleggs kommentarfelt."
-  ],
-  "block description\u0004Display a post's comments count.": [
-    "Vis et antall kommentarer til et innlegg."
-  ],
-  "block description\u0004Add the author of this post.": [
-    "Legg til forfatteren av dette innlegget."
-  ],
   "block keyword\u0004text": [
     "tekst"
   ],
   "block description\u0004Start with the building block of all narrative.": [
     "Start med byggeblokken til all fortelling."
-  ],
-  "block description\u0004Display a list of all pages.": [
-    "Vis en liste over alle sider."
   ],
   "block keyword\u0004pagination": [
     "paginering"
@@ -364,16 +214,6 @@
   ],
   "block description\u0004Separate your content into a multi-page experience.": [
     "Del opp innholdet ditt til en flerside-opplevelse."
-  ],
-  "block keyword\u0004navigation": [
-    "navigasjon"
-  ],
-  "block keyword\u0004menu": [
-    "meny"
-  ],
-  "block description\u0004A collection of blocks that allow visitors to get around your site.": [],
-  "block description\u0004Add a page, link, or another item to your navigation.": [
-    "Legg en sidelenke eller annet element til din navigasjon."
   ],
   "block keyword\u0004read more": [
     "les mer"
@@ -393,18 +233,6 @@
   "block description\u0004Set media and words side-by-side for a richer layout.": [
     "Plasser media og ord side om side for en rikere utforming."
   ],
-  "block keyword\u0004form": [
-    "skjema"
-  ],
-  "block keyword\u0004logout": [
-    "logg ut"
-  ],
-  "block keyword\u0004login": [
-    "logg inn"
-  ],
-  "block description\u0004Show login & logout links.": [
-    "Vis inn- og utloggingslenker."
-  ],
   "block keyword\u0004numbered list": [
     "nummerert liste"
   ],
@@ -416,12 +244,6 @@
   ],
   "block description\u0004Create a bulleted or numbered list.": [
     "Lag en punktliste eller en nummerert liste."
-  ],
-  "block description\u0004Display a legacy widget.": [
-    "Vis en klassisk widget."
-  ],
-  "block title\u0004Legacy Widget": [
-    "Klassisk widget"
   ],
   "block keyword\u0004recent posts": [
     "nylige innlegg"
@@ -458,10 +280,6 @@
   ],
   "block description\u0004Add custom HTML code and preview it as you edit.": [
     "Leg til tilpasset HTML-kode og forhåndsvis mens du redigerer."
-  ],
-  "block description\u0004Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header.": [],
-  "block title\u0004Home Link": [
-    "Hjem-lenke"
   ],
   "block keyword\u0004subtitle": [
     "undertittel"
@@ -578,19 +396,6 @@
   "Custom template created. You're in template mode now.": [
     "Tilpasset mal opprettet. Du er i malmodus nå."
   ],
-  "block description\u0004Display the description of categories, tags and custom taxonomies when viewing an archive.": [],
-  "block title\u0004Term Description": [
-    "Term-beskrivelse"
-  ],
-  "block title\u0004Post Comments Link": [
-    "Lenke til kommentarer"
-  ],
-  "block title\u0004Login/out": [
-    "Logg inn/ut"
-  ],
-  "block title\u0004Custom Link": [
-    "Tilpasset lenke"
-  ],
   "Embed of %s.": [
     "Innbygging av %s"
   ],
@@ -609,21 +414,8 @@
   "Width in pixels": [
     "Bredde i piksler"
   ],
-  "block description\u0004Edit the different global regions of your site, like the header, footer, sidebar, or create your own.": [],
-  "block title\u0004Page List": [
-    "Sideliste"
-  ],
   "Your site does not have any posts, so there is nothing to display here at the moment.": [
     "Ditt nettsted har ingen innlegg så det er for øyeblikket intet å vise her."
-  ],
-  "block title\u0004Query Pagination Previous": [
-    "Neste side for spørring"
-  ],
-  "block title\u0004Query Pagination Numbers": [
-    "Sidenummer for spørring"
-  ],
-  "block title\u0004Query Pagination Next": [
-    "Neste side for spørring"
   ],
   "Block cannot be rendered inside itself.": [
     "Blokk kan ikke vises inne i seg selv."
@@ -648,60 +440,6 @@
   ],
   "Align": [
     "Juster"
-  ],
-  "block title\u0004Post Terms": [
-    "Innleggstermer"
-  ],
-  "block title\u0004Post Featured Image": [
-    "Fremhevet bilde for innlegg"
-  ],
-  "block title\u0004Post Excerpt": [
-    "Utdrag av innlegg"
-  ],
-  "block title\u0004Post Date": [
-    "Dato for innlegg"
-  ],
-  "block title\u0004Post Comments Form": [
-    "Skjema for kommentarer til innlegg"
-  ],
-  "block title\u0004Post Comments Count": [
-    "Antall kommentarer til innlegg"
-  ],
-  "block title\u0004Post Comments": [
-    "Kommentarer til innlegg"
-  ],
-  "block title\u0004Comment Date": [
-    "Kommentardato"
-  ],
-  "block title\u0004Comment Content": [
-    "Innhold av kommentar"
-  ],
-  "block title\u0004Post Author": [
-    "Forfatter av innlegg"
-  ],
-  "block title\u0004Post Content": [
-    "Innhold av innlegg"
-  ],
-  "block title\u0004Post Title": [
-    "Overskrift for innlegg"
-  ],
-  "block title\u0004Query Pagination": [
-    "Sideinndeling for spørring"
-  ],
-  "block title\u0004Query Loop": [
-    "Løkke for spørring"
-  ],
-  "block title\u0004Template Part": [
-    "Delmal"
-  ],
-  "block title\u0004Site Title": [
-    "Tittel på nettstedet"
-  ],
-  "block title\u0004Site Tagline": [
-    "Slagord for nettstedet"
-  ],
-  "block title\u0004Site Logo": [
-    "Nettstedslogo"
   ],
   "block title\u0004Social Icon": [
     "Sosialt ikon"
@@ -769,9 +507,6 @@
   "block title\u0004Latest Comments": [
     "Siste kommentarer"
   ],
-  "block title\u0004Navigation": [
-    "Navigasjon"
-  ],
   "block title\u0004Media & Text": [
     "Media og tekst"
   ],
@@ -825,6 +560,9 @@
   ],
   "block title\u0004Paragraph": [
     "Avsnitt"
+  ],
+  "text direction\u0004ltr": [
+    "ltr"
   ],
   "Block vertical alignment setting\u0004Align bottom": [
     "Juster bunn"
@@ -966,6 +704,9 @@
   ],
   "%1$s Block. Row %2$d": [
     "%1$s blokk. Rad %2$d"
+  ],
+  "Typography": [
+    "Typografi"
   ],
   "Content": [
     "Innhold"
@@ -1114,6 +855,9 @@
   ],
   "Menu Item": [
     "Menyelement"
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "Legg til blokk"
   ],
   "Site Title": [
     "Nettstedstittel"
@@ -1770,9 +1514,6 @@
   "Publishing failed.": [
     "Publisering mislyktes."
   ],
-  "Update": [
-    "Oppdater"
-  ],
   "Saved": [
     "Lagret"
   ],
@@ -1781,9 +1522,6 @@
   ],
   "Blocks": [
     "Blokker"
-  ],
-  "Add block": [
-    "Legg til blokk"
   ],
   "Undo": [
     "Angre"

@@ -2,31 +2,9 @@
   "100": [
     "100"
   ],
-  "block description\u0004This block is deprecated. Please use the Comments Query Loop block instead.": [],
-  "block title\u0004Post Comment (deprecated)": [],
-  "block description\u0004Show a block pattern.": [],
-  "block title\u0004Pattern": [],
-  "block keyword\u0004location": [],
-  "block description\u0004Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed.": [],
-  "block title\u0004Navigation Area": [],
-  "block description\u0004An advanced block that allows displaying post comments based on different query parameters and visual configurations.": [],
-  "block title\u0004Comments Query Loop": [],
-  "block description\u0004Contains the block elements used to render a comment, like the title, date, author, avatar and more.": [],
-  "block title\u0004Comment Template": [],
-  "block description\u0004Displays a link to reply to a comment.": [],
-  "block title\u0004Comment Reply Link": [],
-  "block description\u0004Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability.": [],
-  "block title\u0004Comment Edit Link": [],
-  "block description\u0004Add the date of this comment.": [],
-  "block description\u0004Displays the contents of a comment.": [],
-  "block description\u0004Add the author name of this comment.": [],
-  "block title\u0004Comment Author Name": [],
-  "block description\u0004Add the avatar of this comment's author.": [],
   "%s applied.": [],
   "%s removed.": [],
-  "Editing this Gallery in the WordPress mobile app requires version 18.2 or higher.": [],
   "Embed Wolfram Cloud notebook content.": [],
-  "block title\u0004Comment Author Avatar": [],
   "Allow to wrap to multiple lines": [],
   "block style label\u0004Plain": [],
   "Embed Pinterest pins, boards, and profiles.": [],
@@ -35,19 +13,12 @@
   "Select color type": [],
   "https://wordpress.org/support/article/page-jumps/": [],
   "Featured": [],
-  "block description\u0004Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results.": [],
   "You do not have permission to create Pages.": [],
   "Block spacing": [],
   "Max %s wide": [],
-  "block description\u0004Add a submenu to your navigation.": [],
-  "block title\u0004Submenu": [],
   "block description\u0004Display content in multiple columns, with blocks added to each column.": [],
   "Minimum height": [],
-  "Update to the new gallery format": [],
-  "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around.": [],
-  "Update gallery": [],
   "block description\u0004Create structured content in rows and columns to display information.": [],
-  "block description\u0004Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different than the site icon, which is the smaller image visible in your dashboard, browser tabs, etc used to help others recognize this site.": [],
   "Preload value\u0004None": [],
   "Blocks shown in a row.": [],
   "Row": [],
@@ -100,15 +71,6 @@
   "Top left": [
     "左上方"
   ],
-  "block description\u0004An advanced block that allows displaying post types based on different query parameters and visual configurations.": [
-    "一个可以根据不同的查询参数和视觉配置来显示文章类型的高级区块。"
-  ],
-  "block description\u0004Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more.": [
-    "包含用于呈现文章的区块元素，如标题、日期、特色图片、内容或摘要等。"
-  ],
-  "block title\u0004Post Template": [
-    "文章模板"
-  ],
   "block keyword\u0004link": [
     "链接"
   ],
@@ -136,18 +98,6 @@
   "block style label\u0004Stripes": [
     "条纹"
   ],
-  "block keyword\u0004summary": [
-    "摘要"
-  ],
-  "block keyword\u0004document outline": [
-    "文档大纲"
-  ],
-  "block description\u0004Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.": [
-    "用标题列表来总结您的文章。在标题区块中添加HTML锚点，将其链接到这里。"
-  ],
-  "block title\u0004Table of Contents": [
-    "内容的表格"
-  ],
   "block description\u0004Add white space between blocks and customize its height.": [
     "在区块间添加空白并自定义其高度。"
   ],
@@ -159,10 +109,6 @@
   ],
   "block description\u0004Display icons linking to your social media profiles or sites.": [],
   "block description\u0004Display an icon linking to a social media profile or site.": [],
-  "block keyword\u0004description": [
-    "描述"
-  ],
-  "block description\u0004Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it's not displayed in the theme design.": [],
   "block description\u0004Insert additional custom elements with a WordPress shortcode.": [
     "通过 WordPress 简码插入额外的自定义元素。"
   ],
@@ -208,77 +154,17 @@
   "block keyword\u0004blockquote": [
     "段落引用"
   ],
-  "block description\u0004Display the query title.": [
-    "显示查询标题。"
-  ],
-  "block title\u0004Query Title": [
-    "查询标题"
-  ],
-  "block description\u0004Displays a paginated navigation to next/previous set of posts, when applicable.": [
-    "如果适用，显示下一组/上一组文章的分页导航。"
-  ],
-  "block description\u0004Displays the previous posts page link.": [
-    "显示“上一篇文章”的页面链接。"
-  ],
-  "block description\u0004Displays a list of page numbers for pagination": [
-    "显示分页的页码列表"
-  ],
-  "block description\u0004Displays the next posts page link.": [
-    "显示“下一篇文章”的页面链接。"
-  ],
   "block description\u0004Give special visual emphasis to a quote from your text.": [
     "为您文中的引用增添特殊的视觉显示效果。"
   ],
   "block description\u0004Add text that respects your spacing and tabs, and also allows styling.": [
     "添加符合间距和标签的文字，也可设置样式。"
   ],
-  "block description\u0004Displays the title of a post, page, or any other content-type.": [
-    "显示文章、页面或任何其他内容类型的标题。"
-  ],
-  "block description\u0004Post terms.": [
-    "文章项目。"
-  ],
-  "block description\u0004Displays the next or previous post link that is adjacent to the current post.": [
-    "显示与当前文章相邻的下一篇或上一篇文章的链接。"
-  ],
-  "block title\u0004Post Navigation Link": [
-    "文章导航链接"
-  ],
-  "block description\u0004Display a post's featured image.": [
-    "显示文章的特色图片。"
-  ],
-  "block description\u0004Display a post's excerpt.": [
-    "显示文章的摘要。"
-  ],
-  "block description\u0004Add the date of this post.": [
-    "添加此文章的日期。"
-  ],
-  "block description\u0004Displays the contents of a post or page.": [
-    "显示文章的或页面的内容。"
-  ],
-  "block description\u0004Display a post's comments.": [
-    "显示文章的评论。"
-  ],
-  "block description\u0004Displays the link to the current post comments.": [
-    "显示指向当前文章评论的链接。"
-  ],
-  "block description\u0004Display a post's comments form.": [
-    "显示文章的评论表单。"
-  ],
-  "block description\u0004Display a post's comments count.": [
-    "显示文章的评论数。"
-  ],
-  "block description\u0004Add the author of this post.": [
-    "添加此文章的作者。"
-  ],
   "block keyword\u0004text": [
     "文字"
   ],
   "block description\u0004Start with the building block of all narrative.": [
     "从所有叙事的基础部分开始。"
-  ],
-  "block description\u0004Display a list of all pages.": [
-    "显示所有页面的列表。"
   ],
   "block keyword\u0004pagination": [
     "分页"
@@ -288,18 +174,6 @@
   ],
   "block description\u0004Separate your content into a multi-page experience.": [
     "将您的内容分成多个页面。"
-  ],
-  "block keyword\u0004navigation": [
-    "导航"
-  ],
-  "block keyword\u0004menu": [
-    "菜单"
-  ],
-  "block description\u0004A collection of blocks that allow visitors to get around your site.": [
-    "允许访问者在您的站点内不断浏览的区块集合。"
-  ],
-  "block description\u0004Add a page, link, or another item to your navigation.": [
-    "将页面、链接或其他项目添加到导航中。"
   ],
   "block keyword\u0004read more": [
     "阅读更多"
@@ -319,18 +193,6 @@
   "block description\u0004Set media and words side-by-side for a richer layout.": [
     "将媒体和文字并排设置来丰富布局。"
   ],
-  "block keyword\u0004form": [
-    "表单"
-  ],
-  "block keyword\u0004logout": [
-    "注销登录"
-  ],
-  "block keyword\u0004login": [
-    "登录"
-  ],
-  "block description\u0004Show login & logout links.": [
-    "显示登录和注销链接。"
-  ],
   "block keyword\u0004numbered list": [
     "编号列表"
   ],
@@ -342,12 +204,6 @@
   ],
   "block description\u0004Create a bulleted or numbered list.": [
     "创建项目符号或编号列表。"
-  ],
-  "block description\u0004Display a legacy widget.": [
-    "显示旧版的小工具。"
-  ],
-  "block title\u0004Legacy Widget": [
-    "旧版小工具"
   ],
   "block keyword\u0004recent posts": [
     "近期文章"
@@ -384,12 +240,6 @@
   ],
   "block description\u0004Add custom HTML code and preview it as you edit.": [
     "添加自定义 HTML 代码并在编辑时进行预览。"
-  ],
-  "block description\u0004Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header.": [
-    "创建一个始终指向站点主页的链接。如果在标题中已经存在站点标题链接，通常没有必要。"
-  ],
-  "block title\u0004Home Link": [
-    "首页链接"
   ],
   "block keyword\u0004subtitle": [
     "副标题"
@@ -508,21 +358,6 @@
   "Custom template created. You're in template mode now.": [
     "自定义模板已创建。你现在处于模板模式。"
   ],
-  "block description\u0004Display the description of categories, tags and custom taxonomies when viewing an archive.": [
-    "查看归档时显示分类、标签和自定义分类法的描述。"
-  ],
-  "block title\u0004Term Description": [
-    "项目描述"
-  ],
-  "block title\u0004Post Comments Link": [
-    "发表评论链接"
-  ],
-  "block title\u0004Login/out": [
-    "登录/注销"
-  ],
-  "block title\u0004Custom Link": [
-    "自定义链接"
-  ],
   "Embed of %s.": [
     "嵌入 %s"
   ],
@@ -541,23 +376,8 @@
   "Width in pixels": [
     "宽度（像素）"
   ],
-  "block description\u0004Edit the different global regions of your site, like the header, footer, sidebar, or create your own.": [
-    "编辑站点的不同全局区域，如页眉、页脚、侧边栏，或创建自己的区域。"
-  ],
-  "block title\u0004Page List": [
-    "页面列表"
-  ],
   "Your site does not have any posts, so there is nothing to display here at the moment.": [
     "您的站点没有任何文章，因此目前没有任何内容可供显示。"
-  ],
-  "block title\u0004Query Pagination Previous": [
-    "查询上一分页"
-  ],
-  "block title\u0004Query Pagination Numbers": [
-    "查询分页数"
-  ],
-  "block title\u0004Query Pagination Next": [
-    "查询下一分页"
   ],
   "Block cannot be rendered inside itself.": [
     "区块不能在其内部渲染。"
@@ -582,56 +402,6 @@
   ],
   "Align": [
     "对齐"
-  ],
-  "block title\u0004Post Terms": [
-    "文章项目"
-  ],
-  "block title\u0004Post Featured Image": [
-    "文章特色图片"
-  ],
-  "block title\u0004Post Excerpt": [
-    "文章摘要"
-  ],
-  "block title\u0004Post Date": [
-    "文章日期"
-  ],
-  "block title\u0004Post Comments Form": [
-    "文章评论表单"
-  ],
-  "block title\u0004Post Comments Count": [
-    "文章评论数"
-  ],
-  "block title\u0004Post Comments": [
-    "文章评论"
-  ],
-  "block title\u0004Comment Date": [],
-  "block title\u0004Comment Content": [],
-  "block title\u0004Post Author": [
-    "文章作者"
-  ],
-  "block title\u0004Post Content": [
-    "文章内容"
-  ],
-  "block title\u0004Post Title": [
-    "文章标题"
-  ],
-  "block title\u0004Query Pagination": [
-    "查询分页"
-  ],
-  "block title\u0004Query Loop": [
-    "循环查询"
-  ],
-  "block title\u0004Template Part": [
-    "模版组件"
-  ],
-  "block title\u0004Site Title": [
-    "站点标题"
-  ],
-  "block title\u0004Site Tagline": [
-    "站点副标题"
-  ],
-  "block title\u0004Site Logo": [
-    "站点 Logo "
   ],
   "block title\u0004Social Icon": [
     "社交图标"
@@ -699,9 +469,6 @@
   "block title\u0004Latest Comments": [
     "最新评论"
   ],
-  "block title\u0004Navigation": [
-    "导航"
-  ],
   "block title\u0004Media & Text": [
     "媒体和文本"
   ],
@@ -755,6 +522,9 @@
   ],
   "block title\u0004Paragraph": [
     "段落"
+  ],
+  "text direction\u0004ltr": [
+    "ltr"
   ],
   "Block vertical alignment setting\u0004Align bottom": [
     "底部对齐"
@@ -892,6 +662,9 @@
   ],
   "%1$s Block. Row %2$d": [
     "%1$s 区块。 行 %2$d"
+  ],
+  "Typography": [
+    "排版"
   ],
   "Content": [
     "内容"
@@ -1042,6 +815,9 @@
   ],
   "Menu Item": [
     "菜单项"
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "添加区块"
   ],
   "Site Title": [
     "站点标题"
@@ -1697,9 +1473,6 @@
   "Publishing failed.": [
     "发布失败。"
   ],
-  "Update": [
-    "更新"
-  ],
   "Saved": [
     "已保存"
   ],
@@ -1708,9 +1481,6 @@
   ],
   "Blocks": [
     "区块"
-  ],
-  "Add block": [
-    "添加区块"
   ],
   "Undo": [
     "撤销"

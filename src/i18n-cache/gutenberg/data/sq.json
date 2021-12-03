@@ -2,78 +2,14 @@
   "100": [
     "100"
   ],
-  "block description\u0004This block is deprecated. Please use the Comments Query Loop block instead.": [
-    "Ky bllok është nxjerrë nga përdorimi. Ju lutemi, në vend të tij përdorni bllokun Comments Query Loop."
-  ],
-  "block title\u0004Post Comment (deprecated)": [
-    "Koment Postimi (nxjerrë nga përdorimi)"
-  ],
-  "block description\u0004Show a block pattern.": [
-    "Shfaqni një model blloku."
-  ],
-  "block title\u0004Pattern": [
-    "Model"
-  ],
-  "block keyword\u0004location": [
-    "vendndodhje"
-  ],
-  "block description\u0004Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed.": [
-    "Përcaktoni një zonë lëvizjeje për temën tuaj. Blloku i lëvizjeve i përshoqëruar me këtë zonë do të shfaqet vetvetiu."
-  ],
-  "block title\u0004Navigation Area": [
-    "Zonë Menuje Lëvizjesh"
-  ],
-  "block description\u0004An advanced block that allows displaying post comments based on different query parameters and visual configurations.": [
-    "Një bllok i thelluar që lejon shfaqje komentesh postimesh bazuar në parametra të ndryshëm kërkese dhe formësime pamore."
-  ],
-  "block title\u0004Comments Query Loop": [],
-  "block description\u0004Contains the block elements used to render a comment, like the title, date, author, avatar and more.": [
-    "Përmban elementë blloku të përdorur për të shfaqur një koment, apo titullin, datën, autorin, avatarin, etj."
-  ],
-  "block title\u0004Comment Template": [
-    "Gjedhe Komentesh"
-  ],
-  "block description\u0004Displays a link to reply to a comment.": [
-    "Shfaq një lidhje për t’iu përgjigjur komentit."
-  ],
-  "block title\u0004Comment Reply Link": [
-    "Lidhje Përgjigjeje Komenti"
-  ],
-  "block description\u0004Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability.": [
-    "Shfaq te Pulti i WordPress-it një lidhje për të përpunuar komentin. Kjo lidhje është e dukshme vetëm për përdorues që kanë leje të përpunojnë komente."
-  ],
-  "block title\u0004Comment Edit Link": [
-    "Lidhje Përpunimi Komenti"
-  ],
-  "block description\u0004Add the date of this comment.": [
-    "Shtoni datën e këtij komenti."
-  ],
-  "block description\u0004Displays the contents of a comment.": [
-    "Shfaqni lëndën e një komenti."
-  ],
-  "block description\u0004Add the author name of this comment.": [
-    "Shtoni emrin e autorit të komentit."
-  ],
-  "block title\u0004Comment Author Name": [
-    "Emër Autori Komenti"
-  ],
-  "block description\u0004Add the avatar of this comment's author.": [
-    "Shtoni avatarin e autorit të komentit."
-  ],
   "%s applied.": [
     "%s u aplikua."
   ],
   "%s removed.": [
     "%s u hoq."
   ],
-  "Editing this Gallery in the WordPress mobile app requires version 18.2 or higher.": [
-    "Përpunimi i kësaj Galerie në aplikacionin WordPress për celular lyp versionin 18.2 ose më sipër."
-  ],
   "Embed Wolfram Cloud notebook content.": [
     "Trupëzoni lëndë blloku shënimesh Wolfram Cloud."
-  ],
-  "block title\u0004Comment Author Avatar": [
-    "Avatar Autori Komenti"
   ],
   "Allow to wrap to multiple lines": [
     "Lejo mbështjelljen e disa rreshtave"
@@ -99,9 +35,6 @@
   "Featured": [
     "Të zgjedhura"
   ],
-  "block description\u0004Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results.": [
-    "Shfaq emrin e këtij sajti. Përditësojeni bllokun dhe ndryshimet aplikohen kudo ku është përdorur. Kjo do të shfaqet gjithashtu te shtyllë titujsh e shfletuesit dhe te përfundime kërkimesh."
-  ],
   "You do not have permission to create Pages.": [
     "S’keni leje të krijoni Faqe."
   ],
@@ -111,32 +44,14 @@
   "Max %s wide": [
     "Maks. %s e gjerë"
   ],
-  "block description\u0004Add a submenu to your navigation.": [
-    "Shtoni te menuja juaj e lëvizjeve një nënmenu."
-  ],
-  "block title\u0004Submenu": [
-    "Nënmenu"
-  ],
   "block description\u0004Display content in multiple columns, with blocks added to each column.": [
     "Shfaqni lëndë në shtylla të shumta, me blloqe të shtuar në çdo shtyllë."
   ],
   "Minimum height": [
     "Lartësi minimum"
   ],
-  "Update to the new gallery format": [
-    "Përditësojeni me formatin e ri të galerive"
-  ],
-  "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around.": [
-    "Përditësimi me formatin e ri shton aftësinë për të përdorur te galeria lidhje ose stile vetjake, si dhe e bën më të lehtë të shtohen ose lëvizen përreth."
-  ],
-  "Update gallery": [
-    "Përditësoni galerinë"
-  ],
   "block description\u0004Create structured content in rows and columns to display information.": [
     "Krijoni lëndë të strukturuar në rreshta dhe shtylla që të shfaqni informacion."
-  ],
-  "block description\u0004Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different than the site icon, which is the smaller image visible in your dashboard, browser tabs, etc used to help others recognize this site.": [
-    "Shfaqni një element grafik për të përfaqësuar këtë sajt. Përditësoni bllokun, dhe ndryshimet aplikohen kudo ku ai përdoret. Kjo është tjetër gjë nga ikona e sajtit, e cila është një figurë më e vogël e dukshme te pulti juaj, skeda shfletuesi, etj për t’i ndihmuar të tjerët të dallojnë këtë sajt."
   ],
   "Preload value\u0004None": [
     "Asnjë"
@@ -216,15 +131,6 @@
   "Top left": [
     "Majtas sipër"
   ],
-  "block description\u0004An advanced block that allows displaying post types based on different query parameters and visual configurations.": [
-    "Një bllok i thelluar që lejon shfaqje llojesh postimesh bazuar në parametra të ndryshëm kërkese dhe formësime pamore."
-  ],
-  "block description\u0004Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more.": [
-    "Përmban elementët e bllokut të përdorur për të formuar një postim, bie fjala, titullin, datën, figurën e zgjedhur, lëndë ose copëz, dhe të tjerë."
-  ],
-  "block title\u0004Post Template": [
-    "Gjedhe Postimi"
-  ],
   "block keyword\u0004link": [
     "lidhje"
   ],
@@ -252,18 +158,6 @@
   "block style label\u0004Stripes": [
     "Shirita"
   ],
-  "block keyword\u0004summary": [
-    "përmbledhje"
-  ],
-  "block keyword\u0004document outline": [
-    "përvijim dokumenti"
-  ],
-  "block description\u0004Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.": [
-    "Përmblidheni postimin tuaj me një listë kryesh. Shtoni spiranca HTML për te blloqe Kryesh, për t’i lidhur këtu."
-  ],
-  "block title\u0004Table of Contents": [
-    "Tryeza e Lëndës"
-  ],
   "block description\u0004Add white space between blocks and customize its height.": [
     "Shtoni hapësirë të zbrazët mes blloqesh dhe përshtatni lartësinë e saj."
   ],
@@ -278,12 +172,6 @@
   ],
   "block description\u0004Display an icon linking to a social media profile or site.": [
     "Shfaqni një ikonë që përfaqëson një lidhje për te profil mediash shoqërore ose sajt."
-  ],
-  "block keyword\u0004description": [
-    "përshkrim"
-  ],
-  "block description\u0004Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it's not displayed in the theme design.": [
-    "Përshkruani me pak fjalë se për çfarë është sajti. Motoja mund të përdoret në përfundime kërkimi, ose në rrjete shoqërorë, edhe kur nuk shfaqet te tema."
   ],
   "block description\u0004Insert additional custom elements with a WordPress shortcode.": [
     "Futni elementë vetjakë shtesë, përmes një kodi të shkurtër WordPress."
@@ -330,77 +218,17 @@
   "block keyword\u0004blockquote": [
     "bllok citimi"
   ],
-  "block description\u0004Display the query title.": [
-    "Shfaq titullin e kërkesës."
-  ],
-  "block title\u0004Query Title": [
-    "Titull Kërkese"
-  ],
-  "block description\u0004Displays a paginated navigation to next/previous set of posts, when applicable.": [
-    "Shfaq një lëvizje të faqosur te grupi pasues/i mëparshëm i postimeve, kur kjo ka vend."
-  ],
-  "block description\u0004Displays the previous posts page link.": [
-    "Shfaq lidhjen për te faqja e mëparshme e postimeve."
-  ],
-  "block description\u0004Displays a list of page numbers for pagination": [
-    "Shfaq një listë numrash faqesh për faqosje"
-  ],
-  "block description\u0004Displays the next posts page link.": [
-    "Shfaq lidhjen për te faqja pasuese e postimeve."
-  ],
   "block description\u0004Give special visual emphasis to a quote from your text.": [
     "Jepini theksim të veçantë pamor një citimi prej tekstit tuaj."
   ],
   "block description\u0004Add text that respects your spacing and tabs, and also allows styling.": [
     "Shtoni tekst që respekton hapësirat dhe tabulacionet tuaja, lejon gjithashtu stilizim."
   ],
-  "block description\u0004Displays the title of a post, page, or any other content-type.": [
-    "Shfaq titullin e një postimi, faqeje, ose çfarëdo lloji tjetër lënde."
-  ],
-  "block description\u0004Post terms.": [
-    "Terma postimi."
-  ],
-  "block description\u0004Displays the next or previous post link that is adjacent to the current post.": [
-    "Shfaq lidhjen për postimin pasues ose të mëparshëm që është ngjitur me postimin e tanishëm."
-  ],
-  "block title\u0004Post Navigation Link": [
-    "Lidhje Lëvizjesh Te Postimi"
-  ],
-  "block description\u0004Display a post's featured image.": [
-    "Shfaqni figurë të zgjedhur të një postimi."
-  ],
-  "block description\u0004Display a post's excerpt.": [
-    "Shfaqni copëz postimi."
-  ],
-  "block description\u0004Add the date of this post.": [
-    "Shto datën e këtij postimi."
-  ],
-  "block description\u0004Displays the contents of a post or page.": [
-    "Shfaq lëndën e një postimi ose faqeje."
-  ],
-  "block description\u0004Display a post's comments.": [
-    "Shfaqni komentet e një postimi."
-  ],
-  "block description\u0004Displays the link to the current post comments.": [
-    "Shfaq lidhjen për te komentet e postimit të tanishëm."
-  ],
-  "block description\u0004Display a post's comments form.": [
-    "Shfaqni formular komentesh të një postimi."
-  ],
-  "block description\u0004Display a post's comments count.": [
-    "Shfaqni numrin e komenteve të një postimi."
-  ],
-  "block description\u0004Add the author of this post.": [
-    "Shtoni autorin e këtij postimi."
-  ],
   "block keyword\u0004text": [
     "tekst"
   ],
   "block description\u0004Start with the building block of all narrative.": [
     "Fillojani me bllokun themelor të krejt rrëfimit."
-  ],
-  "block description\u0004Display a list of all pages.": [
-    "Shfaqni një listë të krejt faqeve."
   ],
   "block keyword\u0004pagination": [
     "faqosje"
@@ -410,18 +238,6 @@
   ],
   "block description\u0004Separate your content into a multi-page experience.": [
     "Ndajeni lëndën tuaj në një formë shumë faqesh."
-  ],
-  "block keyword\u0004navigation": [
-    "lëvizje"
-  ],
-  "block keyword\u0004menu": [
-    "menu"
-  ],
-  "block description\u0004A collection of blocks that allow visitors to get around your site.": [
-    "Një koleksion blloqesh që u lejon vizitorëve të lëvizin nëpër sajtin tuaj."
-  ],
-  "block description\u0004Add a page, link, or another item to your navigation.": [
-    "Shtoni te menuja juaj e lëvizjeve një faqe, lidhje ose element tjetër."
   ],
   "block keyword\u0004read more": [
     "lexoni më tepër"
@@ -441,18 +257,6 @@
   "block description\u0004Set media and words side-by-side for a richer layout.": [
     "Vini krah për krah media dhe fjalë, për një skemë më të larmishme."
   ],
-  "block keyword\u0004form": [
-    "formular"
-  ],
-  "block keyword\u0004logout": [
-    "dalje"
-  ],
-  "block keyword\u0004login": [
-    "hyrje"
-  ],
-  "block description\u0004Show login & logout links.": [
-    "Shfaqni lidhje hyrjeje & daljeje."
-  ],
   "block keyword\u0004numbered list": [
     "listë e numërtuar"
   ],
@@ -464,12 +268,6 @@
   ],
   "block description\u0004Create a bulleted or numbered list.": [
     "Krijoni një listë me toptha ose të numërtuar."
-  ],
-  "block description\u0004Display a legacy widget.": [
-    "Shfaqni një widget të dikurshëm."
-  ],
-  "block title\u0004Legacy Widget": [
-    "Widget i Dikurshëm"
   ],
   "block keyword\u0004recent posts": [
     "postime së fundi"
@@ -506,12 +304,6 @@
   ],
   "block description\u0004Add custom HTML code and preview it as you edit.": [
     "Shtoni kod HTML vetjak dhe shihni një paraparje të tij, në përpunim e sipër."
-  ],
-  "block description\u0004Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header.": [
-    "Krijoni një lidhje që shpie përherë te faqja hyrëse e sajtit. Zakonisht e panevojshme, nëse te kryet ka tashmë një lidhje titulli sajti."
-  ],
-  "block title\u0004Home Link": [
-    "Lidhje për te Kreu"
   ],
   "block keyword\u0004subtitle": [
     "nëntitull"
@@ -630,21 +422,6 @@
   "Custom template created. You're in template mode now.": [
     "Gjedhja vetjake u krijua. Tani gjendeni nën mënyrën gjedhe."
   ],
-  "block description\u0004Display the description of categories, tags and custom taxonomies when viewing an archive.": [
-    "Shfaqni përshkrimin e kategorive, etiketave dhe klasifikimeve vetjake, kur shihet një arkiv."
-  ],
-  "block title\u0004Term Description": [
-    "Përshkrim Termi"
-  ],
-  "block title\u0004Post Comments Link": [
-    "Lidhje Komentesh Postimi"
-  ],
-  "block title\u0004Login/out": [
-    "Hyrje/dalje"
-  ],
-  "block title\u0004Custom Link": [
-    "Lidhje Vetjake"
-  ],
   "Embed of %s.": [
     "Trupëzim i %s."
   ],
@@ -663,23 +440,8 @@
   "Width in pixels": [
     "Gjerësi në piksel"
   ],
-  "block description\u0004Edit the different global regions of your site, like the header, footer, sidebar, or create your own.": [
-    "Përpunoni rajonet e ndryshme globale të sajtit tuaj, bie fjala, kryefaqen, fundfaqen, anështyllën, ose krijoni tuajat."
-  ],
-  "block title\u0004Page List": [
-    "Listë Faqesh"
-  ],
   "Your site does not have any posts, so there is nothing to display here at the moment.": [
     "Sajti juaj s’ka ndonjë postim, ndaj s’ka gjë ç’të shfaqet këtë çast."
-  ],
-  "block title\u0004Query Pagination Previous": [
-    "Query Pagination Previous"
-  ],
-  "block title\u0004Query Pagination Numbers": [
-    "Numra Faqosjeje Kërkese"
-  ],
-  "block title\u0004Query Pagination Next": [
-    "Query Pagination Next"
   ],
   "Block cannot be rendered inside itself.": [
     "Blloku s’mund të krijohet brenda vetes."
@@ -704,60 +466,6 @@
   ],
   "Align": [
     "Drejtim"
-  ],
-  "block title\u0004Post Terms": [
-    "Terma Postimi"
-  ],
-  "block title\u0004Post Featured Image": [
-    "Figurë e Zgjedhur Postimi"
-  ],
-  "block title\u0004Post Excerpt": [
-    "Copëz Postimi"
-  ],
-  "block title\u0004Post Date": [
-    "Datë Postimi"
-  ],
-  "block title\u0004Post Comments Form": [
-    "Formular Komentesh Postimi"
-  ],
-  "block title\u0004Post Comments Count": [
-    "Numër Komentesh Postimi"
-  ],
-  "block title\u0004Post Comments": [
-    "Komente Postimi"
-  ],
-  "block title\u0004Comment Date": [
-    "Datë Komenti"
-  ],
-  "block title\u0004Comment Content": [
-    "Lëndë Komenti"
-  ],
-  "block title\u0004Post Author": [
-    "Autor Postimi"
-  ],
-  "block title\u0004Post Content": [
-    "Lëndë Postimi"
-  ],
-  "block title\u0004Post Title": [
-    "Titull Postimi"
-  ],
-  "block title\u0004Query Pagination": [
-    "Faqosje Kërkese"
-  ],
-  "block title\u0004Query Loop": [
-    "Query Loop"
-  ],
-  "block title\u0004Template Part": [
-    "Pjesë Gjedheje"
-  ],
-  "block title\u0004Site Title": [
-    "Titull Sajti"
-  ],
-  "block title\u0004Site Tagline": [
-    "Moto Sajti"
-  ],
-  "block title\u0004Site Logo": [
-    "Logo Sajti"
   ],
   "block title\u0004Social Icon": [
     "Ikonë Shoqërorësh"
@@ -825,9 +533,6 @@
   "block title\u0004Latest Comments": [
     "Komentet Më të Reja"
   ],
-  "block title\u0004Navigation": [
-    "Lëvizje"
-  ],
   "block title\u0004Media & Text": [
     "Media & Tekst"
   ],
@@ -881,6 +586,9 @@
   ],
   "block title\u0004Paragraph": [
     "Paragraf"
+  ],
+  "text direction\u0004ltr": [
+    "mnd"
   ],
   "Block vertical alignment setting\u0004Align bottom": [
     "Vëre në fund"
@@ -1022,6 +730,9 @@
   ],
   "%1$s Block. Row %2$d": [
     "Bllok %1$s. Rresht %2$d"
+  ],
+  "Typography": [
+    "Tipografi"
   ],
   "Content": [
     "Lëndë"
@@ -1172,6 +883,9 @@
   ],
   "Menu Item": [
     "Zë Menuje"
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "Shtoni bllok"
   ],
   "Site Title": [
     "Titull Sajti"
@@ -1828,9 +1542,6 @@
   "Publishing failed.": [
     "Botimi dështoi."
   ],
-  "Update": [
-    "Përditësoje"
-  ],
   "Saved": [
     "U ruajt"
   ],
@@ -1839,9 +1550,6 @@
   ],
   "Blocks": [
     "Blloqe"
-  ],
-  "Add block": [
-    "Shtoni bllok"
   ],
   "Undo": [
     "Zhbëje"

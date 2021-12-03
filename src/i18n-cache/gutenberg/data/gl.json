@@ -2,31 +2,9 @@
   "100": [
     "100"
   ],
-  "block description\u0004This block is deprecated. Please use the Comments Query Loop block instead.": [],
-  "block title\u0004Post Comment (deprecated)": [],
-  "block description\u0004Show a block pattern.": [],
-  "block title\u0004Pattern": [],
-  "block keyword\u0004location": [],
-  "block description\u0004Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed.": [],
-  "block title\u0004Navigation Area": [],
-  "block description\u0004An advanced block that allows displaying post comments based on different query parameters and visual configurations.": [],
-  "block title\u0004Comments Query Loop": [],
-  "block description\u0004Contains the block elements used to render a comment, like the title, date, author, avatar and more.": [],
-  "block title\u0004Comment Template": [],
-  "block description\u0004Displays a link to reply to a comment.": [],
-  "block title\u0004Comment Reply Link": [],
-  "block description\u0004Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability.": [],
-  "block title\u0004Comment Edit Link": [],
-  "block description\u0004Add the date of this comment.": [],
-  "block description\u0004Displays the contents of a comment.": [],
-  "block description\u0004Add the author name of this comment.": [],
-  "block title\u0004Comment Author Name": [],
-  "block description\u0004Add the avatar of this comment's author.": [],
   "%s applied.": [],
   "%s removed.": [],
-  "Editing this Gallery in the WordPress mobile app requires version 18.2 or higher.": [],
   "Embed Wolfram Cloud notebook content.": [],
-  "block title\u0004Comment Author Avatar": [],
   "Allow to wrap to multiple lines": [],
   "block style label\u0004Plain": [],
   "Embed Pinterest pins, boards, and profiles.": [],
@@ -35,37 +13,18 @@
   "Select color type": [],
   "https://wordpress.org/support/article/page-jumps/": [],
   "Featured": [],
-  "block description\u0004Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results.": [
-    "Mostra o nome deste sitio. Actualiza o bloque e os cambios aplícanse en todas partes onde se use. Isto tamén aparecerá no título da barra do navegador e nos resultados de busca."
-  ],
   "You do not have permission to create Pages.": [],
   "Block spacing": [],
   "Max %s wide": [],
-  "block description\u0004Add a submenu to your navigation.": [
-    "Engade un submenú á túa navegación."
-  ],
-  "block title\u0004Submenu": [
-    "Submenú"
-  ],
   "block description\u0004Display content in multiple columns, with blocks added to each column.": [
     "Mostra contido en múltiples columnas, e engade bloques a cada unha delas."
   ],
   "Minimum height": [
     "Altura mínima"
   ],
-  "Update to the new gallery format": [
-    "Actualiza ao novo formato de galería"
-  ],
-  "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around.": [
-    "Actualizar ao novo formato permite usares ligazóns ou estilos en imaxes individuais da galería, e facilita engadilas e movelas."
-  ],
-  "Update gallery": [
-    "Actualizar a galería"
-  ],
   "block description\u0004Create structured content in rows and columns to display information.": [
     "Crea contido estruturado en filas e columnas para mostrar información."
   ],
-  "block description\u0004Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different than the site icon, which is the smaller image visible in your dashboard, browser tabs, etc used to help others recognize this site.": [],
   "Preload value\u0004None": [
     "Ningunha"
   ],
@@ -112,9 +71,6 @@
   "Bottom left": [],
   "Top right": [],
   "Top left": [],
-  "block description\u0004An advanced block that allows displaying post types based on different query parameters and visual configurations.": [],
-  "block description\u0004Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more.": [],
-  "block title\u0004Post Template": [],
   "block keyword\u0004link": [
     "ligazón"
   ],
@@ -132,17 +88,11 @@
   "block description\u0004This block is deprecated. Please use the Columns block instead.": [],
   "block description\u0004A cloud of your most used tags.": [],
   "block style label\u0004Stripes": [],
-  "block keyword\u0004summary": [],
-  "block keyword\u0004document outline": [],
-  "block description\u0004Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.": [],
-  "block title\u0004Table of Contents": [],
   "block description\u0004Add white space between blocks and customize its height.": [],
   "block style label\u0004Pill Shape": [],
   "block style label\u0004Logos Only": [],
   "block description\u0004Display icons linking to your social media profiles or sites.": [],
   "block description\u0004Display an icon linking to a social media profile or site.": [],
-  "block keyword\u0004description": [],
-  "block description\u0004Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it's not displayed in the theme design.": [],
   "block description\u0004Insert additional custom elements with a WordPress shortcode.": [],
   "block style label\u0004Dots": [
     "Puntos"
@@ -172,41 +122,15 @@
     "cita"
   ],
   "block keyword\u0004blockquote": [],
-  "block description\u0004Display the query title.": [],
-  "block title\u0004Query Title": [],
-  "block description\u0004Displays a paginated navigation to next/previous set of posts, when applicable.": [],
-  "block description\u0004Displays the previous posts page link.": [],
-  "block description\u0004Displays a list of page numbers for pagination": [],
-  "block description\u0004Displays the next posts page link.": [],
   "block description\u0004Give special visual emphasis to a quote from your text.": [],
   "block description\u0004Add text that respects your spacing and tabs, and also allows styling.": [],
-  "block description\u0004Displays the title of a post, page, or any other content-type.": [],
-  "block description\u0004Post terms.": [],
-  "block description\u0004Displays the next or previous post link that is adjacent to the current post.": [],
-  "block title\u0004Post Navigation Link": [],
-  "block description\u0004Display a post's featured image.": [],
-  "block description\u0004Display a post's excerpt.": [],
-  "block description\u0004Add the date of this post.": [],
-  "block description\u0004Displays the contents of a post or page.": [],
-  "block description\u0004Display a post's comments.": [],
-  "block description\u0004Displays the link to the current post comments.": [],
-  "block description\u0004Display a post's comments form.": [],
-  "block description\u0004Display a post's comments count.": [],
-  "block description\u0004Add the author of this post.": [],
   "block keyword\u0004text": [
     "texto"
   ],
   "block description\u0004Start with the building block of all narrative.": [],
-  "block description\u0004Display a list of all pages.": [],
   "block keyword\u0004pagination": [],
   "block keyword\u0004next page": [],
   "block description\u0004Separate your content into a multi-page experience.": [],
-  "block keyword\u0004navigation": [],
-  "block keyword\u0004menu": [
-    "menú"
-  ],
-  "block description\u0004A collection of blocks that allow visitors to get around your site.": [],
-  "block description\u0004Add a page, link, or another item to your navigation.": [],
   "block keyword\u0004read more": [],
   "block description\u0004Content before this block will be shown in the excerpt on your archives page.": [],
   "block description\u0004Your site doesn’t include support for this block.": [],
@@ -217,22 +141,10 @@
     "imaxe"
   ],
   "block description\u0004Set media and words side-by-side for a richer layout.": [],
-  "block keyword\u0004form": [
-    "formulario"
-  ],
-  "block keyword\u0004logout": [
-    "saír"
-  ],
-  "block keyword\u0004login": [
-    "acceder"
-  ],
-  "block description\u0004Show login & logout links.": [],
   "block keyword\u0004numbered list": [],
   "block keyword\u0004ordered list": [],
   "block keyword\u0004bullet list": [],
   "block description\u0004Create a bulleted or numbered list.": [],
-  "block description\u0004Display a legacy widget.": [],
-  "block title\u0004Legacy Widget": [],
   "block keyword\u0004recent posts": [],
   "block description\u0004Display a list of your most recent posts.": [],
   "block keyword\u0004recent comments": [],
@@ -251,8 +163,6 @@
     "incrustar"
   ],
   "block description\u0004Add custom HTML code and preview it as you edit.": [],
-  "block description\u0004Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header.": [],
-  "block title\u0004Home Link": [],
   "block keyword\u0004subtitle": [],
   "block keyword\u0004title": [
     "título"
@@ -318,23 +228,13 @@
   ],
   "Widget types": [],
   "Custom template created. You're in template mode now.": [],
-  "block description\u0004Display the description of categories, tags and custom taxonomies when viewing an archive.": [],
-  "block title\u0004Term Description": [],
-  "block title\u0004Post Comments Link": [],
-  "block title\u0004Login/out": [],
-  "block title\u0004Custom Link": [],
   "Embed of %s.": [],
   "PDF embed": [],
   "Add citation": [],
   "Add quote": [],
   "Add caption": [],
   "Width in pixels": [],
-  "block description\u0004Edit the different global regions of your site, like the header, footer, sidebar, or create your own.": [],
-  "block title\u0004Page List": [],
   "Your site does not have any posts, so there is nothing to display here at the moment.": [],
-  "block title\u0004Query Pagination Previous": [],
-  "block title\u0004Query Pagination Numbers": [],
-  "block title\u0004Query Pagination Next": [],
   "Block cannot be rendered inside itself.": [],
   "Indent": [
     "Aumentar marxe"
@@ -347,26 +247,6 @@
   "Align": [
     "Aliñar"
   ],
-  "block title\u0004Post Terms": [],
-  "block title\u0004Post Featured Image": [],
-  "block title\u0004Post Excerpt": [],
-  "block title\u0004Post Date": [],
-  "block title\u0004Post Comments Form": [],
-  "block title\u0004Post Comments Count": [],
-  "block title\u0004Post Comments": [],
-  "block title\u0004Comment Date": [],
-  "block title\u0004Comment Content": [],
-  "block title\u0004Post Author": [],
-  "block title\u0004Post Content": [],
-  "block title\u0004Post Title": [],
-  "block title\u0004Query Pagination": [],
-  "block title\u0004Query Loop": [],
-  "block title\u0004Template Part": [],
-  "block title\u0004Site Title": [
-    "Título do sitio"
-  ],
-  "block title\u0004Site Tagline": [],
-  "block title\u0004Site Logo": [],
   "block title\u0004Social Icon": [],
   "block title\u0004Social Icons": [],
   "block title\u0004Tag Cloud": [],
@@ -407,7 +287,6 @@
   ],
   "block title\u0004Latest Posts": [],
   "block title\u0004Latest Comments": [],
-  "block title\u0004Navigation": [],
   "block title\u0004Media & Text": [],
   "block title\u0004Custom HTML": [],
   "block title\u0004File": [
@@ -440,6 +319,9 @@
     "Imaxe"
   ],
   "block title\u0004Paragraph": [],
+  "text direction\u0004ltr": [
+    "ltr"
+  ],
   "Block vertical alignment setting\u0004Align bottom": [
     "Aliñación inferior"
   ],
@@ -538,6 +420,9 @@
   ],
   "%1$s Block. Row %2$d": [
     "Bloque %1$s. Fila %2$d"
+  ],
+  "Typography": [
+    "Tipografía"
   ],
   "Content": [
     "Contido"
@@ -688,6 +573,9 @@
   ],
   "Menu Item": [
     "Elemento do menú"
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "Engadir bloque"
   ],
   "Site Title": [
     "Título do sitio"
@@ -1344,9 +1232,6 @@
   "Publishing failed.": [
     "Erro ao publicar"
   ],
-  "Update": [
-    "Actualizar"
-  ],
   "Saved": [
     "Gardado"
   ],
@@ -1355,9 +1240,6 @@
   ],
   "Blocks": [
     "Bloques"
-  ],
-  "Add block": [
-    "Engadir bloque"
   ],
   "Undo": [
     "Desfacer"

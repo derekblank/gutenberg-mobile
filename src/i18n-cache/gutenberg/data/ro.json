@@ -2,80 +2,14 @@
   "100": [
     "100"
   ],
-  "block description\u0004This block is deprecated. Please use the Comments Query Loop block instead.": [
-    "Acest bloc este învechit. Te rog folosește în schimb blocul Buclă de interogare comentarii."
-  ],
-  "block title\u0004Post Comment (deprecated)": [
-    "Comentariu articol (învechit)"
-  ],
-  "block description\u0004Show a block pattern.": [
-    "Arată un model de bloc."
-  ],
-  "block title\u0004Pattern": [
-    "Model"
-  ],
-  "block keyword\u0004location": [
-    "locație"
-  ],
-  "block description\u0004Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed.": [
-    "Definește o zonă de navigare pentru tema ta. Blocul de navigare asociat acestei zone va fi afișat automat."
-  ],
-  "block title\u0004Navigation Area": [
-    "Zonă de navigare"
-  ],
-  "block description\u0004An advanced block that allows displaying post comments based on different query parameters and visual configurations.": [
-    "Un bloc avansat care permite afișarea comentariilor la articol în funcție de diverși parametri de interogare și diferite configurări vizuale."
-  ],
-  "block title\u0004Comments Query Loop": [
-    "Buclă de interogare comentarii"
-  ],
-  "block description\u0004Contains the block elements used to render a comment, like the title, date, author, avatar and more.": [
-    "Conține elementele bloc utilizate pentru a randa un comentariu, cum ar fi titlul, data, autorul, avatarul și multe altele."
-  ],
-  "block title\u0004Comment Template": [
-    "Șablon comentariu"
-  ],
-  "block description\u0004Displays a link to reply to a comment.": [
-    "Afișează o legătură pentru a răspunde la un comentariu."
-  ],
-  "block title\u0004Comment Reply Link": [
-    "Legătură răspuns la comentariu"
-  ],
-  "block description\u0004Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability.": [
-    "Afișează o legătură pentru a edita comentariul în panoul de control WordPress. Această legătură este vizibilă doar utilizatorilor ce au capabilitatea de a edita comentarii."
-  ],
-  "block title\u0004Comment Edit Link": [
-    "Legătură editare comentariu"
-  ],
-  "block description\u0004Add the date of this comment.": [
-    "Adaugă data acestui comentariu."
-  ],
-  "block description\u0004Displays the contents of a comment.": [
-    "Afișează conținutul unui comentariu."
-  ],
-  "block description\u0004Add the author name of this comment.": [
-    "Adaugă numele autorului acestui comentariu."
-  ],
-  "block title\u0004Comment Author Name": [
-    "Nume autor comentariu"
-  ],
-  "block description\u0004Add the avatar of this comment's author.": [
-    "Adaugă avatarul pentru autorul acestui comentariu."
-  ],
   "%s applied.": [
     "%s a fost aplicat."
   ],
   "%s removed.": [
     "%s a fost înlăturat."
   ],
-  "Editing this Gallery in the WordPress mobile app requires version 18.2 or higher.": [
-    "Pentru a edita această galerie în aplicația mobilă WordPress ai nevoie de versiunea 18.2 sau o versiune ulterioară."
-  ],
   "Embed Wolfram Cloud notebook content.": [
     "Înglobează conținutul Wolfram Cloud Notebook."
-  ],
-  "block title\u0004Comment Author Avatar": [
-    "Avatar autor comentariu"
   ],
   "Allow to wrap to multiple lines": [
     "Permite așezarea pe mai multe linii"
@@ -101,9 +35,6 @@
   "Featured": [
     "Reprezentativă"
   ],
-  "block description\u0004Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results.": [
-    "Afișează numele acestui site. Actualizează blocul și modificările făcute se vor aplica peste tot unde blocul este folosit. Va apărea și în bara cu titluri a navigatoarelor și în rezultatele de căutare."
-  ],
   "You do not have permission to create Pages.": [
     "Nu ai permisiunea să creezi pagini."
   ],
@@ -113,32 +44,14 @@
   "Max %s wide": [
     "Lățime maximă %s"
   ],
-  "block description\u0004Add a submenu to your navigation.": [
-    "Adaugă un sub-meniu în navigare."
-  ],
-  "block title\u0004Submenu": [
-    "Sub-meniu"
-  ],
   "block description\u0004Display content in multiple columns, with blocks added to each column.": [
     "Afișezi conținut în mai multe coloane, cu blocuri pe fiecare coloană."
   ],
   "Minimum height": [
     "Înălțime minimă"
   ],
-  "Update to the new gallery format": [
-    "Actualizează la noul format pentru galerii"
-  ],
-  "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around.": [
-    "Actualizarea la noul format adaugă posibilitatea de a folosi legături sau stiluri personalizate pentru fiecare imagine din galerie și ușurează adăugarea sau mutarea lor în galerie."
-  ],
-  "Update gallery": [
-    "Actualizează galeria"
-  ],
   "block description\u0004Create structured content in rows and columns to display information.": [
     "Creezi un conținut structurat pe rânduri și coloane pentru a afișa informații."
-  ],
-  "block description\u0004Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different than the site icon, which is the smaller image visible in your dashboard, browser tabs, etc used to help others recognize this site.": [
-    "Afișezi o ilustrație care reprezintă acest site. Dacă actualizezi blocul, modificările se aplică oriunde este utilizat. Este diferită de iconul site-ului, care este imaginea mai mică pe care o vezi în panoul de control, în filele navigatoarelor etc., folosită pentru a-i ajuta pe vizitatori să recunoască acest site."
   ],
   "Preload value\u0004None": [
     "Niciuna"
@@ -218,15 +131,6 @@
   "Top left": [
     "Stânga sus"
   ],
-  "block description\u0004An advanced block that allows displaying post types based on different query parameters and visual configurations.": [
-    "Un bloc avansat care permite afișarea tipurilor de articol în funcție de diverși parametri de interogare și diferite configurări vizuale."
-  ],
-  "block description\u0004Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more.": [
-    "Conține elementele de bloc folosite pentru a randa un articol, cum ar fi titlu, dată, imagine reprezentativă, conținut sau rezumat și altele."
-  ],
-  "block title\u0004Post Template": [
-    "Șablon articol"
-  ],
   "block keyword\u0004link": [
     "legătură"
   ],
@@ -254,18 +158,6 @@
   "block style label\u0004Stripes": [
     "Dungi"
   ],
-  "block keyword\u0004summary": [
-    "rezumat"
-  ],
-  "block keyword\u0004document outline": [
-    "schiță document"
-  ],
-  "block description\u0004Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.": [
-    "Face un rezumat al articolului folosind o listă de subtitluri. Adaugă ancore HTML la blocurile Subtitlu pentru a le lega aici."
-  ],
-  "block title\u0004Table of Contents": [
-    "Cuprins"
-  ],
   "block description\u0004Add white space between blocks and customize its height.": [
     "Adaugă spațiu gol între blocuri și personalizează-i înălțimea."
   ],
@@ -280,12 +172,6 @@
   ],
   "block description\u0004Display an icon linking to a social media profile or site.": [
     "Afișează un icon care se leagă la un profil sau un site din media socială."
-  ],
-  "block keyword\u0004description": [
-    "descriere"
-  ],
-  "block description\u0004Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it's not displayed in the theme design.": [
-    "Descrie-și în câteva cuvinte site-ul. Sloganul poate fi folosit în rezultatele căutării sau la partajarea pe rețelele sociale, chiar dacă nu este afișat în designul temei."
   ],
   "block description\u0004Insert additional custom elements with a WordPress shortcode.": [
     "Inserează elemente personalizate suplimentare cu un scurtcod WordPress."
@@ -332,77 +218,17 @@
   "block keyword\u0004blockquote": [
     "citat"
   ],
-  "block description\u0004Display the query title.": [
-    "Afișează titlul interogării."
-  ],
-  "block title\u0004Query Title": [
-    "Titlu interogare"
-  ],
-  "block description\u0004Displays a paginated navigation to next/previous set of posts, when applicable.": [
-    "Afișează o navigare cu pagini la setul de articole următor/anterior, când se poate aplica."
-  ],
-  "block description\u0004Displays the previous posts page link.": [
-    "Afișează legătura la pagina cu articolele anterioare."
-  ],
-  "block description\u0004Displays a list of page numbers for pagination": [
-    "Afișează o listă cu numere de pagină pentru paginație"
-  ],
-  "block description\u0004Displays the next posts page link.": [
-    "Afișează legătura la pagina cu articolele următoare."
-  ],
   "block description\u0004Give special visual emphasis to a quote from your text.": [
     "Accentuează vizual un citat din textul tău."
   ],
   "block description\u0004Add text that respects your spacing and tabs, and also allows styling.": [
     "Adaugă text care respectă spațierea și filele și permite, de asemenea, designul."
   ],
-  "block description\u0004Displays the title of a post, page, or any other content-type.": [
-    "Afișează titlul unui articol, unei pagini sau oricărui alt tip de conținut."
-  ],
-  "block description\u0004Post terms.": [
-    "Termeni articol."
-  ],
-  "block description\u0004Displays the next or previous post link that is adjacent to the current post.": [
-    "Afișează legătura la articolul următor sau anterior care este adiacent la articol."
-  ],
-  "block title\u0004Post Navigation Link": [
-    "Legătură pentru navigarea în articole"
-  ],
-  "block description\u0004Display a post's featured image.": [
-    "Afișează imaginea reprezentativă a unui articol."
-  ],
-  "block description\u0004Display a post's excerpt.": [
-    "Afișează rezumatul unui articol."
-  ],
-  "block description\u0004Add the date of this post.": [
-    "Adaugă data acestui articol."
-  ],
-  "block description\u0004Displays the contents of a post or page.": [
-    "Afișează conținutul unui articol sau a unei pagini."
-  ],
-  "block description\u0004Display a post's comments.": [
-    "Afișează comentariile la un articol."
-  ],
-  "block description\u0004Displays the link to the current post comments.": [
-    "Afișează legătura la comentariile la articolul curent."
-  ],
-  "block description\u0004Display a post's comments form.": [
-    "Afișează formularul de comentarii la un articol."
-  ],
-  "block description\u0004Display a post's comments count.": [
-    "Afișează numărul de comentarii la un articol."
-  ],
-  "block description\u0004Add the author of this post.": [
-    "Adaugă autorul acestui articol."
-  ],
   "block keyword\u0004text": [
     "text"
   ],
   "block description\u0004Start with the building block of all narrative.": [
     "Începe cu blocul pentru construirea întregii narațiuni."
-  ],
-  "block description\u0004Display a list of all pages.": [
-    "Afișează o listă cu toate paginile."
   ],
   "block keyword\u0004pagination": [
     "paginație"
@@ -412,18 +238,6 @@
   ],
   "block description\u0004Separate your content into a multi-page experience.": [
     "Separă-ți conținutul într-o experiență pe mai multe pagini."
-  ],
-  "block keyword\u0004navigation": [
-    "navigare"
-  ],
-  "block keyword\u0004menu": [
-    "meniu"
-  ],
-  "block description\u0004A collection of blocks that allow visitors to get around your site.": [
-    "O colecție de blocuri care le permite vizitatorilor să navigheze pe site-ul tău."
-  ],
-  "block description\u0004Add a page, link, or another item to your navigation.": [
-    "Adaugă o pagină, o legătură sau un alt element în navigare."
   ],
   "block keyword\u0004read more": [
     "citește mai mult"
@@ -443,18 +257,6 @@
   "block description\u0004Set media and words side-by-side for a richer layout.": [
     "Setează media și cuvintele adiacente media pentru un aranjament mai bogat."
   ],
-  "block keyword\u0004form": [
-    "formular"
-  ],
-  "block keyword\u0004logout": [
-    "dezautentificare"
-  ],
-  "block keyword\u0004login": [
-    "autentificare"
-  ],
-  "block description\u0004Show login & logout links.": [
-    "Arată legăturile pentru autentificare și dezautentificare."
-  ],
   "block keyword\u0004numbered list": [
     "listă numerotată"
   ],
@@ -466,12 +268,6 @@
   ],
   "block description\u0004Create a bulleted or numbered list.": [
     "Creează o listă cu buline sau numerotată."
-  ],
-  "block description\u0004Display a legacy widget.": [
-    "Afișează o piesă tradițională."
-  ],
-  "block title\u0004Legacy Widget": [
-    "Piesă tradițională"
   ],
   "block keyword\u0004recent posts": [
     "articole recente"
@@ -508,12 +304,6 @@
   ],
   "block description\u0004Add custom HTML code and preview it as you edit.": [
     "Adaugi cod HTML personalizat și îl previzualizezi pe măsură ce editezi."
-  ],
-  "block description\u0004Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header.": [
-    "Creează o legătură care te duce mereu la prima pagină a site-ului. De obicei, nu este necesară dacă există deja în antet o legătură la titlul site-ului."
-  ],
-  "block title\u0004Home Link": [
-    "Legătură la prima pagină"
   ],
   "block keyword\u0004subtitle": [
     "subtitlu"
@@ -632,21 +422,6 @@
   "Custom template created. You're in template mode now.": [
     "Șablonul personalizat a fost creat. Acum ești în modul șablon."
   ],
-  "block description\u0004Display the description of categories, tags and custom taxonomies when viewing an archive.": [
-    "Afișează descrierea categoriilor, etichetelor și taxonomiilor personalizate la vizualizarea unei arhive."
-  ],
-  "block title\u0004Term Description": [
-    "Descriere termen"
-  ],
-  "block title\u0004Post Comments Link": [
-    "Legătură la comentarii la articol"
-  ],
-  "block title\u0004Login/out": [
-    "Autentificare/dezautentificare"
-  ],
-  "block title\u0004Custom Link": [
-    "Legătură personalizată"
-  ],
   "Embed of %s.": [
     "Înglobează %s."
   ],
@@ -665,23 +440,8 @@
   "Width in pixels": [
     "Lățime, în pixeli"
   ],
-  "block description\u0004Edit the different global regions of your site, like the header, footer, sidebar, or create your own.": [
-    "Editezi diferite regiuni globale ale site-ului tău, cum ar fi antetul, subsolul, bara laterală, sau creezi unele proprii."
-  ],
-  "block title\u0004Page List": [
-    "Listă pagini"
-  ],
   "Your site does not have any posts, so there is nothing to display here at the moment.": [
     "Situl tău nu are niciun articol, deci nu este nimic de afișat aici în acest moment."
-  ],
-  "block title\u0004Query Pagination Previous": [
-    "Paginație interogări anterioare"
-  ],
-  "block title\u0004Query Pagination Numbers": [
-    "Paginație interogări cu numere"
-  ],
-  "block title\u0004Query Pagination Next": [
-    "Paginație interogări următoare"
   ],
   "Block cannot be rendered inside itself.": [
     "Blocurile nu pot fi randate în interiorul lor."
@@ -706,60 +466,6 @@
   ],
   "Align": [
     "Aliniere"
-  ],
-  "block title\u0004Post Terms": [
-    "Termeni articol"
-  ],
-  "block title\u0004Post Featured Image": [
-    "Imagine reprezentativă articol"
-  ],
-  "block title\u0004Post Excerpt": [
-    "Rezumat articol"
-  ],
-  "block title\u0004Post Date": [
-    "Dată articol"
-  ],
-  "block title\u0004Post Comments Form": [
-    "Formular de comentarii la articol"
-  ],
-  "block title\u0004Post Comments Count": [
-    "Număr de comentarii la articol"
-  ],
-  "block title\u0004Post Comments": [
-    "Comentarii la articol"
-  ],
-  "block title\u0004Comment Date": [
-    "Dată comentariu"
-  ],
-  "block title\u0004Comment Content": [
-    "Conținut comentariu"
-  ],
-  "block title\u0004Post Author": [
-    "Autor articol"
-  ],
-  "block title\u0004Post Content": [
-    "Conținut articol"
-  ],
-  "block title\u0004Post Title": [
-    "Titlu articol"
-  ],
-  "block title\u0004Query Pagination": [
-    "Paginație interogări"
-  ],
-  "block title\u0004Query Loop": [
-    "Buclă interogări"
-  ],
-  "block title\u0004Template Part": [
-    "Parte de șablon"
-  ],
-  "block title\u0004Site Title": [
-    "Titlu site"
-  ],
-  "block title\u0004Site Tagline": [
-    "Slogan site"
-  ],
-  "block title\u0004Site Logo": [
-    "Logo site"
   ],
   "block title\u0004Social Icon": [
     "Icon social"
@@ -827,9 +533,6 @@
   "block title\u0004Latest Comments": [
     "Ultimele comentarii"
   ],
-  "block title\u0004Navigation": [
-    "Navigare"
-  ],
   "block title\u0004Media & Text": [
     "Media și text"
   ],
@@ -883,6 +586,9 @@
   ],
   "block title\u0004Paragraph": [
     "Paragraf"
+  ],
+  "text direction\u0004ltr": [
+    "ltr"
   ],
   "Block vertical alignment setting\u0004Align bottom": [
     "Aliniază în partea de jos"
@@ -1024,6 +730,9 @@
   ],
   "%1$s Block. Row %2$d": [
     "Bloc %1$s. Rândul %2$d"
+  ],
+  "Typography": [
+    "Tipografice"
   ],
   "Content": [
     "Conținut"
@@ -1174,6 +883,9 @@
   ],
   "Menu Item": [
     "Element de meniu"
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "Adaugă bloc"
   ],
   "Site Title": [
     "Titlu site"
@@ -1831,9 +1543,6 @@
   "Publishing failed.": [
     "Publicarea a eșuat."
   ],
-  "Update": [
-    "Actualizează"
-  ],
   "Saved": [
     "Salvat"
   ],
@@ -1842,9 +1551,6 @@
   ],
   "Blocks": [
     "Blocuri"
-  ],
-  "Add block": [
-    "Adaugă bloc"
   ],
   "Undo": [
     "Revenire"

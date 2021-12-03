@@ -2,80 +2,14 @@
   "100": [
     "100"
   ],
-  "block description\u0004This block is deprecated. Please use the Comments Query Loop block instead.": [
-    "このブロックは非推奨です。代わりにコメントクエリループブロックを使用してください。"
-  ],
-  "block title\u0004Post Comment (deprecated)": [
-    "投稿のコメント (非推奨)"
-  ],
-  "block description\u0004Show a block pattern.": [
-    "ブロックパターンを表示します。"
-  ],
-  "block title\u0004Pattern": [
-    "パターン"
-  ],
-  "block keyword\u0004location": [
-    "場所"
-  ],
-  "block description\u0004Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed.": [
-    "テーマのナビゲーションエリアを定義してください。このエリアに関連付けられたナビゲーションブロックが自動的に表示されます。"
-  ],
-  "block title\u0004Navigation Area": [
-    "ナビゲーションエリア"
-  ],
-  "block description\u0004An advanced block that allows displaying post comments based on different query parameters and visual configurations.": [
-    "異なるクエリーパラメータやビジュアル構成に基づいて投稿のコメントを表示できる、高度なブロックです。"
-  ],
-  "block title\u0004Comments Query Loop": [
-    "コメントクエリループ"
-  ],
-  "block description\u0004Contains the block elements used to render a comment, like the title, date, author, avatar and more.": [
-    "コメント表示に使用されるタイトル、日付、投稿者、アバターなどのブロック要素を含みます。"
-  ],
-  "block title\u0004Comment Template": [
-    "コメントテンプレート"
-  ],
-  "block description\u0004Displays a link to reply to a comment.": [
-    "コメントに返信するリンクを表示します。"
-  ],
-  "block title\u0004Comment Reply Link": [
-    "コメント返信リンク"
-  ],
-  "block description\u0004Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability.": [
-    "WordPress 管理画面でコメントを編集するリンクを表示します。リンクはコメント編集権限を持つユーザーのみに表示されます。"
-  ],
-  "block title\u0004Comment Edit Link": [
-    "コメント編集リンク"
-  ],
-  "block description\u0004Add the date of this comment.": [
-    "コメントの日付を追加します。"
-  ],
-  "block description\u0004Displays the contents of a comment.": [
-    "コメントの内容を表示します。"
-  ],
-  "block description\u0004Add the author name of this comment.": [
-    "このコメントの投稿者名を追加します。"
-  ],
-  "block title\u0004Comment Author Name": [
-    "コメントの投稿者名"
-  ],
-  "block description\u0004Add the avatar of this comment's author.": [
-    "コメントの投稿者のアバターを追加します。"
-  ],
   "%s applied.": [
     "%sを適用しました。"
   ],
   "%s removed.": [
     "%sを削除しました。"
   ],
-  "Editing this Gallery in the WordPress mobile app requires version 18.2 or higher.": [
-    "WordPress モバイルアプリでギャラリーを編集するには、Version 18.2以上が必要です。"
-  ],
   "Embed Wolfram Cloud notebook content.": [
     "埋め込み Wolfram Cloud ノートブックのコンテンツ。"
-  ],
-  "block title\u0004Comment Author Avatar": [
-    "コメントの投稿者のアバター"
   ],
   "Allow to wrap to multiple lines": [
     "複数行に折り返す"
@@ -101,9 +35,6 @@
   "Featured": [
     "注目"
   ],
-  "block description\u0004Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results.": [
-    "このサイトの名前を表示します。ブロックを更新すると、ブロックが使われているすべての場所で変更が適用されます。ブラウザのタイトルバーや検索結果にも表示されます。"
-  ],
   "You do not have permission to create Pages.": [
     "ページを作成する権限がありません。"
   ],
@@ -113,32 +44,14 @@
   "Max %s wide": [
     "最大幅%s"
   ],
-  "block description\u0004Add a submenu to your navigation.": [
-    "ナビゲーションにサブメニューを追加します。"
-  ],
-  "block title\u0004Submenu": [
-    "サブメニュー"
-  ],
   "block description\u0004Display content in multiple columns, with blocks added to each column.": [
     "複数カラム内にコンテンツや追加されたブロックを表示します。"
   ],
   "Minimum height": [
     "最小の高さ"
   ],
-  "Update to the new gallery format": [
-    "新しいギャラリー形式に更新"
-  ],
-  "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around.": [
-    "新しい形式に更新すると、ギャラリー内の個々の画像でカスタムリンクやスタイルを使用でき、また、画像の追加や移動が容易になります。"
-  ],
-  "Update gallery": [
-    "ギャラリーを更新"
-  ],
   "block description\u0004Create structured content in rows and columns to display information.": [
     "行と列に構造化して情報を表示するコンテンツを作成します。"
-  ],
-  "block description\u0004Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different than the site icon, which is the smaller image visible in your dashboard, browser tabs, etc used to help others recognize this site.": [
-    "このサイトを表すグラフィックを表示します。更新すると、このブロックが使用されているすべての場所で変更が適用されます。これはサイトのアイコンとは異なる小さな画像で、ダッシュボードやブラウザのタブなどに表示されて、ユーザーによるサイトの認識に使用されます。"
   ],
   "Preload value\u0004None": [
     "なし"
@@ -218,15 +131,6 @@
   "Top left": [
     "左上"
   ],
-  "block description\u0004An advanced block that allows displaying post types based on different query parameters and visual configurations.": [
-    "異なるクエリーパラメータやビジュアル構成に基づいて投稿タイプを表示できる、高度なブロックです。"
-  ],
-  "block description\u0004Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more.": [
-    "投稿のレンダリングに使用されるブロック要素を含みます。たとえばタイトル、日付、アイキャッチ画像、コンテンツ、抜粋等です。"
-  ],
-  "block title\u0004Post Template": [
-    "投稿テンプレート"
-  ],
   "block keyword\u0004link": [
     "リンク"
   ],
@@ -254,18 +158,6 @@
   "block style label\u0004Stripes": [
     "ストライプ"
   ],
-  "block keyword\u0004summary": [
-    "要約"
-  ],
-  "block keyword\u0004document outline": [
-    "文書の概要"
-  ],
-  "block description\u0004Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.": [
-    "見出しのリストを使用して投稿を要約します。 見出しブロックに HTML アンカーを追加してここにリンクします。"
-  ],
-  "block title\u0004Table of Contents": [
-    "目次"
-  ],
   "block description\u0004Add white space between blocks and customize its height.": [
     "ブロックの間に、高さをカスタマイズ可能な余白を追加します。"
   ],
@@ -280,12 +172,6 @@
   ],
   "block description\u0004Display an icon linking to a social media profile or site.": [
     "ソーシャルメディアのプロフィールまたはサイトにリンクするアイコンを表示します。"
-  ],
-  "block keyword\u0004description": [
-    "説明"
-  ],
-  "block description\u0004Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it's not displayed in the theme design.": [
-    "簡潔にサイトを説明してください。キャッチフレーズは、テーマのデザインで非表示でも、検索結果やソーシャルネットワークでの共有で使用されます。"
   ],
   "block description\u0004Insert additional custom elements with a WordPress shortcode.": [
     "WordPress ショートコードで追加のカスタム要素を挿入します。"
@@ -332,77 +218,17 @@
   "block keyword\u0004blockquote": [
     "引用"
   ],
-  "block description\u0004Display the query title.": [
-    "クエリータイトルを表示します。"
-  ],
-  "block title\u0004Query Title": [
-    "クエリータイトル"
-  ],
-  "block description\u0004Displays a paginated navigation to next/previous set of posts, when applicable.": [
-    "必要であれば、投稿の前のページや次のページへのページネーションを表示します。"
-  ],
-  "block description\u0004Displays the previous posts page link.": [
-    "前の投稿ページへのリンクを表示します。"
-  ],
-  "block description\u0004Displays a list of page numbers for pagination": [
-    "ページネーション用のページ番号のリストを表示します"
-  ],
-  "block description\u0004Displays the next posts page link.": [
-    "次の投稿ページへのリンクを表示します。"
-  ],
   "block description\u0004Give special visual emphasis to a quote from your text.": [
     "テキストの引用に特別な視覚的強調を加えます。"
   ],
   "block description\u0004Add text that respects your spacing and tabs, and also allows styling.": [
     "スペースやタブを含むテキストを追加し、スタイリングして表示します。"
   ],
-  "block description\u0004Displays the title of a post, page, or any other content-type.": [
-    "投稿、固定ページ、その他のコンテンツタイプのタイトルを表示します。"
-  ],
-  "block description\u0004Post terms.": [
-    "投稿タグ。"
-  ],
-  "block description\u0004Displays the next or previous post link that is adjacent to the current post.": [
-    "現在の投稿に隣接する、次の投稿へのリンク、または、前の投稿へのリンクを表示します。"
-  ],
-  "block title\u0004Post Navigation Link": [
-    "投稿ナビゲーションリンク"
-  ],
-  "block description\u0004Display a post's featured image.": [
-    "投稿のアイキャッチ画像を表示します。"
-  ],
-  "block description\u0004Display a post's excerpt.": [
-    "投稿の抜粋を表示します。"
-  ],
-  "block description\u0004Add the date of this post.": [
-    "投稿の日付を追加します。"
-  ],
-  "block description\u0004Displays the contents of a post or page.": [
-    "投稿または固定ページの内容を表示します。"
-  ],
-  "block description\u0004Display a post's comments.": [
-    "投稿のコメントを表示します。"
-  ],
-  "block description\u0004Displays the link to the current post comments.": [
-    "現在の投稿コメントへのリンクを表示します。"
-  ],
-  "block description\u0004Display a post's comments form.": [
-    "投稿コメントフォームを表示します。"
-  ],
-  "block description\u0004Display a post's comments count.": [
-    "投稿コメント数を表示します。"
-  ],
-  "block description\u0004Add the author of this post.": [
-    "投稿の投稿者を追加します。"
-  ],
   "block keyword\u0004text": [
     "テキスト"
   ],
   "block description\u0004Start with the building block of all narrative.": [
     "ブロックを使って、いろいろな物語を組み立ててください。"
-  ],
-  "block description\u0004Display a list of all pages.": [
-    "すべての固定ページをリスト表示します。"
   ],
   "block keyword\u0004pagination": [
     "ページネーション"
@@ -412,18 +238,6 @@
   ],
   "block description\u0004Separate your content into a multi-page experience.": [
     "コンテンツを複数のページに分けて表示します。"
-  ],
-  "block keyword\u0004navigation": [
-    "ナビゲーション"
-  ],
-  "block keyword\u0004menu": [
-    "メニュー"
-  ],
-  "block description\u0004A collection of blocks that allow visitors to get around your site.": [
-    "訪問者がサイト内を移動できるようにするブロックのコレクション。"
-  ],
-  "block description\u0004Add a page, link, or another item to your navigation.": [
-    "固定ページやリンク、その他の項目をナビゲーションメニューに追加します。"
   ],
   "block keyword\u0004read more": [
     "続きを読む"
@@ -443,18 +257,6 @@
   "block description\u0004Set media and words side-by-side for a richer layout.": [
     "画像と文章を横並びのリッチなレイアウトにします。"
   ],
-  "block keyword\u0004form": [
-    "フォーム"
-  ],
-  "block keyword\u0004logout": [
-    "ログアウト"
-  ],
-  "block keyword\u0004login": [
-    "ログイン"
-  ],
-  "block description\u0004Show login & logout links.": [
-    "ログインとログアウトのリンクを表示します。"
-  ],
   "block keyword\u0004numbered list": [
     "番号付きリスト"
   ],
@@ -466,12 +268,6 @@
   ],
   "block description\u0004Create a bulleted or numbered list.": [
     "番号なし、または番号付きのリストを作成します。"
-  ],
-  "block description\u0004Display a legacy widget.": [
-    "従来のウィジェットを表示します。"
-  ],
-  "block title\u0004Legacy Widget": [
-    "従来のウィジェット"
   ],
   "block keyword\u0004recent posts": [
     "最新の投稿"
@@ -508,12 +304,6 @@
   ],
   "block description\u0004Add custom HTML code and preview it as you edit.": [
     "カスタム HTML コードを追加します。編集しながらプレビューが可能です。"
-  ],
-  "block description\u0004Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header.": [
-    "常にサイトのホームページを指すリンクを作成してください。ヘッダーにサイトタイトルリンクが常に存在する場合は、通常必要ありません。"
-  ],
-  "block title\u0004Home Link": [
-    "ホームへのリンク"
   ],
   "block keyword\u0004subtitle": [
     "サブタイトル"
@@ -632,21 +422,6 @@
   "Custom template created. You're in template mode now.": [
     "カスタムテンプレートが作成されました。現在、テンプレートモードです。"
   ],
-  "block description\u0004Display the description of categories, tags and custom taxonomies when viewing an archive.": [
-    "アーカイブを表示する際、カテゴリー、タグ、カスタムタクソノミーの説明を表示します。"
-  ],
-  "block title\u0004Term Description": [
-    "タームの説明"
-  ],
-  "block title\u0004Post Comments Link": [
-    "投稿コメントリンク"
-  ],
-  "block title\u0004Login/out": [
-    "ログイン / ログアウト"
-  ],
-  "block title\u0004Custom Link": [
-    "カスタムリンク"
-  ],
   "Embed of %s.": [
     "%sの埋め込み。"
   ],
@@ -665,23 +440,8 @@
   "Width in pixels": [
     "幅 (px)"
   ],
-  "block description\u0004Edit the different global regions of your site, like the header, footer, sidebar, or create your own.": [
-    "サイトのヘッダー、フッター、サイドバーなど、異なるグローバルな領域を編集するか、独自のものを作成します。"
-  ],
-  "block title\u0004Page List": [
-    "固定ページリスト"
-  ],
   "Your site does not have any posts, so there is nothing to display here at the moment.": [
     "サイトに投稿がないため、現在ここに表示するものはありません。"
-  ],
-  "block title\u0004Query Pagination Previous": [
-    "前のページネーションのクエリー"
-  ],
-  "block title\u0004Query Pagination Numbers": [
-    "ページネーション数のクエリー"
-  ],
-  "block title\u0004Query Pagination Next": [
-    "次のページネーションのクエリー"
   ],
   "Block cannot be rendered inside itself.": [
     "ブロックは、ブロック自身の内部でレンダリングできません。"
@@ -706,60 +466,6 @@
   ],
   "Align": [
     "配置"
-  ],
-  "block title\u0004Post Terms": [
-    "投稿タグ"
-  ],
-  "block title\u0004Post Featured Image": [
-    "投稿のアイキャッチ画像"
-  ],
-  "block title\u0004Post Excerpt": [
-    "投稿の抜粋"
-  ],
-  "block title\u0004Post Date": [
-    "投稿日"
-  ],
-  "block title\u0004Post Comments Form": [
-    "投稿コメントフォーム"
-  ],
-  "block title\u0004Post Comments Count": [
-    "投稿コメント数"
-  ],
-  "block title\u0004Post Comments": [
-    "投稿コメント"
-  ],
-  "block title\u0004Comment Date": [
-    "コメント日付"
-  ],
-  "block title\u0004Comment Content": [
-    "コメント本文"
-  ],
-  "block title\u0004Post Author": [
-    "投稿者"
-  ],
-  "block title\u0004Post Content": [
-    "投稿コンテンツ"
-  ],
-  "block title\u0004Post Title": [
-    "投稿タイトル"
-  ],
-  "block title\u0004Query Pagination": [
-    "クエリーのページ送り"
-  ],
-  "block title\u0004Query Loop": [
-    "クエリーループ"
-  ],
-  "block title\u0004Template Part": [
-    "テンプレートパーツ"
-  ],
-  "block title\u0004Site Title": [
-    "サイトのタイトル"
-  ],
-  "block title\u0004Site Tagline": [
-    "サイトのキャッチフレーズ"
-  ],
-  "block title\u0004Site Logo": [
-    "サイトロゴ"
   ],
   "block title\u0004Social Icon": [
     "ソーシャルアイコン"
@@ -827,9 +533,6 @@
   "block title\u0004Latest Comments": [
     "最新のコメント"
   ],
-  "block title\u0004Navigation": [
-    "ナビゲーション"
-  ],
   "block title\u0004Media & Text": [
     "メディアとテキスト"
   ],
@@ -883,6 +586,9 @@
   ],
   "block title\u0004Paragraph": [
     "段落"
+  ],
+  "text direction\u0004ltr": [
+    "ltr"
   ],
   "Block vertical alignment setting\u0004Align bottom": [
     "下揃え"
@@ -1024,6 +730,9 @@
   ],
   "%1$s Block. Row %2$d": [
     "%1$sブロック。%2$d列目"
+  ],
+  "Typography": [
+    "タイポグラフィ"
   ],
   "Content": [
     "コンテンツ"
@@ -1174,6 +883,9 @@
   ],
   "Menu Item": [
     "メニュー項目"
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "ブロックを追加"
   ],
   "Site Title": [
     "サイトのタイトル"
@@ -1829,9 +1541,6 @@
   "Publishing failed.": [
     "公開に失敗しました。"
   ],
-  "Update": [
-    "更新"
-  ],
   "Saved": [
     "保存しました"
   ],
@@ -1840,9 +1549,6 @@
   ],
   "Blocks": [
     "ブロック"
-  ],
-  "Add block": [
-    "ブロックを追加"
   ],
   "Undo": [
     "元に戻す"

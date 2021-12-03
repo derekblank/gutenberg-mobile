@@ -2,80 +2,14 @@
   "100": [
     "100"
   ],
-  "block description\u0004This block is deprecated. Please use the Comments Query Loop block instead.": [
-    "Dit blok is verouderd. Gebruik in plaats daarvan het reacties query loop blok."
-  ],
-  "block title\u0004Post Comment (deprecated)": [
-    "Berichtreactie (verouderd)"
-  ],
-  "block description\u0004Show a block pattern.": [
-    "Toon een blokpatroon."
-  ],
-  "block title\u0004Pattern": [
-    "Patroon"
-  ],
-  "block keyword\u0004location": [
-    "locatie"
-  ],
-  "block description\u0004Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed.": [
-    "Definieer een navigatiegebied voor je thema. Het navigatieblok dat bij dit gebied hoort wordt automatisch getoond."
-  ],
-  "block title\u0004Navigation Area": [
-    "Navigatie gebied"
-  ],
-  "block description\u0004An advanced block that allows displaying post comments based on different query parameters and visual configurations.": [
-    "Een geavanceerd blok dat het mogelijk maakt bericht reacties weer te geven op basis van verschillende query parameters en visuele configuraties."
-  ],
-  "block title\u0004Comments Query Loop": [
-    "Reactie query loop"
-  ],
-  "block description\u0004Contains the block elements used to render a comment, like the title, date, author, avatar and more.": [
-    "Bevat de blokelementen, gebruikt om een reactie te tonen zoals de titel, datum, auteur, avatar en meer."
-  ],
-  "block title\u0004Comment Template": [
-    "Reactie template"
-  ],
-  "block description\u0004Displays a link to reply to a comment.": [
-    "Toont een link om op een reactie te antwoorden."
-  ],
-  "block title\u0004Comment Reply Link": [
-    "Reactie antwoord link"
-  ],
-  "block description\u0004Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability.": [
-    "Toont een link om de reactie te bewerken in het WordPress Dashboard. Deze link is alleen zichtbaar voor gebruikers met de functie reactie bewerken."
-  ],
-  "block title\u0004Comment Edit Link": [
-    "Link reactie bewerking"
-  ],
-  "block description\u0004Add the date of this comment.": [
-    "De datum toevoegen van deze reactie."
-  ],
-  "block description\u0004Displays the contents of a comment.": [
-    "Toont de inhoud van een reactie."
-  ],
-  "block description\u0004Add the author name of this comment.": [
-    "De auteursnaam toevoegen van deze reactie."
-  ],
-  "block title\u0004Comment Author Name": [
-    "Naam van de reactie auteur"
-  ],
-  "block description\u0004Add the avatar of this comment's author.": [
-    "De avatar toevoegen van de auteur van deze reactie."
-  ],
   "%s applied.": [
     "%s toegepast."
   ],
   "%s removed.": [
     "%s verwijderd."
   ],
-  "Editing this Gallery in the WordPress mobile app requires version 18.2 or higher.": [
-    "Voor het bewerken van deze galerij in de WordPress mobiele app is versie 18.2 of hoger nodig."
-  ],
   "Embed Wolfram Cloud notebook content.": [
     "Insluiten Wolfram Cloud notebook inhoud."
-  ],
-  "block title\u0004Comment Author Avatar": [
-    "Reactie auteur avatar"
   ],
   "Allow to wrap to multiple lines": [
     "Toestaan om naar meerdere regels te splitsen"
@@ -101,9 +35,6 @@
   "Featured": [
     "Uitgelicht"
   ],
-  "block description\u0004Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results.": [
-    "Hier wordt de naam van deze website weergegeven. Werk het blok bij en de wijzigingen zijn overal van toepassing. Dit wordt ook getoond in de titelbalk van de browser en in de zoekresultaten."
-  ],
   "You do not have permission to create Pages.": [
     "Je hebt geen toestemming om pagina's te maken."
   ],
@@ -113,32 +44,14 @@
   "Max %s wide": [
     "Max %s breed"
   ],
-  "block description\u0004Add a submenu to your navigation.": [
-    "Een submenu toevoegen aan je navigatie."
-  ],
-  "block title\u0004Submenu": [
-    "Submenu"
-  ],
   "block description\u0004Display content in multiple columns, with blocks added to each column.": [
     "Geef inhoud weer in meerdere kolommen, met blokken toegevoegd aan elke kolom."
   ],
   "Minimum height": [
     "Minimale hoogte"
   ],
-  "Update to the new gallery format": [
-    "Naar het nieuwe galerijformaat bijwerken"
-  ],
-  "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around.": [
-    "Bijwerken naar het nieuwe formaat voegt de mogelijkheid toe om aangepaste links of stijlen te gebruiken voor afzonderlijke afbeeldingen in de galerij, en maakt het gemakkelijker om ze toe te voegen of te verplaatsen."
-  ],
-  "Update gallery": [
-    "Galerij bijwerken"
-  ],
   "block description\u0004Create structured content in rows and columns to display information.": [
     "Maak gestructureerde inhoud in rijen en kolommen om informatie weer te geven."
-  ],
-  "block description\u0004Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different than the site icon, which is the smaller image visible in your dashboard, browser tabs, etc used to help others recognize this site.": [
-    "Laat een afbeelding zien van deze website. Werk het blok bij, en de veranderingen gelden overal waar het gebruikt wordt. Dit is anders dan het website icoon, dat is de kleinere afbeelding die zichtbaar is in je dashboard, browser tabs, enz gebruikt om anderen te helpen deze website te herkennen."
   ],
   "Preload value\u0004None": [
     "Geen"
@@ -218,15 +131,6 @@
   "Top left": [
     "Linksbovenaan"
   ],
-  "block description\u0004An advanced block that allows displaying post types based on different query parameters and visual configurations.": [
-    "Een geavanceerd blok waarmee berichttypen kunnen worden weergegeven op basis van verschillende zoekopdracht parameters en visuele configuraties."
-  ],
-  "block description\u0004Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more.": [
-    "Bevat de blokelementen die worden gebruikt om een bericht weer te geven, zoals de titel, datum, uitgelichte afbeelding, inhoud of samenvatting, en meer."
-  ],
-  "block title\u0004Post Template": [
-    "Bericht template"
-  ],
   "block keyword\u0004link": [
     "link"
   ],
@@ -254,18 +158,6 @@
   "block style label\u0004Stripes": [
     "Strepen"
   ],
-  "block keyword\u0004summary": [
-    "samenvatting"
-  ],
-  "block keyword\u0004document outline": [
-    "document overzicht"
-  ],
-  "block description\u0004Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.": [
-    "Vat je bericht samen met een lijst met kopteksten. Voeg HTML ankers toe aan koptekst blokken om ze hier te linken."
-  ],
-  "block title\u0004Table of Contents": [
-    "Inhoudsopgave"
-  ],
   "block description\u0004Add white space between blocks and customize its height.": [
     "Voeg witruimte toe tussen blokken en pas de hoogte aan."
   ],
@@ -280,12 +172,6 @@
   ],
   "block description\u0004Display an icon linking to a social media profile or site.": [
     "Toon een icoon dat linkt naar een sociaal media profiel of website."
-  ],
-  "block keyword\u0004description": [
-    "beschrijving"
-  ],
-  "block description\u0004Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it's not displayed in the theme design.": [
-    "Beschrijf in een paar woorden waar de website over gaat. De slogan kan gebruikt worden in zoekresultaten op sociale netwerken, ook als het niet getoond wordt in het thema ontwerp."
   ],
   "block description\u0004Insert additional custom elements with a WordPress shortcode.": [
     "Voeg extra aangepaste elementen in met een WordPress shortcode."
@@ -332,77 +218,17 @@
   "block keyword\u0004blockquote": [
     "blockquote"
   ],
-  "block description\u0004Display the query title.": [
-    "Toon de zoekopdracht titel."
-  ],
-  "block title\u0004Query Title": [
-    "Titel zoekopdracht"
-  ],
-  "block description\u0004Displays a paginated navigation to next/previous set of posts, when applicable.": [
-    "Toont een gepagineerde navigatie op volgend/vorige sets van berichten, indien van toepassing."
-  ],
-  "block description\u0004Displays the previous posts page link.": [
-    "Toont de vorige berichten pagina link."
-  ],
-  "block description\u0004Displays a list of page numbers for pagination": [
-    "Toont een lijst met paginanummers voor paginering"
-  ],
-  "block description\u0004Displays the next posts page link.": [
-    "Toont de vorige berichten pagina link."
-  ],
   "block description\u0004Give special visual emphasis to a quote from your text.": [
     "Geef speciale visuele nadruk aan een citaat uit je eigen tekst."
   ],
   "block description\u0004Add text that respects your spacing and tabs, and also allows styling.": [
     "Voeg tekst toe dat je tussenruimte en tabs behoudt, en ook styling toestaat."
   ],
-  "block description\u0004Displays the title of a post, page, or any other content-type.": [
-    "Toont de titel van een bericht, pagina of elk ander inhoudstype."
-  ],
-  "block description\u0004Post terms.": [
-    "Bericht termen."
-  ],
-  "block description\u0004Displays the next or previous post link that is adjacent to the current post.": [
-    "Geeft de volgende of vorige bericht link weer die naast het huidige bericht staat."
-  ],
-  "block title\u0004Post Navigation Link": [
-    "Berichtnavigatie link"
-  ],
-  "block description\u0004Display a post's featured image.": [
-    "Geef de uitgelichte afbeelding van een bericht weer."
-  ],
-  "block description\u0004Display a post's excerpt.": [
-    "Geef de samenvatting van een bericht weer."
-  ],
-  "block description\u0004Add the date of this post.": [
-    "Voeg de datum van dit bericht toe."
-  ],
-  "block description\u0004Displays the contents of a post or page.": [
-    "Toont de inhoud van een bericht of pagina."
-  ],
-  "block description\u0004Display a post's comments.": [
-    "Toon de reacties van een bericht."
-  ],
-  "block description\u0004Displays the link to the current post comments.": [
-    "Toont de link naar de huidige bericht reacties."
-  ],
-  "block description\u0004Display a post's comments form.": [
-    "Toon het reacties formulier van een bericht."
-  ],
-  "block description\u0004Display a post's comments count.": [
-    "Toon het aantal reacties van een bericht."
-  ],
-  "block description\u0004Add the author of this post.": [
-    "Voeg de auteur van dit bericht toe."
-  ],
   "block keyword\u0004text": [
     "tekst"
   ],
   "block description\u0004Start with the building block of all narrative.": [
     "Begin met de bouwsteen van alle verhaallijnen."
-  ],
-  "block description\u0004Display a list of all pages.": [
-    "Toon een lijst van alle pagina's."
   ],
   "block keyword\u0004pagination": [
     "paginering"
@@ -412,18 +238,6 @@
   ],
   "block description\u0004Separate your content into a multi-page experience.": [
     "Scheid je inhoud in een ervaring van meerdere pagina's."
-  ],
-  "block keyword\u0004navigation": [
-    "navigatie"
-  ],
-  "block keyword\u0004menu": [
-    "menu"
-  ],
-  "block description\u0004A collection of blocks that allow visitors to get around your site.": [
-    "Een verzameling blokken waarmee bezoekers op je website kunnen navigeren."
-  ],
-  "block description\u0004Add a page, link, or another item to your navigation.": [
-    "Voeg een pagina, link, of ander item toe aan je navigatie."
   ],
   "block keyword\u0004read more": [
     "lees meer"
@@ -443,18 +257,6 @@
   "block description\u0004Set media and words side-by-side for a richer layout.": [
     "Zet media en woorden naast elkaar in voor een rijkere lay-out."
   ],
-  "block keyword\u0004form": [
-    "formulier"
-  ],
-  "block keyword\u0004logout": [
-    "uitloggen"
-  ],
-  "block keyword\u0004login": [
-    "login"
-  ],
-  "block description\u0004Show login & logout links.": [
-    "Toon inlog & uitlog links."
-  ],
   "block keyword\u0004numbered list": [
     "genummerde lijst"
   ],
@@ -466,12 +268,6 @@
   ],
   "block description\u0004Create a bulleted or numbered list.": [
     "Maak een lijst met opsommingstekens of nummers."
-  ],
-  "block description\u0004Display a legacy widget.": [
-    "Toon een verouderde widget."
-  ],
-  "block title\u0004Legacy Widget": [
-    "Verouderde widget"
   ],
   "block keyword\u0004recent posts": [
     "recente berichten"
@@ -508,12 +304,6 @@
   ],
   "block description\u0004Add custom HTML code and preview it as you edit.": [
     "Voeg aangepaste HTML code toe en bekijk een voorbeeld tijdens het bewerken."
-  ],
-  "block description\u0004Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header.": [
-    "Maak een link die altijd wijst naar de homepage van de website. Is normaliter niet nodig als er al een website titel link aanwezig is in de header."
-  ],
-  "block title\u0004Home Link": [
-    "Link naar beginpagina"
   ],
   "block keyword\u0004subtitle": [
     "subtitel"
@@ -632,21 +422,6 @@
   "Custom template created. You're in template mode now.": [
     "Aangepaste template gemaakt. Je bent nu in de templatemodus."
   ],
-  "block description\u0004Display the description of categories, tags and custom taxonomies when viewing an archive.": [
-    "Geef de beschrijving van categorieën, tags en aangepaste taxonomieën weer bij het bekijken van een archief."
-  ],
-  "block title\u0004Term Description": [
-    "Term beschrijving"
-  ],
-  "block title\u0004Post Comments Link": [
-    "Berichtreacties link"
-  ],
-  "block title\u0004Login/out": [
-    "Login/uit"
-  ],
-  "block title\u0004Custom Link": [
-    "Aangepaste link"
-  ],
   "Embed of %s.": [
     "Insluiting van %s."
   ],
@@ -665,23 +440,8 @@
   "Width in pixels": [
     "Breedte in pixels"
   ],
-  "block description\u0004Edit the different global regions of your site, like the header, footer, sidebar, or create your own.": [
-    "Bewerk de verschillende globale regio's van je website, zoals de header, footer, zijbalk of maak je eigen."
-  ],
-  "block title\u0004Page List": [
-    "Paginalijst"
-  ],
   "Your site does not have any posts, so there is nothing to display here at the moment.": [
     "Je website heeft geen enkel bericht, er is op dit moment dus niets hier te tonen."
-  ],
-  "block title\u0004Query Pagination Previous": [
-    "Zoekopdracht paginering vorige"
-  ],
-  "block title\u0004Query Pagination Numbers": [
-    "Zoekopdracht paginering nummers"
-  ],
-  "block title\u0004Query Pagination Next": [
-    "Zoekopdracht paginering Volgende"
   ],
   "Block cannot be rendered inside itself.": [
     "Het blok kan niet binnen zichzelf weergegeven worden."
@@ -706,60 +466,6 @@
   ],
   "Align": [
     "Uitlijnen"
-  ],
-  "block title\u0004Post Terms": [
-    "Bericht termen"
-  ],
-  "block title\u0004Post Featured Image": [
-    "Bericht uitgelichte afbeelding"
-  ],
-  "block title\u0004Post Excerpt": [
-    "Bericht samenvatting"
-  ],
-  "block title\u0004Post Date": [
-    "Berichtdatum"
-  ],
-  "block title\u0004Post Comments Form": [
-    "Bericht reacties formulier"
-  ],
-  "block title\u0004Post Comments Count": [
-    "Bericht reacties aantal"
-  ],
-  "block title\u0004Post Comments": [
-    "Bericht reacties"
-  ],
-  "block title\u0004Comment Date": [
-    "Reactie datum"
-  ],
-  "block title\u0004Comment Content": [
-    "Reactie inhoud"
-  ],
-  "block title\u0004Post Author": [
-    "Berichtauteur"
-  ],
-  "block title\u0004Post Content": [
-    "Berichtinhoud"
-  ],
-  "block title\u0004Post Title": [
-    "Berichttitel"
-  ],
-  "block title\u0004Query Pagination": [
-    "Zoekopdracht paginering"
-  ],
-  "block title\u0004Query Loop": [
-    "Zoekopdracht loop"
-  ],
-  "block title\u0004Template Part": [
-    "Template onderdeel"
-  ],
-  "block title\u0004Site Title": [
-    "Website titel"
-  ],
-  "block title\u0004Site Tagline": [
-    "Website slogan"
-  ],
-  "block title\u0004Site Logo": [
-    "Website logo"
   ],
   "block title\u0004Social Icon": [
     "Sociale iconen"
@@ -827,9 +533,6 @@
   "block title\u0004Latest Comments": [
     "Nieuwste reacties"
   ],
-  "block title\u0004Navigation": [
-    "Navigatie"
-  ],
   "block title\u0004Media & Text": [
     "Media & tekst"
   ],
@@ -883,6 +586,9 @@
   ],
   "block title\u0004Paragraph": [
     "Paragraaf"
+  ],
+  "text direction\u0004ltr": [
+    "ltr"
   ],
   "Block vertical alignment setting\u0004Align bottom": [
     "Naar onder uitlijnen"
@@ -1024,6 +730,9 @@
   ],
   "%1$s Block. Row %2$d": [
     "%1$s Blok. Rij %2$d"
+  ],
+  "Typography": [
+    "Typografie"
   ],
   "Content": [
     "Inhoud"
@@ -1174,6 +883,9 @@
   ],
   "Menu Item": [
     "Menu item"
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "Blok toevoegen"
   ],
   "Site Title": [
     "Websitetitel"
@@ -1830,9 +1542,6 @@
   "Publishing failed.": [
     "Publiceren mislukt."
   ],
-  "Update": [
-    "Bijwerken"
-  ],
   "Saved": [
     "Opgeslagen"
   ],
@@ -1841,9 +1550,6 @@
   ],
   "Blocks": [
     "Blokken"
-  ],
-  "Add block": [
-    "Blok toevoegen"
   ],
   "Undo": [
     "Ongedaan maken"

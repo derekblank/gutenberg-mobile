@@ -2,80 +2,14 @@
   "100": [
     "100"
   ],
-  "block description\u0004This block is deprecated. Please use the Comments Query Loop block instead.": [
-    "Mae'r bloc hwn yn anghymeradwy. Defnyddiwch y bloc Cylch Ymholiad Sylwadau yn ei le."
-  ],
-  "block title\u0004Post Comment (deprecated)": [
-    "Sylw  Cofnod (anghymeradwy)"
-  ],
-  "block description\u0004Show a block pattern.": [
-    "Dangos patrwm bloc."
-  ],
-  "block title\u0004Pattern": [
-    "Patrwm"
-  ],
-  "block keyword\u0004location": [
-    "lleoliad"
-  ],
-  "block description\u0004Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed.": [
-    "Diffiniwch ardal lywio ar gyfer eich thema. Bydd y bloc llywio sy'n gysylltiedig â'r ardal hon yn cael ei dangos yn awtomatig."
-  ],
-  "block title\u0004Navigation Area": [
-    "Ardal Llywio"
-  ],
-  "block description\u0004An advanced block that allows displaying post comments based on different query parameters and visual configurations.": [
-    "Bloc uwch sy'n caniatáu dangos sylwadau cofnod yn seiliedig ar wahanol baramedrau ymholiadau a ffurfweddiadau gweledol."
-  ],
-  "block title\u0004Comments Query Loop": [
-    "Cylch Ymholiad Sylwadau"
-  ],
-  "block description\u0004Contains the block elements used to render a comment, like the title, date, author, avatar and more.": [
-    "Yn cynnwys yr elfennau bloc sy'n cael eu defnyddio i greu sylw, fel y teitl, dyddiad, awdur, afatar a mwy."
-  ],
-  "block title\u0004Comment Template": [
-    "Templed Sylwadau"
-  ],
-  "block description\u0004Displays a link to reply to a comment.": [
-    "Yn dangos dolen i ymateb i sylw."
-  ],
-  "block title\u0004Comment Reply Link": [
-    "Dolen Ateb Sylwadau"
-  ],
-  "block description\u0004Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability.": [
-    "Yn dangos dolen i olygu'r sylw ym Mwrdd Gwaith WordPress. Mae'r ddolen hon yn weladwy i ddim ond defnyddwyr sydd â'r gallu i olygu sylwadau."
-  ],
-  "block title\u0004Comment Edit Link": [
-    "Dolen Golygu Sylw"
-  ],
-  "block description\u0004Add the date of this comment.": [
-    "Ychwanegwch ddyddiad y sylw hwn."
-  ],
-  "block description\u0004Displays the contents of a comment.": [
-    "Yn dangos cynnwys sylw."
-  ],
-  "block description\u0004Add the author name of this comment.": [
-    "Ychwanegwch enw awdur y sylw hwn."
-  ],
-  "block title\u0004Comment Author Name": [
-    "Enw Awdur Sylw"
-  ],
-  "block description\u0004Add the avatar of this comment's author.": [
-    "Ychwanegwch avatar awdur y sylw hwn."
-  ],
   "%s applied.": [
     "%s wedi'i osod."
   ],
   "%s removed.": [
     "%s wedi’i dynnu."
   ],
-  "Editing this Gallery in the WordPress mobile app requires version 18.2 or higher.": [
-    "Mae golygu'r Oriel hon yn ap symudol WordPress yn gofyn am fersiwn 18.2 neu uwch."
-  ],
   "Embed Wolfram Cloud notebook content.": [
     "Mewnblannwch gynnwys llyfr nodiadau Wolfram Cloud."
-  ],
-  "block title\u0004Comment Author Avatar": [
-    "Afatar Awdur Sylw"
   ],
   "Allow to wrap to multiple lines": [
     "Caniatáu iddo lapio i linellau lluosog"
@@ -101,9 +35,6 @@
   "Featured": [
     "Nodwedd"
   ],
-  "block description\u0004Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results.": [
-    "Yn dangos enw'r wefan hon. Diweddarwch y bloc, ac mae'r newidiadau yn digwydd ym mhobman y mae'n cael ei ddefnyddio. Bydd hyn hefyd yn ymddangos ym mar teitl y porwr ac mewn canlyniadau chwilio."
-  ],
   "You do not have permission to create Pages.": [
     "Nid oes gennych ganiatâd i greu Tudalennau."
   ],
@@ -113,32 +44,14 @@
   "Max %s wide": [
     "Uchafswm %s o led"
   ],
-  "block description\u0004Add a submenu to your navigation.": [
-    "Ychwanegu is ddewislen i'ch llywio."
-  ],
-  "block title\u0004Submenu": [
-    "Is ddewislen"
-  ],
   "block description\u0004Display content in multiple columns, with blocks added to each column.": [
     "Dangos cynnwys mewn sawl colofn, gyda blociau wedi'u hychwanegu at bob colofn."
   ],
   "Minimum height": [
     "Lleiafswm uchder"
   ],
-  "Update to the new gallery format": [
-    "Diweddaru i fformat newydd yr oriel"
-  ],
-  "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around.": [
-    "Mae diweddaru i'r fformat newydd yn ychwanegu'r gallu i ddefnyddio dolenni neu arddulliau cyfaddas ar ddelweddau unigol yn yr oriel, ac yn ei gwneud hi'n haws eu hychwanegu neu eu symud o gwmpas."
-  ],
-  "Update gallery": [
-    "Diweddaru'r oriel"
-  ],
   "block description\u0004Create structured content in rows and columns to display information.": [
     "Crëwch gynnwys strwythuredig mewn rhesi a cholofnau i ddangos gwybodaeth."
-  ],
-  "block description\u0004Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different than the site icon, which is the smaller image visible in your dashboard, browser tabs, etc used to help others recognize this site.": [
-    "Dangos graffig i gynrychioli'r wefan hon. Diweddarwch y bloc, ac mae'r newidiadau yn digwydd ym mhobman y mae'n cael ei ddefnyddio. Mae hyn yn wahanol i eicon y wefan, sef y ddelwedd lai sydd i'w gweld yn eich bwrdd gwaith, tabiau porwr, ac ati sy'n cael ei ddefnyddio i helpu eraill i adnabod y wefan hon."
   ],
   "Preload value\u0004None": [
     "Dim"
@@ -218,15 +131,6 @@
   "Top left": [
     "Brig chwith"
   ],
-  "block description\u0004An advanced block that allows displaying post types based on different query parameters and visual configurations.": [
-    "Bloc uwch sy'n caniatáu dangos mathau o gofnod yn seiliedig ar wahanol baramedrau ymholiad a ffurfweddiadau gweledol."
-  ],
-  "block description\u0004Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more.": [
-    "Yn cynnwys elfennau blociau sy'n cael eu ddefnyddio i greu cofnod, fel y teitl, dyddiad, delwedd nodwedd, cynnwys neu ddyfyniad, a rhagor."
-  ],
-  "block title\u0004Post Template": [
-    "Templed Cofnod"
-  ],
   "block keyword\u0004link": [
     "dolen"
   ],
@@ -254,18 +158,6 @@
   "block style label\u0004Stripes": [
     "Streipiau"
   ],
-  "block keyword\u0004summary": [
-    "crynodeb"
-  ],
-  "block keyword\u0004document outline": [
-    "amlinelliad o'r ddogfen"
-  ],
-  "block description\u0004Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.": [
-    "Crynhowch eich cofnod gyda rhestr o benawdau. Ychwanegwch angorau HTML i flociau Pennawd i'w cysylltu yma."
-  ],
-  "block title\u0004Table of Contents": [
-    "Tabl Cynnwys"
-  ],
   "block description\u0004Add white space between blocks and customize its height.": [
     "Ychwanegu gofod gwyn rhwng blociau a chyfaddasu ei uchder."
   ],
@@ -280,12 +172,6 @@
   ],
   "block description\u0004Display an icon linking to a social media profile or site.": [
     "Dangos eicon sy'n cysylltu â phroffil neu wefan cyfryngau cymdeithasol."
-  ],
-  "block keyword\u0004description": [
-    "disgrifiad"
-  ],
-  "block description\u0004Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it's not displayed in the theme design.": [
-    "Disgrifiwch mewn ychydig eiriau beth yw pwrpas y wefan. Mae modd defnyddio'r llinell tag mewn canlyniadau chwilio neu wrth rannu ar rwydweithiau cymdeithasol hyd yn oed os nad yw wedi'i harddangos yn nyluniad y thema."
   ],
   "block description\u0004Insert additional custom elements with a WordPress shortcode.": [
     "Mewnosod elfennau cyfaddas ychwanegol gyda chod byr o WordPress."
@@ -332,77 +218,17 @@
   "block keyword\u0004blockquote": [
     "dyfyniad bloc"
   ],
-  "block description\u0004Display the query title.": [
-    "Dangos teitl yr ymholiad."
-  ],
-  "block title\u0004Query Title": [
-    "Teitl Ymholiad"
-  ],
-  "block description\u0004Displays a paginated navigation to next/previous set of posts, when applicable.": [
-    "Yn dangos llywio tudaleniad i'r set nesaf/flaenorol o gofnodion, pan fo hynny'n berthnasol."
-  ],
-  "block description\u0004Displays the previous posts page link.": [
-    "Yn dangos dolen y dudalen cofnod blaenorol."
-  ],
-  "block description\u0004Displays a list of page numbers for pagination": [
-    "Yn dangos rhestr o rifau tudalennau ar gyfer tudaleniad"
-  ],
-  "block description\u0004Displays the next posts page link.": [
-    "Yn dangos dolen y dudalen cofnod nesaf."
-  ],
   "block description\u0004Give special visual emphasis to a quote from your text.": [
     "Rhoi pwyslais gweledol arbennig i ddyfyniad o'ch testun."
   ],
   "block description\u0004Add text that respects your spacing and tabs, and also allows styling.": [
     "Ychwanegwch destun sy'n parchu eich bylchu a'ch tabiau, a hefyd yn caniatáu addurno."
   ],
-  "block description\u0004Displays the title of a post, page, or any other content-type.": [
-    "Yn dangos teitl cofnod, tudalen, neu unrhyw fath arall o gynnwys."
-  ],
-  "block description\u0004Post terms.": [
-    "Amodau cofnodion."
-  ],
-  "block description\u0004Displays the next or previous post link that is adjacent to the current post.": [
-    "Yn dangos dolen y cofnod nesaf neu flaenorol sydd nesaf at y cofnod gyfredol."
-  ],
-  "block title\u0004Post Navigation Link": [
-    "Dolen Llywio Cofnod"
-  ],
-  "block description\u0004Display a post's featured image.": [
-    "Dangos delwedd nodwedd cofnod."
-  ],
-  "block description\u0004Display a post's excerpt.": [
-    "Dangos darn o gofnod."
-  ],
-  "block description\u0004Add the date of this post.": [
-    "Ychwanegu dyddiad y cofnod hwn"
-  ],
-  "block description\u0004Displays the contents of a post or page.": [
-    "Yn dangos cynnwys cofnod neu dudalen."
-  ],
-  "block description\u0004Display a post's comments.": [
-    "Dangos sylwadau cofnod."
-  ],
-  "block description\u0004Displays the link to the current post comments.": [
-    "Yn dangos y ddolen i sylwadau'r cofnod cyfredol."
-  ],
-  "block description\u0004Display a post's comments form.": [
-    "Dangos ffurflen sylwadau cofnod."
-  ],
-  "block description\u0004Display a post's comments count.": [
-    "Dangos cyfrif sylwadau cofnod."
-  ],
-  "block description\u0004Add the author of this post.": [
-    "Ychwanegu awdur y cofnod."
-  ],
   "block keyword\u0004text": [
     "testun"
   ],
   "block description\u0004Start with the building block of all narrative.": [
     "Cychwyn gyda bloc adeiladu pob cynnwys testun."
-  ],
-  "block description\u0004Display a list of all pages.": [
-    "Dangos rhestr o'r holl dudalennau."
   ],
   "block keyword\u0004pagination": [
     "tudaleniad"
@@ -412,18 +238,6 @@
   ],
   "block description\u0004Separate your content into a multi-page experience.": [
     "Rhannu eich cynnwys i brofiad aml-dudalen."
-  ],
-  "block keyword\u0004navigation": [
-    "llywio"
-  ],
-  "block keyword\u0004menu": [
-    "dewislen"
-  ],
-  "block description\u0004A collection of blocks that allow visitors to get around your site.": [
-    "Casgliad o flociau sy'n caniatáu i ymwelwyr symuid o amgylch eich gwefan."
-  ],
-  "block description\u0004Add a page, link, or another item to your navigation.": [
-    "Ychwanegwch dudalen, dolen, neu eitem arall at eich llywio."
   ],
   "block keyword\u0004read more": [
     "darllen rhagor"
@@ -443,18 +257,6 @@
   "block description\u0004Set media and words side-by-side for a richer layout.": [
     "Gosod cyfryngau a geiriau ochr yn ochr â'i gilydd am gynllun cyfoethocach."
   ],
-  "block keyword\u0004form": [
-    "ffurflen"
-  ],
-  "block keyword\u0004logout": [
-    "allgofnodi"
-  ],
-  "block keyword\u0004login": [
-    "mewngofnodi"
-  ],
-  "block description\u0004Show login & logout links.": [
-    "Dangos dolenni mewngofnodi ac allgofnodi."
-  ],
   "block keyword\u0004numbered list": [
     "rhestr rifedig"
   ],
@@ -466,12 +268,6 @@
   ],
   "block description\u0004Create a bulleted or numbered list.": [
     "Creu rhestr bwled neu rifo."
-  ],
-  "block description\u0004Display a legacy widget.": [
-    "Dangos hen declynDangos hen declyn."
-  ],
-  "block title\u0004Legacy Widget": [
-    "Hen Declyn"
   ],
   "block keyword\u0004recent posts": [
     "cofnodion diweddar"
@@ -508,12 +304,6 @@
   ],
   "block description\u0004Add custom HTML code and preview it as you edit.": [
     "Ychwanegu cod HTML arferol a'i ragweld wrth olygu."
-  ],
-  "block description\u0004Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header.": [
-    "Creu dolen sydd bob amser yn pwyntio at hafan y wefan. Fel arfer, nid oes angen un, os oes dolen teitl gwefan eisoes yn y pennawd."
-  ],
-  "block title\u0004Home Link": [
-    "Cyswllt Cartref"
   ],
   "block keyword\u0004subtitle": [
     "isdeitl"
@@ -632,21 +422,6 @@
   "Custom template created. You're in template mode now.": [
     "Templed cyfaddas wedi'i greu. Rydych yn y modd templed nawr."
   ],
-  "block description\u0004Display the description of categories, tags and custom taxonomies when viewing an archive.": [
-    "Dangos y disgrifiad o gategorïau, tagiau a thacsonomeg cyfaddas wrth edrych ar archif."
-  ],
-  "block title\u0004Term Description": [
-    "Disgrifiad Term"
-  ],
-  "block title\u0004Post Comments Link": [
-    "Dolen Sylwadau Cofnod"
-  ],
-  "block title\u0004Login/out": [
-    "Mewngofnodi/allgofnodi"
-  ],
-  "block title\u0004Custom Link": [
-    "Dolen Gyfaddas"
-  ],
   "Embed of %s.": [
     "Mewnblaniad %s"
   ],
@@ -665,23 +440,8 @@
   "Width in pixels": [
     "Lled mewn picseli"
   ],
-  "block description\u0004Edit the different global regions of your site, like the header, footer, sidebar, or create your own.": [
-    "Golygu gwahanol ardaloedd eang eich gwefan, fel y pennyn, y troedyn, y bar ochr, neu greu eich un eich hun."
-  ],
-  "block title\u0004Page List": [
-    "Rhestr y Tudalen"
-  ],
   "Your site does not have any posts, so there is nothing to display here at the moment.": [
     "Nid oes gan eich gwefan unrhyw gofnodion, felly nid oes unrhyw beth i'w ddangos yma ar hyn o bryd."
-  ],
-  "block title\u0004Query Pagination Previous": [
-    "Ymholiad Tudaleniad Blaenorol"
-  ],
-  "block title\u0004Query Pagination Numbers": [
-    "Rhifau Ymholiad Tudaleniad"
-  ],
-  "block title\u0004Query Pagination Next": [
-    "Ymholiad Tudaleniad Nesaf"
   ],
   "Block cannot be rendered inside itself.": [
     "Nid oes modd rendro y tu mewn iddo'i hun."
@@ -706,60 +466,6 @@
   ],
   "Align": [
     "Alinio"
-  ],
-  "block title\u0004Post Terms": [
-    "Amodau Cofnodion."
-  ],
-  "block title\u0004Post Featured Image": [
-    "Delwedd Nodwedd Cofnod"
-  ],
-  "block title\u0004Post Excerpt": [
-    "Dyfyniad o Gofnod"
-  ],
-  "block title\u0004Post Date": [
-    "Dyddiad Cofnod"
-  ],
-  "block title\u0004Post Comments Form": [
-    "Ffurflen Sylwadau Cofnod"
-  ],
-  "block title\u0004Post Comments Count": [
-    "Cyfrif Sylwadau Cofnod"
-  ],
-  "block title\u0004Post Comments": [
-    "Sylwadau Cofnod"
-  ],
-  "block title\u0004Comment Date": [
-    "Dyddiad Sylw"
-  ],
-  "block title\u0004Comment Content": [
-    "Cynnwys Sylw"
-  ],
-  "block title\u0004Post Author": [
-    "Awdur Cofnod"
-  ],
-  "block title\u0004Post Content": [
-    "Cynnwys Cofnod"
-  ],
-  "block title\u0004Post Title": [
-    "Teitl Cofnod"
-  ],
-  "block title\u0004Query Pagination": [
-    "Tudaleniad Ymholiad"
-  ],
-  "block title\u0004Query Loop": [
-    "Cylch Ymholiad"
-  ],
-  "block title\u0004Template Part": [
-    "Rhan o Dempled"
-  ],
-  "block title\u0004Site Title": [
-    "Teitl y Wefan"
-  ],
-  "block title\u0004Site Tagline": [
-    "Broliant Gwefan"
-  ],
-  "block title\u0004Site Logo": [
-    "Logo Gwefan"
   ],
   "block title\u0004Social Icon": [
     "Eicon Cymdeithasol"
@@ -827,9 +533,6 @@
   "block title\u0004Latest Comments": [
     "Sylwadau Diweddaraf"
   ],
-  "block title\u0004Navigation": [
-    "Llywio"
-  ],
   "block title\u0004Media & Text": [
     "Cyfryngau a Thestun"
   ],
@@ -883,6 +586,9 @@
   ],
   "block title\u0004Paragraph": [
     "Paragraff"
+  ],
+  "text direction\u0004ltr": [
+    "ltr"
   ],
   "Block vertical alignment setting\u0004Align bottom": [
     "Alinio'r gwaelod"
@@ -1024,6 +730,9 @@
   ],
   "%1$s Block. Row %2$d": [
     "Bloc %1$s. Rhes %2$d"
+  ],
+  "Typography": [
+    "Teipograffeg"
   ],
   "Content": [
     "Cynnwys"
@@ -1174,6 +883,9 @@
   ],
   "Menu Item": [
     "Eitem Dewislen"
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "Ychwanegu bloc"
   ],
   "Site Title": [
     "Teitl y Wefan"
@@ -1832,9 +1544,6 @@
   "Publishing failed.": [
     "Methodd y cyhoeddi."
   ],
-  "Update": [
-    "Diweddaru"
-  ],
   "Saved": [
     "Cadwyd"
   ],
@@ -1843,9 +1552,6 @@
   ],
   "Blocks": [
     "Blociau"
-  ],
-  "Add block": [
-    "Ychwanegu bloc"
   ],
   "Undo": [
     "Dadwneud"

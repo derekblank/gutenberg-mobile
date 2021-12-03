@@ -2,80 +2,14 @@
   "100": [
     "100"
   ],
-  "block description\u0004This block is deprecated. Please use the Comments Query Loop block instead.": [
-    "Ten blok jest przestarzały. Zamiast tego proszę użyć bloku Pętla Komentarzy."
-  ],
-  "block title\u0004Post Comment (deprecated)": [
-    "Komentarz wpisu (przestarzałe)"
-  ],
-  "block description\u0004Show a block pattern.": [
-    "Pokaż blok wzorca."
-  ],
-  "block title\u0004Pattern": [
-    "Wzorzec"
-  ],
-  "block keyword\u0004location": [
-    "położenie"
-  ],
-  "block description\u0004Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed.": [
-    "Zdefiniuj obszar nawigacji dla swojego motywu. Blok nawigacyjny powiązany z tym obszarem zostanie automatycznie wyświetlony."
-  ],
-  "block title\u0004Navigation Area": [
-    "Obszar nawigacji"
-  ],
-  "block description\u0004An advanced block that allows displaying post comments based on different query parameters and visual configurations.": [
-    "Zaawansowany blok, który umożliwia wyświetlanie komentarzy wpisu w oparciu o różne parametry zapytania i konfiguracje wizualne."
-  ],
-  "block title\u0004Comments Query Loop": [
-    "Pętla zapytania komentarzy"
-  ],
-  "block description\u0004Contains the block elements used to render a comment, like the title, date, author, avatar and more.": [
-    "Zawiera elementy blokowe używane do wyświetlenia komentarza, takie jak tytuł, data, autor, awatar i inne."
-  ],
-  "block title\u0004Comment Template": [
-    "Szablon komentarzy"
-  ],
-  "block description\u0004Displays a link to reply to a comment.": [
-    "Wyświetla odnośnik odpowiedzi na komentarz."
-  ],
-  "block title\u0004Comment Reply Link": [
-    "Link do odpowiedzi na komentarz"
-  ],
-  "block description\u0004Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability.": [
-    "Wyświetla odnośni edycji komentarza w panelu WordPressa. Jest on widoczny tylko dla użytkowników z uprawnieniami do edycji komentarzy."
-  ],
-  "block title\u0004Comment Edit Link": [
-    "Link do edycji komentarza"
-  ],
-  "block description\u0004Add the date of this comment.": [
-    "Dodaj datę do tego komentarza."
-  ],
-  "block description\u0004Displays the contents of a comment.": [
-    "Wyświetla treść komentarza."
-  ],
-  "block description\u0004Add the author name of this comment.": [
-    "Dodaj nazwę autora tego komentarza."
-  ],
-  "block title\u0004Comment Author Name": [
-    "Nazwa autora komentarza"
-  ],
-  "block description\u0004Add the avatar of this comment's author.": [
-    "Dodaj awatar autora tego komentarza"
-  ],
   "%s applied.": [
     "Zastosowano %s."
   ],
   "%s removed.": [
     "Usunięto: %s."
   ],
-  "Editing this Gallery in the WordPress mobile app requires version 18.2 or higher.": [
-    "Edycja galerii w aplikacji mobilnej WordPress wymaga wersji 18.2 lub nowszej."
-  ],
   "Embed Wolfram Cloud notebook content.": [
     "Osadź zawartość notatnika Wolfram Cloud."
-  ],
-  "block title\u0004Comment Author Avatar": [
-    "Awatar komentującego"
   ],
   "Allow to wrap to multiple lines": [
     "Pozwól zawijać do wielu linii"
@@ -101,9 +35,6 @@
   "Featured": [
     "Polecane"
   ],
-  "block description\u0004Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results.": [
-    "Wyświetla nazwę witryny. Zaktualizuj blok, a zmiany zostaną zastosowane wszędzie, gdzie jest używany. Pojawi się również na pasku tytułu przeglądarki oraz w wynikach wyszukiwania."
-  ],
   "You do not have permission to create Pages.": [
     "Brak uprawnień do tworzenia stron."
   ],
@@ -113,32 +44,14 @@
   "Max %s wide": [
     "Maksymalna szerokość %s"
   ],
-  "block description\u0004Add a submenu to your navigation.": [
-    "Dodaj podmenu do swojej nawigacji."
-  ],
-  "block title\u0004Submenu": [
-    "Podmenu"
-  ],
   "block description\u0004Display content in multiple columns, with blocks added to each column.": [
     "Wyświetlanie treści w wielu kolumnach, z blokami dodanymi do każdej kolumny."
   ],
   "Minimum height": [
     "Minimalna wysokość"
   ],
-  "Update to the new gallery format": [
-    "Aktualizacja do nowego formatu galerii"
-  ],
-  "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around.": [
-    "Aktualizacja do nowego formatu dodaje możliwość używania własnych odnośników lub stylów na poszczególnych obrazach w galerii i ułatwia ich dodawanie lub przenoszenie."
-  ],
-  "Update gallery": [
-    "Aktualizuj galerię"
-  ],
   "block description\u0004Create structured content in rows and columns to display information.": [
     "Twórz uporządkowane treści w wierszach i kolumnach, aby wyświetlać informacje."
-  ],
-  "block description\u0004Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different than the site icon, which is the smaller image visible in your dashboard, browser tabs, etc used to help others recognize this site.": [
-    "Wyświetl grafikę reprezentującą witrynę. Jeśli blok zostanie zaktualizowany, zmiany zostaną odzwierciedlone w każdym miejscu w którym występuje. Różni się to od ikony witryny, mniejszego obrazu używanego na pulpicie nawigacyjnym, w kartach przeglądarki itp., aby ułatwić rozpoznanie witryny."
   ],
   "Preload value\u0004None": [
     "Brak"
@@ -216,15 +129,6 @@
   "Top left": [
     "Na górze po lewej"
   ],
-  "block description\u0004An advanced block that allows displaying post types based on different query parameters and visual configurations.": [
-    "Zaawansowany blok który umożliwia wyświetlanie wpisów opartych o różne parametry zapytania oraz wybrany sposób wyświetlania."
-  ],
-  "block description\u0004Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more.": [
-    "Zawiera elementy blokowe używane do wyświetlenia wpisu takie jak tytuł, data, obrazek wyróżniający, treść, zajawka i pozostałe."
-  ],
-  "block title\u0004Post Template": [
-    "Szablon wpisu"
-  ],
   "block keyword\u0004link": [
     "odnośnik"
   ],
@@ -252,18 +156,6 @@
   "block style label\u0004Stripes": [
     "Paski"
   ],
-  "block keyword\u0004summary": [
-    "podsumowanie"
-  ],
-  "block keyword\u0004document outline": [
-    "dokument outline"
-  ],
-  "block description\u0004Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.": [
-    "Podsumuj swój wpis listą nagłówków. Dodaj kotwice HTML do bloków nagłówka, aby utworzyć kotwice."
-  ],
-  "block title\u0004Table of Contents": [
-    "Spis treści"
-  ],
   "block description\u0004Add white space between blocks and customize its height.": [
     "Dodaj odstęp między blokami i dostosuj ich wysokość."
   ],
@@ -278,12 +170,6 @@
   ],
   "block description\u0004Display an icon linking to a social media profile or site.": [
     "Wyświetl ikonę prowadzącą do mediów społecznościowych lub witryny."
-  ],
-  "block keyword\u0004description": [
-    "opis"
-  ],
-  "block description\u0004Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it's not displayed in the theme design.": [
-    "Opisz w kilku słowach czego dotyczy witryna. Opis może być używany w wynikach wyszukiwania lub podczas udostępniania w mediach społecznościowych nawet jeśli nie jest wyświetlany poprzez motyw."
   ],
   "block description\u0004Insert additional custom elements with a WordPress shortcode.": [
     "Wstaw dodatkowe, własne elementy za pomocą shortcode'ów WordPressa."
@@ -330,77 +216,17 @@
   "block keyword\u0004blockquote": [
     "cytat blokowy"
   ],
-  "block description\u0004Display the query title.": [
-    "Wyświetl tytuł zapytania."
-  ],
-  "block title\u0004Query Title": [
-    "Tytuł zapytania"
-  ],
-  "block description\u0004Displays a paginated navigation to next/previous set of posts, when applicable.": [
-    "Wyświetla stronicowaną nawigację do wyświetlenia następnego/poprzedniego zestawu wpisów, o ile istnieją."
-  ],
-  "block description\u0004Displays the previous posts page link.": [
-    "Wyświetla odnośnik do strony z poprzednimi wpisami."
-  ],
-  "block description\u0004Displays a list of page numbers for pagination": [
-    "Wyświetla listę numerów stron dla stronicowania"
-  ],
-  "block description\u0004Displays the next posts page link.": [
-    "Wyświetla link strony następnych wpisów."
-  ],
   "block description\u0004Give special visual emphasis to a quote from your text.": [
     "Nadaj szczególny wizualny akcent cytatowi z tekstu."
   ],
   "block description\u0004Add text that respects your spacing and tabs, and also allows styling.": [
     "Dodaje tekst, który uwzględnia odstępy i tabulatory, a także pozwala na nadanie wyglądu."
   ],
-  "block description\u0004Displays the title of a post, page, or any other content-type.": [
-    "Wyświetla tytuł wpisu, strony lub dowolnego typu treści"
-  ],
-  "block description\u0004Post terms.": [
-    "Terminy wpisu."
-  ],
-  "block description\u0004Displays the next or previous post link that is adjacent to the current post.": [
-    "Wyświetla łącze do następnego lub poprzedniego wpisu, które sąsiaduje z bieżącym wpisem."
-  ],
-  "block title\u0004Post Navigation Link": [
-    "Odnośnik do nawigacji po wpisie"
-  ],
-  "block description\u0004Display a post's featured image.": [
-    "Wyświetl obrazek wyróżniający wpisu."
-  ],
-  "block description\u0004Display a post's excerpt.": [
-    "Wyświetl zajawkę wpisu"
-  ],
-  "block description\u0004Add the date of this post.": [
-    "Dodaj datę wpisu"
-  ],
-  "block description\u0004Displays the contents of a post or page.": [
-    "Wyświetla treść wpisu lub strony."
-  ],
-  "block description\u0004Display a post's comments.": [
-    "Wyświetlaj komentarze wpisu"
-  ],
-  "block description\u0004Displays the link to the current post comments.": [
-    "Wyświetl odnośnik do komentarzy wpisu."
-  ],
-  "block description\u0004Display a post's comments form.": [
-    "Wyświetl formularz komentaowania."
-  ],
-  "block description\u0004Display a post's comments count.": [
-    "Wyświetl licznik komentarzy wpisu."
-  ],
-  "block description\u0004Add the author of this post.": [
-    "Dodaj autora do wpisu."
-  ],
   "block keyword\u0004text": [
     "tekst"
   ],
   "block description\u0004Start with the building block of all narrative.": [
     "Proszę zacząć od zbudowania bloku wszystkich opowiadań."
-  ],
-  "block description\u0004Display a list of all pages.": [
-    "Wyświetl listę wszystkich stron."
   ],
   "block keyword\u0004pagination": [
     "stronicowanie"
@@ -410,18 +236,6 @@
   ],
   "block description\u0004Separate your content into a multi-page experience.": [
     "Podziel treść na podstrony."
-  ],
-  "block keyword\u0004navigation": [
-    "nawigacja"
-  ],
-  "block keyword\u0004menu": [
-    "menu"
-  ],
-  "block description\u0004A collection of blocks that allow visitors to get around your site.": [
-    "Zbiór bloków, które umożliwiają odwiedzającym poruszanie się po witrynie."
-  ],
-  "block description\u0004Add a page, link, or another item to your navigation.": [
-    "Dodaj stronę, odnośnik lub inny element do swojej nawigacji."
   ],
   "block keyword\u0004read more": [
     "czytaj dalej"
@@ -441,18 +255,6 @@
   "block description\u0004Set media and words side-by-side for a richer layout.": [
     "Ustaw media i treść obok siebie, aby stworzyć lepszy układ."
   ],
-  "block keyword\u0004form": [
-    "formularz"
-  ],
-  "block keyword\u0004logout": [
-    "wyloguj się"
-  ],
-  "block keyword\u0004login": [
-    "logowanie"
-  ],
-  "block description\u0004Show login & logout links.": [
-    "Pokaż odnośniki logowania i wylogowania."
-  ],
   "block keyword\u0004numbered list": [
     "lista numerowana"
   ],
@@ -464,12 +266,6 @@
   ],
   "block description\u0004Create a bulleted or numbered list.": [
     "Utwórz listę numerowaną lub nienumerowaną."
-  ],
-  "block description\u0004Display a legacy widget.": [
-    "Wyświetl widżet starego typu."
-  ],
-  "block title\u0004Legacy Widget": [
-    "Widżet starego typu"
   ],
   "block keyword\u0004recent posts": [
     "najnowsze wpisy"
@@ -506,10 +302,6 @@
   ],
   "block description\u0004Add custom HTML code and preview it as you edit.": [
     "Dodaj własny kod HTML i podejrzyj go podczas edycji."
-  ],
-  "block description\u0004Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header.": [],
-  "block title\u0004Home Link": [
-    "Odnośnik do strony głównej"
   ],
   "block keyword\u0004subtitle": [
     "podtytuł"
@@ -628,17 +420,6 @@
   "Custom template created. You're in template mode now.": [
     "Utworzono własny szablon. Pracujesz teraz w trybie szablonów."
   ],
-  "block description\u0004Display the description of categories, tags and custom taxonomies when viewing an archive.": [],
-  "block title\u0004Term Description": [],
-  "block title\u0004Post Comments Link": [
-    "Odnośnik do komentarzy wpisu"
-  ],
-  "block title\u0004Login/out": [
-    "Zaloguj/wyloguj się"
-  ],
-  "block title\u0004Custom Link": [
-    "Własny odnośnik"
-  ],
   "Embed of %s.": [
     "Osadzone z %s."
   ],
@@ -657,20 +438,7 @@
   "Width in pixels": [
     "Szerokość w pikselach"
   ],
-  "block description\u0004Edit the different global regions of your site, like the header, footer, sidebar, or create your own.": [],
-  "block title\u0004Page List": [
-    "Lista stron"
-  ],
   "Your site does not have any posts, so there is nothing to display here at the moment.": [],
-  "block title\u0004Query Pagination Previous": [
-    "Poprzednie w zapytaniu stronicowania"
-  ],
-  "block title\u0004Query Pagination Numbers": [
-    "Numery w zapytaniu stronicowania"
-  ],
-  "block title\u0004Query Pagination Next": [
-    "Następne w zapytaniu stronicowania"
-  ],
   "Block cannot be rendered inside itself.": [],
   "Indent": [
     "Wcięcie"
@@ -692,60 +460,6 @@
   ],
   "Align": [
     "Wyrównanie"
-  ],
-  "block title\u0004Post Terms": [
-    "Terminy wpisu"
-  ],
-  "block title\u0004Post Featured Image": [
-    "Obrazek wyróżniony wpisu"
-  ],
-  "block title\u0004Post Excerpt": [
-    "Zajawka wpisu"
-  ],
-  "block title\u0004Post Date": [
-    "Data publikacji"
-  ],
-  "block title\u0004Post Comments Form": [
-    "Formularz komentarza wpisu"
-  ],
-  "block title\u0004Post Comments Count": [
-    "Licznik komentarzy wpisu"
-  ],
-  "block title\u0004Post Comments": [
-    "Komentarze wpisu"
-  ],
-  "block title\u0004Comment Date": [
-    "Data komentarza"
-  ],
-  "block title\u0004Comment Content": [
-    "Treść komentarza"
-  ],
-  "block title\u0004Post Author": [
-    "Autor wpisu"
-  ],
-  "block title\u0004Post Content": [
-    "Treść wpisu"
-  ],
-  "block title\u0004Post Title": [
-    "Tytuł wpisu"
-  ],
-  "block title\u0004Query Pagination": [
-    "Stronicowanie zapytania"
-  ],
-  "block title\u0004Query Loop": [
-    "Pętla zapytania."
-  ],
-  "block title\u0004Template Part": [
-    "Element szablonu"
-  ],
-  "block title\u0004Site Title": [
-    "Tytuł witryny"
-  ],
-  "block title\u0004Site Tagline": [
-    "Motto witryny"
-  ],
-  "block title\u0004Site Logo": [
-    "Logo witryny"
   ],
   "block title\u0004Social Icon": [
     "Ikona społecznościowa"
@@ -813,9 +527,6 @@
   "block title\u0004Latest Comments": [
     "Najnowsze komentarze"
   ],
-  "block title\u0004Navigation": [
-    "Nawigacja"
-  ],
   "block title\u0004Media & Text": [
     "Media i tekst"
   ],
@@ -869,6 +580,9 @@
   ],
   "block title\u0004Paragraph": [
     "Akapit"
+  ],
+  "text direction\u0004ltr": [
+    "ltr"
   ],
   "Block vertical alignment setting\u0004Align bottom": [
     "Wyrównaj w pionie do dołu"
@@ -1002,6 +716,9 @@
   ],
   "%1$s Block. Row %2$d": [
     "Blok: %1$s. Wiersz: %2$d"
+  ],
+  "Typography": [
+    "Typografia"
   ],
   "Content": [
     "Treść"
@@ -1152,6 +869,9 @@
   ],
   "Menu Item": [
     "Element menu"
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "Dodaj blok"
   ],
   "Site Title": [
     "Tytuł witryny"
@@ -1807,9 +1527,6 @@
   "Publishing failed.": [
     "Nie powiodła się publikacja."
   ],
-  "Update": [
-    "Aktualizuj"
-  ],
   "Saved": [
     "Zapisano"
   ],
@@ -1818,9 +1535,6 @@
   ],
   "Blocks": [
     "Bloki"
-  ],
-  "Add block": [
-    "Dodaj blok"
   ],
   "Undo": [
     "Cofnij"

@@ -2,41 +2,11 @@
   "100": [
     "100"
   ],
-  "block description\u0004This block is deprecated. Please use the Comments Query Loop block instead.": [],
-  "block title\u0004Post Comment (deprecated)": [],
-  "block description\u0004Show a block pattern.": [],
-  "block title\u0004Pattern": [
-    "Паттерн"
-  ],
-  "block keyword\u0004location": [
-    "расположение"
-  ],
-  "block description\u0004Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed.": [],
-  "block title\u0004Navigation Area": [
-    "Область навигации"
-  ],
-  "block description\u0004An advanced block that allows displaying post comments based on different query parameters and visual configurations.": [],
-  "block title\u0004Comments Query Loop": [],
-  "block description\u0004Contains the block elements used to render a comment, like the title, date, author, avatar and more.": [],
-  "block title\u0004Comment Template": [
-    "Шаблон комментария"
-  ],
-  "block description\u0004Displays a link to reply to a comment.": [],
-  "block title\u0004Comment Reply Link": [],
-  "block description\u0004Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability.": [],
-  "block title\u0004Comment Edit Link": [],
-  "block description\u0004Add the date of this comment.": [],
-  "block description\u0004Displays the contents of a comment.": [],
-  "block description\u0004Add the author name of this comment.": [],
-  "block title\u0004Comment Author Name": [],
-  "block description\u0004Add the avatar of this comment's author.": [],
   "%s applied.": [],
   "%s removed.": [
     "%s удалён."
   ],
-  "Editing this Gallery in the WordPress mobile app requires version 18.2 or higher.": [],
   "Embed Wolfram Cloud notebook content.": [],
-  "block title\u0004Comment Author Avatar": [],
   "Allow to wrap to multiple lines": [],
   "block style label\u0004Plain": [
     "Простой"
@@ -59,9 +29,6 @@
   "Featured": [
     "Рекомендуем"
   ],
-  "block description\u0004Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results.": [
-    "Отображает название сайта. Обновите блок, и изменения применятся везде, где он используется. Это также будет отображаться в строке заголовка браузера и в результатах поиска."
-  ],
   "You do not have permission to create Pages.": [
     "У вас нет прав на создание страниц."
   ],
@@ -71,32 +38,14 @@
   "Max %s wide": [
     "Макс. ширина %s"
   ],
-  "block description\u0004Add a submenu to your navigation.": [
-    "Добавление подменю в навигацию по сайту."
-  ],
-  "block title\u0004Submenu": [
-    "Подменю"
-  ],
   "block description\u0004Display content in multiple columns, with blocks added to each column.": [
     "Отображение содержимого в нескольких столбцах с добавлением блоков в каждый столбец."
   ],
   "Minimum height": [
     "Минимальная высота"
   ],
-  "Update to the new gallery format": [
-    "Обновление галереи до нового формата"
-  ],
-  "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around.": [
-    "Обновление до нового формата добавляет возможность использовать настраиваемые ссылки или стили для отдельных изображений в галерее, а также упрощает их добавление или перемещение."
-  ],
-  "Update gallery": [
-    "Обновление галереи"
-  ],
   "block description\u0004Create structured content in rows and columns to display information.": [
     "Создавайте структурированное содержимое в строках и столбцах для отображения информации."
-  ],
-  "block description\u0004Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different than the site icon, which is the smaller image visible in your dashboard, browser tabs, etc used to help others recognize this site.": [
-    "Покажите графическое изображение этого сайта. Обновите блок, и изменения применяются везде, где он используется. Это отличается от значка сайта, который представляет собой меньшее изображение, видимое на панели управления, вкладках браузера и т.д., используемое для того, чтобы помочь другим пользователям распознать этот сайт."
   ],
   "Preload value\u0004None": [
     "Нет"
@@ -176,15 +125,6 @@
   "Top left": [
     "Вверху слева"
   ],
-  "block description\u0004An advanced block that allows displaying post types based on different query parameters and visual configurations.": [
-    "Расширенный блок, позволяющий отображать типы записей на основе различных параметров запроса и визуальных конфигураций."
-  ],
-  "block description\u0004Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more.": [
-    "Содержит элементы блоков для отображения записи, такие как заголовок, дата, изображение записи, отрывок или полное содержимое и другое."
-  ],
-  "block title\u0004Post Template": [
-    "Шаблон записи"
-  ],
   "block keyword\u0004link": [
     "ссылка"
   ],
@@ -212,18 +152,6 @@
   "block style label\u0004Stripes": [
     "Полосы"
   ],
-  "block keyword\u0004summary": [
-    "итог"
-  ],
-  "block keyword\u0004document outline": [
-    "структура документа"
-  ],
-  "block description\u0004Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.": [
-    "Завершите вашу запись списком заголовков, добавьте HTML-якоря к блокам заголовков, чтобы создать ссылки на них здесь."
-  ],
-  "block title\u0004Table of Contents": [
-    "Оглавление"
-  ],
   "block description\u0004Add white space between blocks and customize its height.": [
     "Добавляет пространство между блоками и настраивает его высоту."
   ],
@@ -238,12 +166,6 @@
   ],
   "block description\u0004Display an icon linking to a social media profile or site.": [
     "Отображает значок, ссылающийся на профиль в соцсети или сайт."
-  ],
-  "block keyword\u0004description": [
-    "описание"
-  ],
-  "block description\u0004Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it's not displayed in the theme design.": [
-    "Опишите в паре слов, о чём этот сайт. Слоган может выводиться в результатах поиска или при публикации в соцсетях, даже если он не отображается в дизайне темы."
   ],
   "block description\u0004Insert additional custom elements with a WordPress shortcode.": [
     "Вставляет дополнительные пользовательские элементы с помощью шорткода."
@@ -290,77 +212,17 @@
   "block keyword\u0004blockquote": [
     "цитата"
   ],
-  "block description\u0004Display the query title.": [
-    "Показывает заголовок запроса."
-  ],
-  "block title\u0004Query Title": [
-    "Заголовок запроса"
-  ],
-  "block description\u0004Displays a paginated navigation to next/previous set of posts, when applicable.": [
-    "Если доступно, показывает постраничную навигацию далее/назад для набора записей."
-  ],
-  "block description\u0004Displays the previous posts page link.": [
-    "Отображает ссылку на предыдущую страницу записей."
-  ],
-  "block description\u0004Displays a list of page numbers for pagination": [
-    "Показывает список нумерации страниц при использовании постраничной навигации"
-  ],
-  "block description\u0004Displays the next posts page link.": [
-    "Отображает ссылку на следующую страницу записи."
-  ],
   "block description\u0004Give special visual emphasis to a quote from your text.": [
     "Визуально акцентирует цитату из вашего текста."
   ],
   "block description\u0004Add text that respects your spacing and tabs, and also allows styling.": [
     "Добавляет текст, который учитывает ваши интервалы и табуляции, а также позволяет стилизовать."
   ],
-  "block description\u0004Displays the title of a post, page, or any other content-type.": [
-    "Показывает названия записи, страницы или другого типа записей."
-  ],
-  "block description\u0004Post terms.": [
-    "Метки записи."
-  ],
-  "block description\u0004Displays the next or previous post link that is adjacent to the current post.": [
-    "Отображает ссылку на следующую или предыдущую запись, расположенную рядом с текущей записью."
-  ],
-  "block title\u0004Post Navigation Link": [
-    "Ссылка для навигации по записи"
-  ],
-  "block description\u0004Display a post's featured image.": [
-    "Показывает изображение записи."
-  ],
-  "block description\u0004Display a post's excerpt.": [
-    "Показывает отрывок записи."
-  ],
-  "block description\u0004Add the date of this post.": [
-    "Добавляет дату к этой записи."
-  ],
-  "block description\u0004Displays the contents of a post or page.": [
-    "Отображает содержимое записи или страницы."
-  ],
-  "block description\u0004Display a post's comments.": [
-    "Показывает комментарии к записи."
-  ],
-  "block description\u0004Displays the link to the current post comments.": [
-    "Показывает ссылку на комментарии к текущей записи."
-  ],
-  "block description\u0004Display a post's comments form.": [
-    "Показывает форму комментариев к записи."
-  ],
-  "block description\u0004Display a post's comments count.": [
-    "Показывает количество комментариев к записи."
-  ],
-  "block description\u0004Add the author of this post.": [
-    "Добавление автора этой записи."
-  ],
   "block keyword\u0004text": [
     "текст"
   ],
   "block description\u0004Start with the building block of all narrative.": [
     "Начните с создания повествовательного блока."
-  ],
-  "block description\u0004Display a list of all pages.": [
-    "Показывает список всех страниц."
   ],
   "block keyword\u0004pagination": [
     "Постраничная навигация"
@@ -370,18 +232,6 @@
   ],
   "block description\u0004Separate your content into a multi-page experience.": [
     "Разделяет содержимое на несколько страниц."
-  ],
-  "block keyword\u0004navigation": [
-    "навигация"
-  ],
-  "block keyword\u0004menu": [
-    "меню"
-  ],
-  "block description\u0004A collection of blocks that allow visitors to get around your site.": [
-    "Набор блоков, которые позволяют посетителям перемещаться по вашему сайту."
-  ],
-  "block description\u0004Add a page, link, or another item to your navigation.": [
-    "Добавляет страницу, ссылку или другой элемент в навигацию."
   ],
   "block keyword\u0004read more": [
     "читать далее"
@@ -401,18 +251,6 @@
   "block description\u0004Set media and words side-by-side for a richer layout.": [
     "Устанавливает медиафайл и текст по бокам от него для форматирования макета."
   ],
-  "block keyword\u0004form": [
-    "форма"
-  ],
-  "block keyword\u0004logout": [
-    "выход"
-  ],
-  "block keyword\u0004login": [
-    "вход"
-  ],
-  "block description\u0004Show login & logout links.": [
-    "Показывает ссылки входа и выхода."
-  ],
   "block keyword\u0004numbered list": [
     "нумерованный список"
   ],
@@ -424,12 +262,6 @@
   ],
   "block description\u0004Create a bulleted or numbered list.": [
     "Создаёт маркированный или нумерованный список."
-  ],
-  "block description\u0004Display a legacy widget.": [
-    "Показывает устаревший виджет."
-  ],
-  "block title\u0004Legacy Widget": [
-    "Устаревший виджет"
   ],
   "block keyword\u0004recent posts": [
     "последние записи"
@@ -466,12 +298,6 @@
   ],
   "block description\u0004Add custom HTML code and preview it as you edit.": [
     "Добавляет произвольный код HTML и показывает его в процессе редактирования."
-  ],
-  "block description\u0004Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header.": [
-    "Создайте ссылку, которая всегда указывает на главную страницу сайта. Обычно в этом нет необходимости, если в шапке сайта уже есть такая."
-  ],
-  "block title\u0004Home Link": [
-    "Ссылка на главную"
   ],
   "block keyword\u0004subtitle": [
     "подзаголовок"
@@ -590,21 +416,6 @@
   "Custom template created. You're in template mode now.": [
     "Создан пользовательский шаблон. Теперь вы находитесь в режиме шаблона."
   ],
-  "block description\u0004Display the description of categories, tags and custom taxonomies when viewing an archive.": [
-    "Показывать описания рубрик, меток и пользовательских таксономий при просмотре архива."
-  ],
-  "block title\u0004Term Description": [
-    "Описание термина"
-  ],
-  "block title\u0004Post Comments Link": [
-    "Ссылка для комментариев"
-  ],
-  "block title\u0004Login/out": [
-    "Вход/выход"
-  ],
-  "block title\u0004Custom Link": [
-    "Произвольная ссылка"
-  ],
   "Embed of %s.": [
     "Вставка %s."
   ],
@@ -623,23 +434,8 @@
   "Width in pixels": [
     "Ширина в пикселях"
   ],
-  "block description\u0004Edit the different global regions of your site, like the header, footer, sidebar, or create your own.": [
-    "Отредактируйте глобальные области сайта, такие как шапка, подвал, боковая панель, или создайте свои собственные."
-  ],
-  "block title\u0004Page List": [
-    "Список страниц"
-  ],
   "Your site does not have any posts, so there is nothing to display here at the moment.": [
     "На сайте нет записей, поэтому здесь нечего отображать."
-  ],
-  "block title\u0004Query Pagination Previous": [
-    "Результаты запроса, предыдущая страница"
-  ],
-  "block title\u0004Query Pagination Numbers": [
-    "Нумерация страниц для результатов запроса"
-  ],
-  "block title\u0004Query Pagination Next": [
-    "Результаты запроса, следующая страница"
   ],
   "Block cannot be rendered inside itself.": [
     "Блок не может быть отображен внутри себя же."
@@ -664,60 +460,6 @@
   ],
   "Align": [
     "Выравнивание"
-  ],
-  "block title\u0004Post Terms": [
-    "Метки записи"
-  ],
-  "block title\u0004Post Featured Image": [
-    "Изображение записи"
-  ],
-  "block title\u0004Post Excerpt": [
-    "Отрывок записи"
-  ],
-  "block title\u0004Post Date": [
-    "Дата записи"
-  ],
-  "block title\u0004Post Comments Form": [
-    "Форма комментирования записи"
-  ],
-  "block title\u0004Post Comments Count": [
-    "Количество комментариев к записи"
-  ],
-  "block title\u0004Post Comments": [
-    "Комментарии к записи"
-  ],
-  "block title\u0004Comment Date": [
-    "Дата комментария"
-  ],
-  "block title\u0004Comment Content": [
-    "Содержимое комментария"
-  ],
-  "block title\u0004Post Author": [
-    "Автор записи"
-  ],
-  "block title\u0004Post Content": [
-    "Содержимое записи"
-  ],
-  "block title\u0004Post Title": [
-    "Заголовок записи"
-  ],
-  "block title\u0004Query Pagination": [
-    "Запрос пагинации"
-  ],
-  "block title\u0004Query Loop": [
-    "Цикл запроса"
-  ],
-  "block title\u0004Template Part": [
-    "Часть шаблона"
-  ],
-  "block title\u0004Site Title": [
-    "Название сайта"
-  ],
-  "block title\u0004Site Tagline": [
-    "Краткое описание"
-  ],
-  "block title\u0004Site Logo": [
-    "Логотип сайта"
   ],
   "block title\u0004Social Icon": [
     "Значок соцсетей"
@@ -785,9 +527,6 @@
   "block title\u0004Latest Comments": [
     "Последние комментарии"
   ],
-  "block title\u0004Navigation": [
-    "Навигация"
-  ],
   "block title\u0004Media & Text": [
     "Медиа+Текст"
   ],
@@ -841,6 +580,9 @@
   ],
   "block title\u0004Paragraph": [
     "Абзац"
+  ],
+  "text direction\u0004ltr": [
+    "ltr"
   ],
   "Block vertical alignment setting\u0004Align bottom": [
     "Выровнять по низу"
@@ -982,6 +724,9 @@
   ],
   "%1$s Block. Row %2$d": [
     "%1$s блок. Строка %2$d"
+  ],
+  "Typography": [
+    "Типографика"
   ],
   "Content": [
     "Содержимое"
@@ -1132,6 +877,9 @@
   ],
   "Menu Item": [
     "Элемент меню"
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "Добавить блок"
   ],
   "Site Title": [
     "Название сайта"
@@ -1789,9 +1537,6 @@
   "Publishing failed.": [
     "Ошибка публикации."
   ],
-  "Update": [
-    "Обновить"
-  ],
   "Saved": [
     "Сохранено"
   ],
@@ -1800,9 +1545,6 @@
   ],
   "Blocks": [
     "Блоки"
-  ],
-  "Add block": [
-    "Добавить блок"
   ],
   "Undo": [
     "Отменить"

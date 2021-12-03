@@ -2,80 +2,14 @@
   "100": [
     "100"
   ],
-  "block description\u0004This block is deprecated. Please use the Comments Query Loop block instead.": [
-    "This block is deprecated. Please use the comments query loop block instead."
-  ],
-  "block title\u0004Post Comment (deprecated)": [
-    "Post comment (deprecated)"
-  ],
-  "block description\u0004Show a block pattern.": [
-    "Show a block pattern."
-  ],
-  "block title\u0004Pattern": [
-    "Pattern"
-  ],
-  "block keyword\u0004location": [
-    "location"
-  ],
-  "block description\u0004Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed.": [
-    "Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed."
-  ],
-  "block title\u0004Navigation Area": [
-    "Navigation area"
-  ],
-  "block description\u0004An advanced block that allows displaying post comments based on different query parameters and visual configurations.": [
-    "An advanced block that allows displaying post comments based on different query parameters and visual configurations."
-  ],
-  "block title\u0004Comments Query Loop": [
-    "Comments query loop"
-  ],
-  "block description\u0004Contains the block elements used to render a comment, like the title, date, author, avatar and more.": [
-    "Contains the block elements used to render a comment, like the title, date, author, avatar, and more."
-  ],
-  "block title\u0004Comment Template": [
-    "Comment template"
-  ],
-  "block description\u0004Displays a link to reply to a comment.": [
-    "Displays a link to reply to a comment."
-  ],
-  "block title\u0004Comment Reply Link": [
-    "Comment reply link"
-  ],
-  "block description\u0004Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability.": [
-    "Displays a link to edit the comment in the WordPress dashboard. This link is only visible to users with the edit comment capability."
-  ],
-  "block title\u0004Comment Edit Link": [
-    "Comment edit link"
-  ],
-  "block description\u0004Add the date of this comment.": [
-    "Add the date of this comment."
-  ],
-  "block description\u0004Displays the contents of a comment.": [
-    "Displays the contents of a comment."
-  ],
-  "block description\u0004Add the author name of this comment.": [
-    "Add the author name of this comment."
-  ],
-  "block title\u0004Comment Author Name": [
-    "Comment author name"
-  ],
-  "block description\u0004Add the avatar of this comment's author.": [
-    "Add the avatar of this comment's author."
-  ],
   "%s applied.": [
     "%s applied."
   ],
   "%s removed.": [
     "%s removed."
   ],
-  "Editing this Gallery in the WordPress mobile app requires version 18.2 or higher.": [
-    "Editing this gallery in the WordPress mobile app requires version 18.2 or higher."
-  ],
   "Embed Wolfram Cloud notebook content.": [
     "Embed Wolfram Cloud notebook content."
-  ],
-  "block title\u0004Comment Author Avatar": [
-    "Comment author avatar"
   ],
   "Allow to wrap to multiple lines": [
     "Allow to wrap to multiple lines"
@@ -101,9 +35,6 @@
   "Featured": [
     "Featured"
   ],
-  "block description\u0004Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results.": [
-    "Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results."
-  ],
   "You do not have permission to create Pages.": [
     "You do not have permission to create pages."
   ],
@@ -113,32 +44,14 @@
   "Max %s wide": [
     "Maximum %s wide"
   ],
-  "block description\u0004Add a submenu to your navigation.": [
-    "Add a submenu to your navigation."
-  ],
-  "block title\u0004Submenu": [
-    "Submenu"
-  ],
   "block description\u0004Display content in multiple columns, with blocks added to each column.": [
     "Display content in multiple columns, with blocks added to each column."
   ],
   "Minimum height": [
     "Minimum height"
   ],
-  "Update to the new gallery format": [
-    "Update to the new gallery format"
-  ],
-  "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around.": [
-    "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around."
-  ],
-  "Update gallery": [
-    "Update gallery"
-  ],
   "block description\u0004Create structured content in rows and columns to display information.": [
     "Create structured content in rows and columns to display information."
-  ],
-  "block description\u0004Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different than the site icon, which is the smaller image visible in your dashboard, browser tabs, etc used to help others recognize this site.": [
-    "Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different to the site icon, which is the smaller image visible in your dashboard, browser tabs, etc, used to help others recognise this site."
   ],
   "Preload value\u0004None": [
     "None"
@@ -218,15 +131,6 @@
   "Top left": [
     "Top left"
   ],
-  "block description\u0004An advanced block that allows displaying post types based on different query parameters and visual configurations.": [
-    "An advanced block that allows displaying post types based on different query parameters and visual configurations."
-  ],
-  "block description\u0004Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more.": [
-    "Contains the block elements used to render a post, like the title, date, featured image, content, or excerpt, and more."
-  ],
-  "block title\u0004Post Template": [
-    "Post template"
-  ],
   "block keyword\u0004link": [
     "link"
   ],
@@ -254,18 +158,6 @@
   "block style label\u0004Stripes": [
     "Stripes"
   ],
-  "block keyword\u0004summary": [
-    "summary"
-  ],
-  "block keyword\u0004document outline": [
-    "document outline"
-  ],
-  "block description\u0004Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.": [
-    "Summarise your post with a list of headings. Add HTML anchors to Heading blocks to link them here."
-  ],
-  "block title\u0004Table of Contents": [
-    "Table of contents"
-  ],
   "block description\u0004Add white space between blocks and customize its height.": [
     "Add white space between blocks and customise its height."
   ],
@@ -280,12 +172,6 @@
   ],
   "block description\u0004Display an icon linking to a social media profile or site.": [
     "Display an icon linking to a social media profile or site."
-  ],
-  "block keyword\u0004description": [
-    "description"
-  ],
-  "block description\u0004Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it's not displayed in the theme design.": [
-    "Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks, even if it's not displayed in the theme design."
   ],
   "block description\u0004Insert additional custom elements with a WordPress shortcode.": [
     "Insert additional custom elements with a WordPress shortcode."
@@ -332,77 +218,17 @@
   "block keyword\u0004blockquote": [
     "blockquote"
   ],
-  "block description\u0004Display the query title.": [
-    "Display the query title."
-  ],
-  "block title\u0004Query Title": [
-    "Query title"
-  ],
-  "block description\u0004Displays a paginated navigation to next/previous set of posts, when applicable.": [
-    "Displays a paginated navigation to next/previous set of posts, when applicable."
-  ],
-  "block description\u0004Displays the previous posts page link.": [
-    "Displays the previous posts page link."
-  ],
-  "block description\u0004Displays a list of page numbers for pagination": [
-    "Displays a list of page numbers for pagination"
-  ],
-  "block description\u0004Displays the next posts page link.": [
-    "Displays the next posts page link."
-  ],
   "block description\u0004Give special visual emphasis to a quote from your text.": [
     "Give special visual emphasis to a quote from your text."
   ],
   "block description\u0004Add text that respects your spacing and tabs, and also allows styling.": [
     "Add text that respects your spacing and tabs, and also allows styling."
   ],
-  "block description\u0004Displays the title of a post, page, or any other content-type.": [
-    "Displays the title of a post, page, or any other content type."
-  ],
-  "block description\u0004Post terms.": [
-    "Post terms."
-  ],
-  "block description\u0004Displays the next or previous post link that is adjacent to the current post.": [
-    "Displays the next or previous post link that is adjacent to the current post."
-  ],
-  "block title\u0004Post Navigation Link": [
-    "Post navigation link"
-  ],
-  "block description\u0004Display a post's featured image.": [
-    "Display a post's featured image."
-  ],
-  "block description\u0004Display a post's excerpt.": [
-    "Display a post's excerpt."
-  ],
-  "block description\u0004Add the date of this post.": [
-    "Add the date of this post."
-  ],
-  "block description\u0004Displays the contents of a post or page.": [
-    "Displays the contents of a post or page."
-  ],
-  "block description\u0004Display a post's comments.": [
-    "Display a post's comments."
-  ],
-  "block description\u0004Displays the link to the current post comments.": [
-    "Displays the link to the current post comments."
-  ],
-  "block description\u0004Display a post's comments form.": [
-    "Display a post's comments form."
-  ],
-  "block description\u0004Display a post's comments count.": [
-    "Display a post's comments count."
-  ],
-  "block description\u0004Add the author of this post.": [
-    "Add the author of this post."
-  ],
   "block keyword\u0004text": [
     "text"
   ],
   "block description\u0004Start with the building block of all narrative.": [
     "Start with the building block of all narrative."
-  ],
-  "block description\u0004Display a list of all pages.": [
-    "Display a list of all pages."
   ],
   "block keyword\u0004pagination": [
     "pagination"
@@ -412,18 +238,6 @@
   ],
   "block description\u0004Separate your content into a multi-page experience.": [
     "Separate your content into a multi-page experience."
-  ],
-  "block keyword\u0004navigation": [
-    "navigation"
-  ],
-  "block keyword\u0004menu": [
-    "menu"
-  ],
-  "block description\u0004A collection of blocks that allow visitors to get around your site.": [
-    "A collection of blocks that allow visitors to get around your site."
-  ],
-  "block description\u0004Add a page, link, or another item to your navigation.": [
-    "Add a page, link, or another item to your navigation."
   ],
   "block keyword\u0004read more": [
     "read more"
@@ -443,18 +257,6 @@
   "block description\u0004Set media and words side-by-side for a richer layout.": [
     "Set media and words side by side for a richer layout."
   ],
-  "block keyword\u0004form": [
-    "form"
-  ],
-  "block keyword\u0004logout": [
-    "logout"
-  ],
-  "block keyword\u0004login": [
-    "login"
-  ],
-  "block description\u0004Show login & logout links.": [
-    "Show login and logout links."
-  ],
   "block keyword\u0004numbered list": [
     "numbered list"
   ],
@@ -466,12 +268,6 @@
   ],
   "block description\u0004Create a bulleted or numbered list.": [
     "Create a bulleted or numbered list."
-  ],
-  "block description\u0004Display a legacy widget.": [
-    "Display a legacy widget."
-  ],
-  "block title\u0004Legacy Widget": [
-    "Legacy widget"
   ],
   "block keyword\u0004recent posts": [
     "recent posts"
@@ -508,12 +304,6 @@
   ],
   "block description\u0004Add custom HTML code and preview it as you edit.": [
     "Add custom HTML code and preview it as you edit."
-  ],
-  "block description\u0004Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header.": [
-    "Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header."
-  ],
-  "block title\u0004Home Link": [
-    "Home link"
   ],
   "block keyword\u0004subtitle": [
     "subtitle"
@@ -632,21 +422,6 @@
   "Custom template created. You're in template mode now.": [
     "Custom template created. You're in template mode now."
   ],
-  "block description\u0004Display the description of categories, tags and custom taxonomies when viewing an archive.": [
-    "Display the description of categories, tags, and custom taxonomies when viewing an archive."
-  ],
-  "block title\u0004Term Description": [
-    "Term Description"
-  ],
-  "block title\u0004Post Comments Link": [
-    "Post Comments Link"
-  ],
-  "block title\u0004Login/out": [
-    "Log in/out"
-  ],
-  "block title\u0004Custom Link": [
-    "Custom Link"
-  ],
   "Embed of %s.": [
     "Embed of %s."
   ],
@@ -665,23 +440,8 @@
   "Width in pixels": [
     "Width in pixels"
   ],
-  "block description\u0004Edit the different global regions of your site, like the header, footer, sidebar, or create your own.": [
-    "Edit the different global regions of your site, like the header, footer, sidebar, or create your own."
-  ],
-  "block title\u0004Page List": [
-    "Page List"
-  ],
   "Your site does not have any posts, so there is nothing to display here at the moment.": [
     "Your site does not have any posts, so there is nothing to display here at the moment."
-  ],
-  "block title\u0004Query Pagination Previous": [
-    "Query Pagination Previous"
-  ],
-  "block title\u0004Query Pagination Numbers": [
-    "Query Pagination Numbers"
-  ],
-  "block title\u0004Query Pagination Next": [
-    "Query Pagination Next"
   ],
   "Block cannot be rendered inside itself.": [
     "Block cannot be rendered inside itself."
@@ -706,60 +466,6 @@
   ],
   "Align": [
     "Align"
-  ],
-  "block title\u0004Post Terms": [
-    "Post terms"
-  ],
-  "block title\u0004Post Featured Image": [
-    "Post Featured Image"
-  ],
-  "block title\u0004Post Excerpt": [
-    "Post Excerpt"
-  ],
-  "block title\u0004Post Date": [
-    "Post Date"
-  ],
-  "block title\u0004Post Comments Form": [
-    "Post Comments Form"
-  ],
-  "block title\u0004Post Comments Count": [
-    "Post Comments Count"
-  ],
-  "block title\u0004Post Comments": [
-    "Post Comments"
-  ],
-  "block title\u0004Comment Date": [
-    "Comment date"
-  ],
-  "block title\u0004Comment Content": [
-    "Comment content"
-  ],
-  "block title\u0004Post Author": [
-    "Post Author"
-  ],
-  "block title\u0004Post Content": [
-    "Post Content"
-  ],
-  "block title\u0004Post Title": [
-    "Post Title"
-  ],
-  "block title\u0004Query Pagination": [
-    "Query Pagination"
-  ],
-  "block title\u0004Query Loop": [
-    "Query Loop"
-  ],
-  "block title\u0004Template Part": [
-    "Template Part"
-  ],
-  "block title\u0004Site Title": [
-    "Site Title"
-  ],
-  "block title\u0004Site Tagline": [
-    "Site Tagline"
-  ],
-  "block title\u0004Site Logo": [
-    "Site Logo"
   ],
   "block title\u0004Social Icon": [
     "Social Icon"
@@ -827,9 +533,6 @@
   "block title\u0004Latest Comments": [
     "Latest Comments"
   ],
-  "block title\u0004Navigation": [
-    "Navigation"
-  ],
   "block title\u0004Media & Text": [
     "Media and Text"
   ],
@@ -883,6 +586,9 @@
   ],
   "block title\u0004Paragraph": [
     "Paragraph"
+  ],
+  "text direction\u0004ltr": [
+    "ltr"
   ],
   "Block vertical alignment setting\u0004Align bottom": [
     "Align bottom"
@@ -1024,6 +730,9 @@
   ],
   "%1$s Block. Row %2$d": [
     "%1$s Block. Row %2$d"
+  ],
+  "Typography": [
+    "Typography"
   ],
   "Content": [
     "Content"
@@ -1174,6 +883,9 @@
   ],
   "Menu Item": [
     "Menu Item"
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "Add block"
   ],
   "Site Title": [
     "Site title"
@@ -1830,9 +1542,6 @@
   "Publishing failed.": [
     "Publishing failed."
   ],
-  "Update": [
-    "Update"
-  ],
   "Saved": [
     "Saved"
   ],
@@ -1841,9 +1550,6 @@
   ],
   "Blocks": [
     "Blocks"
-  ],
-  "Add block": [
-    "Add block"
   ],
   "Undo": [
     "Undo"

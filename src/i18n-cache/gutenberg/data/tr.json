@@ -2,31 +2,9 @@
   "100": [
     "100"
   ],
-  "block description\u0004This block is deprecated. Please use the Comments Query Loop block instead.": [],
-  "block title\u0004Post Comment (deprecated)": [],
-  "block description\u0004Show a block pattern.": [],
-  "block title\u0004Pattern": [],
-  "block keyword\u0004location": [],
-  "block description\u0004Define a navigation area for your theme. The navigation block associated with this area will be automatically displayed.": [],
-  "block title\u0004Navigation Area": [],
-  "block description\u0004An advanced block that allows displaying post comments based on different query parameters and visual configurations.": [],
-  "block title\u0004Comments Query Loop": [],
-  "block description\u0004Contains the block elements used to render a comment, like the title, date, author, avatar and more.": [],
-  "block title\u0004Comment Template": [],
-  "block description\u0004Displays a link to reply to a comment.": [],
-  "block title\u0004Comment Reply Link": [],
-  "block description\u0004Displays a link to edit the comment in the WordPress Dashboard. This link is only visible to users with the edit comment capability.": [],
-  "block title\u0004Comment Edit Link": [],
-  "block description\u0004Add the date of this comment.": [],
-  "block description\u0004Displays the contents of a comment.": [],
-  "block description\u0004Add the author name of this comment.": [],
-  "block title\u0004Comment Author Name": [],
-  "block description\u0004Add the avatar of this comment's author.": [],
   "%s applied.": [],
   "%s removed.": [],
-  "Editing this Gallery in the WordPress mobile app requires version 18.2 or higher.": [],
   "Embed Wolfram Cloud notebook content.": [],
-  "block title\u0004Comment Author Avatar": [],
   "Allow to wrap to multiple lines": [],
   "block style label\u0004Plain": [],
   "Embed Pinterest pins, boards, and profiles.": [],
@@ -35,19 +13,12 @@
   "Select color type": [],
   "https://wordpress.org/support/article/page-jumps/": [],
   "Featured": [],
-  "block description\u0004Displays the name of this site. Update the block, and the changes apply everywhere it’s used. This will also appear in the browser title bar and in search results.": [],
   "You do not have permission to create Pages.": [],
   "Block spacing": [],
   "Max %s wide": [],
-  "block description\u0004Add a submenu to your navigation.": [],
-  "block title\u0004Submenu": [],
   "block description\u0004Display content in multiple columns, with blocks added to each column.": [],
   "Minimum height": [],
-  "Update to the new gallery format": [],
-  "Updating to the new format adds the ability to use custom links or styles on individual images in the gallery, and makes it easier to add or move them around.": [],
-  "Update gallery": [],
   "block description\u0004Create structured content in rows and columns to display information.": [],
-  "block description\u0004Display a graphic to represent this site. Update the block, and the changes apply everywhere it’s used. This is different than the site icon, which is the smaller image visible in your dashboard, browser tabs, etc used to help others recognize this site.": [],
   "Preload value\u0004None": [],
   "Blocks shown in a row.": [],
   "Row": [],
@@ -86,9 +57,6 @@
   "Top left": [
     "Sol üst"
   ],
-  "block description\u0004An advanced block that allows displaying post types based on different query parameters and visual configurations.": [],
-  "block description\u0004Contains the block elements used to render a post, like the title, date, featured image, content or excerpt, and more.": [],
-  "block title\u0004Post Template": [],
   "block keyword\u0004link": [
     "bağlantı"
   ],
@@ -100,17 +68,11 @@
   "block description\u0004This block is deprecated. Please use the Columns block instead.": [],
   "block description\u0004A cloud of your most used tags.": [],
   "block style label\u0004Stripes": [],
-  "block keyword\u0004summary": [],
-  "block keyword\u0004document outline": [],
-  "block description\u0004Summarize your post with a list of headings. Add HTML anchors to Heading blocks to link them here.": [],
-  "block title\u0004Table of Contents": [],
   "block description\u0004Add white space between blocks and customize its height.": [],
   "block style label\u0004Pill Shape": [],
   "block style label\u0004Logos Only": [],
   "block description\u0004Display icons linking to your social media profiles or sites.": [],
   "block description\u0004Display an icon linking to a social media profile or site.": [],
-  "block keyword\u0004description": [],
-  "block description\u0004Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it's not displayed in the theme design.": [],
   "block description\u0004Insert additional custom elements with a WordPress shortcode.": [],
   "block style label\u0004Dots": [],
   "block style label\u0004Wide Line": [],
@@ -126,41 +88,13 @@
   "block style label\u0004Large": [],
   "block keyword\u0004cite": [],
   "block keyword\u0004blockquote": [],
-  "block description\u0004Display the query title.": [],
-  "block title\u0004Query Title": [],
-  "block description\u0004Displays a paginated navigation to next/previous set of posts, when applicable.": [],
-  "block description\u0004Displays the previous posts page link.": [],
-  "block description\u0004Displays a list of page numbers for pagination": [],
-  "block description\u0004Displays the next posts page link.": [],
   "block description\u0004Give special visual emphasis to a quote from your text.": [],
   "block description\u0004Add text that respects your spacing and tabs, and also allows styling.": [],
-  "block description\u0004Displays the title of a post, page, or any other content-type.": [],
-  "block description\u0004Post terms.": [],
-  "block description\u0004Displays the next or previous post link that is adjacent to the current post.": [],
-  "block title\u0004Post Navigation Link": [],
-  "block description\u0004Display a post's featured image.": [],
-  "block description\u0004Display a post's excerpt.": [],
-  "block description\u0004Add the date of this post.": [],
-  "block description\u0004Displays the contents of a post or page.": [],
-  "block description\u0004Display a post's comments.": [],
-  "block description\u0004Displays the link to the current post comments.": [],
-  "block description\u0004Display a post's comments form.": [
-    "Bir yazının yorum formunu görüntüle."
-  ],
-  "block description\u0004Display a post's comments count.": [
-    "Bir yazının yorum toplamını görüntüle."
-  ],
-  "block description\u0004Add the author of this post.": [
-    "Bu yazının yazarını ekleyin."
-  ],
   "block keyword\u0004text": [
     "metin"
   ],
   "block description\u0004Start with the building block of all narrative.": [
     "Tüm öykünün yapı taşı ile işe başlayın."
-  ],
-  "block description\u0004Display a list of all pages.": [
-    "Tüm sayfaların bir listesini görüntüleyin."
   ],
   "block keyword\u0004pagination": [
     "sayfalama"
@@ -170,18 +104,6 @@
   ],
   "block description\u0004Separate your content into a multi-page experience.": [
     "İçeriğinizi çoklu sayfa deneyimi ile ayırın."
-  ],
-  "block keyword\u0004navigation": [
-    "dolaşım"
-  ],
-  "block keyword\u0004menu": [
-    "menü"
-  ],
-  "block description\u0004A collection of blocks that allow visitors to get around your site.": [
-    "Ziyaretçilerin sitenizde dolaşmasına olanak tanıyan bir bloklar koleksiyonu."
-  ],
-  "block description\u0004Add a page, link, or another item to your navigation.": [
-    "Dolaşım menünüze bir sayfa, bağlantı veya başka bir öğe ekleyin."
   ],
   "block keyword\u0004read more": [
     "devamını oku"
@@ -201,18 +123,6 @@
   "block description\u0004Set media and words side-by-side for a richer layout.": [
     "Daha zengin bir düzen için ortam ve kelimeleri yan yana getirin."
   ],
-  "block keyword\u0004form": [
-    "form"
-  ],
-  "block keyword\u0004logout": [
-    "çıkış yap"
-  ],
-  "block keyword\u0004login": [
-    "oturum aç"
-  ],
-  "block description\u0004Show login & logout links.": [
-    "Giriş ve çıkış bağlantılarını göster."
-  ],
   "block keyword\u0004numbered list": [
     "numaralı liste"
   ],
@@ -225,8 +135,6 @@
   "block description\u0004Create a bulleted or numbered list.": [
     "Noktalı ya da numaralı bir liste oluşturun."
   ],
-  "block description\u0004Display a legacy widget.": [],
-  "block title\u0004Legacy Widget": [],
   "block keyword\u0004recent posts": [
     "son yazılar"
   ],
@@ -262,10 +170,6 @@
   ],
   "block description\u0004Add custom HTML code and preview it as you edit.": [
     "Özel HTML kodu ekleyin ve düzenlerken ön izleme yapın."
-  ],
-  "block description\u0004Create a link that always points to the homepage of the site. Usually not necessary if there is already a site title link present in the header.": [],
-  "block title\u0004Home Link": [
-    "Ana sayfa bağlantısı"
   ],
   "block keyword\u0004subtitle": [
     "alt başlık"
@@ -380,15 +284,6 @@
   ],
   "Widget types": [],
   "Custom template created. You're in template mode now.": [],
-  "block description\u0004Display the description of categories, tags and custom taxonomies when viewing an archive.": [],
-  "block title\u0004Term Description": [],
-  "block title\u0004Post Comments Link": [],
-  "block title\u0004Login/out": [
-    "Giriş/çıkış yap"
-  ],
-  "block title\u0004Custom Link": [
-    "Özel bağlantı"
-  ],
   "Embed of %s.": [
     "%s gömüsü."
   ],
@@ -401,16 +296,9 @@
     "Başlık ekle"
   ],
   "Width in pixels": [],
-  "block description\u0004Edit the different global regions of your site, like the header, footer, sidebar, or create your own.": [],
-  "block title\u0004Page List": [
-    "Sayfa listesi"
-  ],
   "Your site does not have any posts, so there is nothing to display here at the moment.": [
     "Sitenizde herhangi bir yazı bulunmadığından şu anda burada görüntülenecek hiçbir şey yok."
   ],
-  "block title\u0004Query Pagination Previous": [],
-  "block title\u0004Query Pagination Numbers": [],
-  "block title\u0004Query Pagination Next": [],
   "Block cannot be rendered inside itself.": [
     "Blok kendi içinde oluşturulamaz."
   ],
@@ -434,56 +322,6 @@
   ],
   "Align": [
     "Hizala"
-  ],
-  "block title\u0004Post Terms": [
-    "Yazı terimleri"
-  ],
-  "block title\u0004Post Featured Image": [
-    "Yazı öne çıkan görseli"
-  ],
-  "block title\u0004Post Excerpt": [
-    "Yazı özeti"
-  ],
-  "block title\u0004Post Date": [
-    "Yazı tarihi"
-  ],
-  "block title\u0004Post Comments Form": [
-    "Yazı yorum formu"
-  ],
-  "block title\u0004Post Comments Count": [
-    "Yazı yorum toplamı"
-  ],
-  "block title\u0004Post Comments": [
-    "Yazı yorumları"
-  ],
-  "block title\u0004Comment Date": [],
-  "block title\u0004Comment Content": [],
-  "block title\u0004Post Author": [
-    "Yazının yazarı"
-  ],
-  "block title\u0004Post Content": [
-    "Yazı içeriği"
-  ],
-  "block title\u0004Post Title": [
-    "Yazı başlığı"
-  ],
-  "block title\u0004Query Pagination": [
-    "Sorgu sayfalaması"
-  ],
-  "block title\u0004Query Loop": [
-    "Sorgu döngüsü"
-  ],
-  "block title\u0004Template Part": [
-    "Şablon parçası"
-  ],
-  "block title\u0004Site Title": [
-    "Site başlığı"
-  ],
-  "block title\u0004Site Tagline": [
-    "Site sloganı"
-  ],
-  "block title\u0004Site Logo": [
-    "Site logosu"
   ],
   "block title\u0004Social Icon": [
     "Sosyal simge"
@@ -551,9 +389,6 @@
   "block title\u0004Latest Comments": [
     "En son yorumlar"
   ],
-  "block title\u0004Navigation": [
-    "Dolaşım"
-  ],
   "block title\u0004Media & Text": [
     "Ortam ve metin"
   ],
@@ -607,6 +442,9 @@
   ],
   "block title\u0004Paragraph": [
     "Paragraf"
+  ],
+  "text direction\u0004ltr": [
+    "ltr"
   ],
   "Block vertical alignment setting\u0004Align bottom": [
     "Alta hizala"
@@ -746,6 +584,9 @@
   ],
   "%1$s Block. Row %2$d": [
     "%1$s blok. %2$d satır"
+  ],
+  "Typography": [
+    "Tipografi"
   ],
   "Content": [
     "İçerik"
@@ -896,6 +737,9 @@
   ],
   "Menu Item": [
     "Menü öğesi"
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "Blok ekle"
   ],
   "Site Title": [
     "Site başlığı"
@@ -1550,9 +1394,6 @@
   "Publishing failed.": [
     "Yayımlama başarısız oldu."
   ],
-  "Update": [
-    "Güncelle"
-  ],
   "Saved": [
     "Kaydedildi"
   ],
@@ -1561,9 +1402,6 @@
   ],
   "Blocks": [
     "Bloklar"
-  ],
-  "Add block": [
-    "Blok ekle"
   ],
   "Undo": [
     "Geri al"
