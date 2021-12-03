@@ -104,11 +104,21 @@ function build_gutenberg() {
 function generate_bundles() {
   echo -e "\n\033[1mGenerate Android JS bundle\033[0m"
   mkdir -p $JS_BUNDLE_ANDROID_DIR
-  npm run rn-bundle -- --platform android --dev false --entry-file $JS_BUNDLE_ENTRY_PATH --bundle-output $JS_BUNDLE_ANDROID_PATH
+  npm run rn-bundle -- --platform android --dev false --entry-file $JS_BUNDLE_ENTRY_PATH --bundle-output $JS_BUNDLE_ANDROID_PATH --sourcemap-output $JS_BUNDLE_ANDROID_MAP_PATH
   
   echo -e "\n\033[1mGenerate iOS JS bundle\033[0m"
   mkdir -p $JS_BUNDLE_IOS_DIR
-  npm run rn-bundle -- --platform ios --dev false --entry-file $JS_BUNDLE_ENTRY_PATH --bundle-output $JS_BUNDLE_IOS_PATH
+  npm run rn-bundle -- --platform ios --dev false --entry-file $JS_BUNDLE_ENTRY_PATH --bundle-output $JS_BUNDLE_IOS_PATH --sourcemap-output $JS_BUNDLE_IOS_MAP_PATH
+}
+
+function extract_source_from_source_map_file() {
+  local MAP_FILE=$1
+  local TARGET_DIR=$2
+
+  mkdir -p $TARGET_DIR
+
+  echo -e "\n\033[1mExtracting source files from \"$MAP_FILE\" source map file\033[0m"
+  node bin/copy-source-files-from-map.js $MAP_FILE $TARGET_DIR
 }
 
 function generate_pot_files() {
@@ -144,10 +154,10 @@ function generate_pot_files() {
     $WP_CLI i18n make-pot $SOURCE_DIR $DEBUG_PARAM --exclude="$EXCLUDE_FILES" --skip-js --skip-php --ignore-domain $OUTPUT_POT_BLOCKS_FILE
     
     echo -e "\nExtract used strings from Android JS bundle:"
-    $WP_CLI i18n make-pot $JS_BUNDLE_ANDROID_DIR $DEBUG_PARAM --include="$JS_BUNDLE_ANDROID_FILENAME" --merge="$OUTPUT_POT_BLOCKS_FILE" $SUBTRACT_PARAM $DOMAIN_PARAM $OUTPUT_POT_USED_ANDROID_FILE
+    $WP_CLI i18n make-pot $EXTRACT_SOURCE_FILE_ANDROID_PATH $DEBUG_PARAM $SUBTRACT_PARAM $DOMAIN_PARAM $OUTPUT_POT_USED_ANDROID_FILE
 
     echo -e "\nExtract used strings from iOS JS bundle:"
-    $WP_CLI i18n make-pot $JS_BUNDLE_IOS_DIR $DEBUG_PARAM --include="$JS_BUNDLE_IOS_FILENAME" --merge="$OUTPUT_POT_BLOCKS_FILE" $SUBTRACT_PARAM $DOMAIN_PARAM $OUTPUT_POT_USED_IOS_FILE
+    $WP_CLI i18n make-pot $EXTRACT_SOURCE_FILE_IOS_PATH $DEBUG_PARAM $SUBTRACT_PARAM $DOMAIN_PARAM $OUTPUT_POT_USED_IOS_FILE
   fi
 
   if [[ -z $SKIP_LOCALIZATION_STRINGS_FILES ]]; then
@@ -215,6 +225,13 @@ else
   JS_BUNDLE_DIR="$TEMP_DIR/bundle"
 fi
 
+# Set source files extraction directory
+if [[ "$USE_LOCAL_PATH" == "true" ]]; then
+  EXTRACT_SOURCE_FILES_DIR="./source-files"
+else
+  EXTRACT_SOURCE_FILES_DIR="$TEMP_DIR/source-files"
+fi
+
 # Set POT files directory
 if [[ "$USE_LOCAL_PATH" == "true" ]]; then
   POT_FILES_DIR="./pot"
@@ -223,13 +240,17 @@ else
 fi
 
 # Define JS bundle paths
+JS_BUNDLE_ANDROID_MAP_PATH="$JS_BUNDLE_DIR/android/App.text.js.map"
+JS_BUNDLE_IOS_MAP_PATH="$JS_BUNDLE_DIR/ios/App.js.map"
+
 JS_BUNDLE_ANDROID_DIR="$JS_BUNDLE_DIR/android"
-JS_BUNDLE_ANDROID_FILENAME="App.text.js"
-JS_BUNDLE_ANDROID_PATH="$JS_BUNDLE_ANDROID_DIR/$JS_BUNDLE_ANDROID_FILENAME"
+JS_BUNDLE_ANDROID_PATH="$JS_BUNDLE_ANDROID_DIR/App.text.js"
 JS_BUNDLE_IOS_DIR="$JS_BUNDLE_DIR/ios"
-JS_BUNDLE_IOS_FILENAME="App.js"
-JS_BUNDLE_IOS_PATH="$JS_BUNDLE_IOS_DIR/$JS_BUNDLE_IOS_FILENAME"
-JS_BUNDLE_FILES="$JS_BUNDLE_ANDROID,$JS_BUNDLE_IOS"
+JS_BUNDLE_IOS_PATH="$JS_BUNDLE_IOS_DIR/App.js"
+
+# Define source files extraction paths
+EXTRACT_SOURCE_FILE_ANDROID_PATH="$EXTRACT_SOURCE_FILES_DIR/android"
+EXTRACT_SOURCE_FILE_IOS_PATH="$EXTRACT_SOURCE_FILES_DIR/ios"
 
 setup_wp_cli
 
@@ -246,6 +267,10 @@ if [[ -z $USE_LOCAL_PATH ]]; then
   build_gutenberg
   generate_bundles
 fi
+
+# Extract source from source map files
+extract_source_from_source_map_file $JS_BUNDLE_ANDROID_MAP_PATH $EXTRACT_SOURCE_FILE_ANDROID_PATH
+extract_source_from_source_map_file $JS_BUNDLE_IOS_MAP_PATH $EXTRACT_SOURCE_FILE_IOS_PATH
 
 # Generate POT files for plugins (i.e. Jetpack)
 for (( index=0; index<${#PLUGINS[@]}; index+=2 )); do
