@@ -118,7 +118,7 @@ function extract_source_from_source_map_file() {
   mkdir -p $TARGET_DIR
 
   echo -e "\n\033[1mExtracting source files from \"$MAP_FILE\" source map file\033[0m"
-  node bin/copy-source-files-from-map.js $MAP_FILE $TARGET_DIR
+  node bin/extract-files-from-source-map.js $MAP_FILE $TARGET_DIR
 }
 
 function generate_pot_files() {
