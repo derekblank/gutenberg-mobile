@@ -1,5 +1,421 @@
 Unreleased
 ---
+* [*] Classic block: Add option to convert to blocks [https://github.com/WordPress/gutenberg/pull/55461]
+* [*] Synced Patterns: Fix visibility of heading section when used with block based themes in dark mode [https://github.com/WordPress/gutenberg/pull/55399]
+
+
+1.106.0
+---
+* [*] Exit Preformatted and Verse blocks by triple pressing the Return key [https://github.com/WordPress/gutenberg/pull/53354]
+* [*] Fix quote block border visibility when used with block based themes in dark mode [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6268]
+
+
+1.105.0
+---
+* [*] Prevent crashes when setting an invalid media URL for Video or Audio blocks [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6235]
+* [*] Limit inner blocks nesting depth to avoid call stack size exceeded crash [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6191]
+* [**] Fallback to Twitter provider when embedding X URLs [https://github.com/WordPress/gutenberg/pull/54876]
+
+1.104.0
+---
+* [*] Fix the obscurred "Insert from URL" input for media blocks when using a device in landscape orientation. [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6143]
+* [**] Updated placeholder text colors for block-based themes [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6182]
+
+1.103.3
+---
+* [*] Bump `WordPress-Aztec-iOS` version to `1.19.9` [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6202]
+
+1.103.2
+---
+* [*] Fix issue with missing characters in Add Media placeholder button [https://github.com/WordPress/gutenberg/pull/54281]
+
+1.103.1
+---
+* [**] Fix long-press gestures not working in RichText component [Android] [https://github.com/WordPress/gutenberg/pull/54213]
+
+1.103.0
+---
+* [*] Remove third-party dependency on react-native-hsv-color-picker [https://github.com/WordPress/gutenberg/pull/53329]
+* [*] Search Control - Prevent calling TextInput's methods when undefined [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6090]
+* [**] Add basic support to view, relocate, and remove the Jetpack Paywall block. [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6076]
+* [*] Columns block - Fix transforming into a Group block crash [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6129]
+* [**] Add block outline to all Social Link blocks when selected [https://github.com/WordPress/gutenberg/pull/54011]
+
+1.102.1
+---
+* [**] Fix Voice Over and assistive keyboards [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6102]
+
+1.102.0
+---
+* [**] Add outline around selected Social Link block [https://github.com/WordPress/gutenberg/pull/53377]
+* [*] Display custom color value in mobile Cover Block color picker [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5852]
+* [**] Fixes font customization not getting updated on iOS [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6036]
+
+1.101.2
+---
+* [**] Fix Voice Over and assistive keyboards [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6102]
+
+1.101.1
+---
+* [**] Fixed images not rendering in Help section on iOS [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6067]
+* [**] Fix the dynamic height when opening/closing navigation screens within the bottom sheet. [https://github.com/WordPress/gutenberg/pull/53608]
+
+1.101.0
+---
+* [*] Remove visual gap in mobile toolbar when a Gallery block is selected [https://github.com/WordPress/gutenberg/pull/52966]
+* [*] Remove Gallery caption button on mobile [https://github.com/WordPress/gutenberg/pull/53010]
+* [**] Upgrade React Native to 0.71.11 [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5874]
+* [*] Upgrade Gradle to 8.2.1 & AGP to 8.1.0 [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5989]
+* [*] Fix Gallery block selection when adding media [https://github.com/WordPress/gutenberg/pull/53127]
+
+1.100.2
+---
+* [**] Fix iOS Focus loop for RichText components [https://github.com/wordpress-mobile/gutenberg-mobile/pull/6009]
+
+1.100.1
+---
+* [**] Fix crash when registering non-core blocks [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5982]
+
+1.100.0
+---
+* [**] Add media inserter buttons to editor toolbar [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5900]
+* [**] Update native BlockOutline component styles to remove blue border from blocks [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5833]
+* [**] Move the undo/redo buttons to the navigation bar [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5889]
+* [**] Update Editor block inserter button styles and default text input placeholder/selection styles [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5941]
+* [**] Update Editor toolbar icons and colors [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5940]
+* [**] Update media placeholders and block outline [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5969]
+
+1.99.1
+---
+* [**] Fix crash related to removing a block under certain conditions [https://github.com/WordPress/gutenberg/pull/52595]
+
+1.99.0
+---
+* [*] Rename "Reusable blocks" to "Synced patterns", aligning with the web editor. [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5885]
+* [**] Fix a crash related to Reanimated when closing the editor [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5938]
+
+1.98.1
+---
+* [*] fix: Display heading level dropdown icons and labels [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5911]
+
+1.98.0
+---
+* [*] Image block - Fix issue where in some cases the image doesn't display the right aspect ratio [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5869]
+* [*] Fix cursor positioning when dictating text on iOS [https://github.com/WordPress/gutenberg/issues/51227]
+
+1.97.1
+---
+* [**] Fix crash when using the delete key to remove a single button [https://github.com/WordPress/gutenberg/pull/51435]
+* [*] Ensure text input field is not editable when Bottom sheet cell is disabled [https://github.com/WordPress/gutenberg/pull/51567]
+
+1.97.0
+---
+* [**] [iOS] Fix dictation regression, in which typing/dictating at the same time caused content loss. [https://github.com/WordPress/gutenberg/pull/49452]
+* [*] [internal] Upgrade compile and target sdk version to Android API 33 [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5789]
+* [*] Display lock icon in disabled state of `Cell` component [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5798]
+* [*] Show "No title"/"No description" placeholder for not belonged videos in VideoPress block [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5840]
+
+1.96.1
+---
+* [**] Fix Android-only issue related to block toolbar not being displayed on some blocks in UBE [https://github.com/WordPress/gutenberg/pull/51131]
+
+1.96.0
+---
+* [*] Add disabled style to `Cell` component [https://github.com/WordPress/gutenberg/pull/50665]
+* [**] Fix undo/redo history when inserting a link configured to open in a new tab [https://github.com/WordPress/gutenberg/pull/50460]
+* [**] Disable details settings for not belonged VideoPress videos [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5782]
+* [***] Enable VideoPress block on Android (only available in Simple WPCOM sites) [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5780]
+* [**] Tapping any type of nested block moves focus to the nested block directly, rather than requiring multiple taps to navigate down each nesting levels. [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5781]
+* [*] [List block] Fix an issue when merging a list item into a Paragraph would remove its nested list items [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5785]
+
+1.95.0
+---
+* [**] Add fullscreen embed preview to Android [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5743]
+* [*] Fix crash when trying to convert to regular blocks an undefined/deleted reusable block [https://github.com/WordPress/gutenberg/pull/50475]
+* [**] Tapping on nested text blocks gets focus directly instead of having to tap multiple times depending on the nesting levels. [https://github.com/WordPress/gutenberg/pull/50108]
+* [*] Use host app namespace in reusable block message [https://github.com/WordPress/gutenberg/pull/50478]
+
+1.94.0
+---
+* [***] Enable VideoPress block (only on iOS and Simple WPCOM sites) [#5692]
+* [*] Allow content that is pasted into the post title to populate the post body correctly [https://github.com/WordPress/gutenberg/pull/37169]
+
+1.93.1
+---
+* [**] Fix regression with the Color hook and ColorPanel [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5683]
+
+1.93.0
+---
+* [***] [iOS] Fixed iOS scroll jumping issue by refactoring KeyboardAwareFlatList improving writing flow and caret focus handling [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5533]
+
+1.92.1
+---
+* [*] Avoid empty Gallery block error [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5627]
+
+1.92.0
+---
+* No User facing changes *
+
+1.91.0
+---
+* [*] Allow new block transformations for most blocks. [https://github.com/WordPress/gutenberg/pull/48792]
+
+1.90.0
+---
+* [*] Fix parsing of css units for null matched values [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5516]
+* [*] Spacer block - Add initial support for spacing presets [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5410]
+* [*] Add visual tests support [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5456]
+* [*] Add metadata parameter to media upload events [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5479]
+
+1.89.1
+---
+* [*] Fix inaccessible block settings within the unsupported block editor  [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5508]
+
+1.89.0
+---
+* No User facing changes *
+
+1.88.0
+---
+* [*] Bump Android `minSdkVersion` to 24 [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5435]
+* [*] Bump Aztec-Android version to `1.6.3` [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5438]
+* [*] Update React Native Reanimated to 2.9.1-wp-3 [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5430]
+
+1.87.3
+---
+* [*] Fix insert blocks not handling raw string properly in unsupported block editor [https://github.com/WordPress/gutenberg/pull/47472]
+
+1.87.2
+---
+* [*] Add boolean contentStyle and clientId check to Column Edit InnerBlocks [https://github.com/WordPress/gutenberg/pull/47234]
+* [*] Line-height and font-size regression fixes [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5407]
+
+1.87.1
+---
+* [**] Remove unnecessary negative margin around empty gallery block [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5386]
+* [*] RichText - Parse CSS values and avoid setting undefined ones [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5391]
+
+1.87.0
+---
+* [*] Only register core blocks when `onlyCoreBlocks` capability is enabled [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5293]
+
+1.86.1
+---
+* [*] Block Actions Menu - Fix block title regression and adds integration tests [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5340]
+
+1.86.0
+---
+* [**] Upgrade React Native from 0.66.2 to 0.69.4 [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5193]
+
+1.85.1
+---
+* [**] Prevent error message from unneccesarily firing when uploading to Gallery block [https://github.com/WordPress/gutenberg/pull/46175]
+
+1.85.0
+---
+* [*] [iOS] Fixed iOS Voice Control support within Image block captions. [https://github.com/WordPress/gutenberg/pull/444850]
+
+1.84.1
+---
+* [**] Native inner blocks merge where appropriate [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5222]
+
+1.84.0
+---
+* [*] Upgrade compile and target sdk version to Android API 31 [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5184]
+
+1.83.0
+---
+* No User facing changes *
+
+1.82.1
+---
+* [**] List block v2: Fix issues splitting or merging paragraphs into the block [https://github.com/WordPress/gutenberg/pull/43949]
+
+1.82.0
+---
+* [*] [iOS] Explicitly set tint color for action sheets to always be blue [https://github.com/WordPress/gutenberg/pull/43759]
+
+1.81.2
+---
+* [**] List V2 - Prevent error when list is empty [https://github.com/WordPress/gutenberg/pull/43861]
+
+1.81.1
+---
+* [*] List block v2: Fix text color inconsistencies with list items [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5096]
+* [*] Use default placeholder text color for native List Item [https://github.com/WordPress/gutenberg/pull/43353]
+* [*] Add BlockListCompact [https://github.com/WordPress/gutenberg/pull/43431]
+* [*] Fix dynamic React Native version [https://github.com/WordPress/gutenberg/pull/43058]
+* [*] Disable FastImage on Android [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5102]
+
+1.81.0
+---
+* [**] List block V2 [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5054]
+
+1.80.1
+---
+* [*] Image - Workaround for Android and orientation changes [https://github.com/WordPress/gutenberg/pull/42900]
+
+1.80.0
+---
+* [**] Prevent validation error when viewing VideoPress markup within app [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4899]
+* [*] Add React Native FastImage [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4989]
+* [*] Block inserter displays block collections [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5024]
+* [*] Fix incorrect spacing within Image alt text footnote [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5031]
+* [***] Gallery and Image block - Performance improvements [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5007]
+
+## 1.79.1
+---
+* [**] Fix a crash when scrolling posts containing Embed blocks (Android 12 only) [https://github.com/wordpress-mobile/gutenberg-mobile/pull/5033]
+
+## 1.79.0
+---
+- [*] Add 'Insert from URL' option to Video block [https://github.com/WordPress/gutenberg/pull/41493]
+- [*] Image block copies the alt text from the media library when selecting an item [https://github.com/WordPress/gutenberg/pull/41839]
+- [*] Introduce "block recovery" option for invalid blocks [https://github.com/WordPress/gutenberg/pull/41988]
+
+## 1.78.1
+---
+* [**] Re-introduce support for v1 of the Gallery block to the native version of the editor [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4928]
+* [**] Fix missing translations for locales that include region (only on Android) [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4950]
+
+## 1.78.0
+---
+* [*] Bump react-native-gesture-handler to version 2.3.2 [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4895]
+
+## 1.77.1
+---
+* [***] Fix crash on iOS related to JSI and Reanimated [https://github.com/WordPress/gutenberg/pull/41482]
+
+## 1.77.0
+---
+* [*] [a11y] Improve text read by screen readers for BottomSheetSelectControl [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4854]
+* [*] Add 'Insert from URL' option to Image block [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4779]
+
+## 1.76.3
+---
+* [***] Fix crash on iOS related to JSI and Reanimated [https://github.com/WordPress/gutenberg/pull/41482]
+
+## 1.76.2
+---
+* [*] Ensure post title gets focused when is notified from native side [https://github.com/WordPress/gutenberg/pull/41371]
+
+## 1.76.1
+---
+* [*] BlockList - Add internal onLayout from CellRendererComponent to BlockListItemCell [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4865]
+* [*] Fix Drag & Drop Chip positioning issue with RTL languages [https://github.com/WordPress/gutenberg/pull/41053]
+* [*] Add drag & drop help guide in Help & Support screen [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4857]
+* [*] Fix drag mode not being enabled when long-pressing over Shortcode block [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4872]
+
+## 1.76.0
+---
+* [**] [Cover block] Improve color contrast between background and text [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4808]
+* [**] [Buttons block] Fix Android-only issue related to displaying formatting buttons after closing the block settings [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4814]
+* [***] Add drag & drop blocks feature [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4832]
+* [*] [Gallery block] Fix broken "Link To" settings and add "Image Size" settings [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4841]
+* [*] [Unsupported Block Editor] Prevent WordPress.com tour banner from displaying. [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4820]
+
+## 1.75.1
+---
+* [*] Track block movement actions [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4833]
+
+## 1.75.0
+---
+* [*] [Latest Posts block] Add featured image settings [https://github.com/WordPress/gutenberg/pull/39257]
+* [*] Prevent incorrect notices displaying when switching between HTML-Visual mode quickly [https://github.com/WordPress/gutenberg/pull/40415]
+* [*] [Embed block] Fix inline preview cut-off when editing URL [https://github.com/WordPress/gutenberg/pull/35326]
+* [*] [iOS] Prevent gaps shown around floating toolbar when using external keyboard [https://github.com/WordPress/gutenberg/pull/40266]
+
+## 1.74.1
+---
+* [**] RichText - Set a default value for selection values [https://github.com/WordPress/gutenberg/pull/40581]
+
+## 1.74.0
+---
+* [**] [Quote block] Adds support for V2 behind a feature flag [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4744]
+* [**] Update "add block" button style in default editor view. [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4705]
+* [*] Remove banner error notification on upload failure [https://github.com/WordPress/gutenberg/pull/39694]
+
+## 1.73.1
+---
+* [*] [Spacer block] Fix crash when changing the height value using the text input [https://github.com/WordPress/gutenberg/pull/40053]
+
+## 1.73.0
+---
+* [*] Update react-native-reanimated version to 2.4.1 [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4653]
+* [*] Upgrade Gradle to 7.4 & AGP to 7.1.1 [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4662]
+* [*] Add waits to fix editor test flakiness [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4687]
+
+## 1.72.1
+---
+* [*] Detect GIF badge during render [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4711]
+
+## 1.72.0
+---
+* [*] Add GIF badge for animated GIFs uploaded to Image blocks [https://github.com/WordPress/gutenberg/pull/38996]
+* [*] Small refinement to media upload errors, including centering and tweaking copy. [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4597]
+* [*] Update gesture handler and reanimated libraries [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4615]
+* [*] Fix issue with list's starting index and the order [https://github.com/WordPress/gutenberg/pull/39354]
+
+## 1.71.3
+---
+* [*] Fix autocorrected Headings applying bold formatting on iOS [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4557]
+* [***] Support for multiple color palettes [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4588]
+
+1.71.1
+---
+* [*] Highlight text: Check if style attribute value is defined during filtering [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4562]
+
+1.71.0
+---
+* [*] Image block: Replacing the media for an image set as featured prompts to update the featured image [https://github.com/wordpress-mobile/gutenberg-mobile/pull/3930]
+* [***] Font size and line-height support for text-based blocks used in block-based themes [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4519]
+
+1.70.3
+---
+* [*] Highlight text: Check if style attribute value is defined during filtering [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4562]
+
+1.70.2
+---
+* [**] Rich Text - Validate link colors [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4542]
+
+1.70.1
+---
+* [**] [Gallery block] Fix crash when adding images and selecting a gallery item [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4515]
+* [***] Fix launching video preview on Android 11+ [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4527]
+
+1.70.0
+---
+* [**] Fix content justification attribute in Buttons block [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4451]
+* [*] Hide help button from Unsupported Block Editor. [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4352/]
+* [*] Add contrast checker to text-based blocks [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4357]
+* [*] Fix missing Featured Image translations [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4464]
+* [*] Fix missing translations of color settings [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4479]
+* [*] Fix cut-off setting labels by properly wrapping the text [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4475]
+* [*] Highlight text: fix applying formatting for non-selected text [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4471]
+* [**] Fix Android handling of Hebrew and Indonesian translations [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4397]
+
+1.69.1
+---
+* [*] Fix app freeze when closing link picker while virtual keyboard is hidden [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4443]
+* [*] Gallery block - Fix bug when migrating from old galleries format [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4456]
+* [*] RichText - Use parsed font size values when comparing new changes [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4463]
+
+1.69.0
+---
+* [*] Give multi-line block names central alignment in inserter [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4343]
+* [**] Fix missing translations by refactoring the editor initialization code [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4332]
+* [**] Add Jetpack and Layout Grid translations [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4359]
+* [**] Fix text formatting mode lost after backspace is used [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4423]
+* [*] Add missing translations of unsupported block editor modal [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4410]
+
+1.68.0
+---
+* [**] Fix undo/redo functionality in links when applying text format [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4290]
+* [**] [iOS] Fix scroll update when typing in RichText component [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4299]
+* [*] [Preformatted block] Fix an issue where the background color is not showing up for standard themes [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4292]
+* [**] Update Gallery Block to default to the new format and auto-convert old galleries to the new format [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4315]
+* [***] Highlight text - enables color customization for specific text within a Paragraph block [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4175]
+* [**] Fix empty line appearing when splitting heading blocks on Android 12 [https://github.com/wordpress-mobile/gutenberg-mobile/pull/4365]
 
 1.67.0
 ---

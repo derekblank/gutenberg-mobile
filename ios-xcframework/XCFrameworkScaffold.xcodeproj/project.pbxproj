@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1235FE29F680F900AF54A4 /* GutenbergBridgeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1235FB29F680F900AF54A4 /* GutenbergBridgeDelegate.swift */; };
+		3F1235FF29F680F900AF54A4 /* GutenbergBridgeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1235FC29F680F900AF54A4 /* GutenbergBridgeDataSource.swift */; };
+		3F12360029F680F900AF54A4 /* Gutenberg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1235FD29F680F900AF54A4 /* Gutenberg.swift */; };
+		3F12360329F6814100AF54A4 /* GutenbergWebSingleBlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F12360129F6814100AF54A4 /* GutenbergWebSingleBlockViewController.swift */; };
+		3F12360429F6814100AF54A4 /* FallbackJavascriptInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F12360229F6814100AF54A4 /* FallbackJavascriptInjection.swift */; };
+		3F12360829F6815600AF54A4 /* RNReactNativeGutenbergBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F12360529F6815600AF54A4 /* RNReactNativeGutenbergBridge.swift */; };
+		3F12360929F6815600AF54A4 /* SourceFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F12360629F6815600AF54A4 /* SourceFile.swift */; };
+		3F12360A29F6815600AF54A4 /* RNReactNativeGutenbergBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F12360729F6815600AF54A4 /* RNReactNativeGutenbergBridge.m */; };
+		3F12364629F6B21300AF54A4 /* editor-style-overrides.css in Resources */ = {isa = PBXBuildFile; fileRef = 3F12363D29F6B21300AF54A4 /* editor-style-overrides.css */; };
+		3F12364729F6B21300AF54A4 /* insert-block.js in Resources */ = {isa = PBXBuildFile; fileRef = 3F12363E29F6B21300AF54A4 /* insert-block.js */; };
+		3F12364829F6B21300AF54A4 /* content-functions.js in Resources */ = {isa = PBXBuildFile; fileRef = 3F12363F29F6B21300AF54A4 /* content-functions.js */; };
+		3F12364929F6B21300AF54A4 /* prevent-autosaves.js in Resources */ = {isa = PBXBuildFile; fileRef = 3F12364029F6B21300AF54A4 /* prevent-autosaves.js */; };
+		3F12364A29F6B21300AF54A4 /* inject-css.js in Resources */ = {isa = PBXBuildFile; fileRef = 3F12364129F6B21300AF54A4 /* inject-css.js */; };
+		3F12364B29F6B21300AF54A4 /* gutenberg-observer.js in Resources */ = {isa = PBXBuildFile; fileRef = 3F12364229F6B21300AF54A4 /* gutenberg-observer.js */; };
+		3F12364C29F6B21300AF54A4 /* wp-bar-override.css in Resources */ = {isa = PBXBuildFile; fileRef = 3F12364329F6B21300AF54A4 /* wp-bar-override.css */; };
+		3F12364D29F6B21300AF54A4 /* editor-behavior-overrides.js in Resources */ = {isa = PBXBuildFile; fileRef = 3F12364429F6B21300AF54A4 /* editor-behavior-overrides.js */; };
+		3F12364E29F6B21300AF54A4 /* local-storage-overrides.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F12364529F6B21300AF54A4 /* local-storage-overrides.json */; };
+		3F12365029F6B23300AF54A4 /* supported-blocks.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F12364F29F6B23300AF54A4 /* supported-blocks.json */; };
+		3F8D0D482A8CB297008A5891 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8D0D472A8CB297008A5891 /* assets */; };
+		3FA0C5812A1C8C9700600A9A /* App.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FA0C5802A1C8C9700600A9A /* App.js */; };
+		3FC7862B2A53047D00A0DDAF /* hermes.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC7862A2A53047D00A0DDAF /* hermes.xcframework */; };
+		3FE06AC329F3F61300F752AD /* Gutenberg.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE06AC229F3F61300F752AD /* Gutenberg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE06ACE29F3F6DA00F752AD /* Gutenberg-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3FE06AC829F3F6DA00F752AD /* Gutenberg-Debug.xcconfig */; };
+		3FE06ACF29F3F6DA00F752AD /* Gutenberg-Shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3FE06AC929F3F6DA00F752AD /* Gutenberg-Shared.xcconfig */; };
+		3FE06AD029F3F6DA00F752AD /* Project-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3FE06ACA29F3F6DA00F752AD /* Project-Release.xcconfig */; };
+		3FE06AD129F3F6DA00F752AD /* Project-Shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3FE06ACB29F3F6DA00F752AD /* Project-Shared.xcconfig */; };
+		3FE06AD229F3F6DA00F752AD /* Gutenberg-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3FE06ACC29F3F6DA00F752AD /* Gutenberg-Release.xcconfig */; };
+		3FE06AD329F3F6DA00F752AD /* Project-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3FE06ACD29F3F6DA00F752AD /* Project-Debug.xcconfig */; };
+		612F325D13E652BF476ED672 /* Pods_Gutenberg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432C8665181F3EC336B71D6C /* Pods_Gutenberg.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F1235FB29F680F900AF54A4 /* GutenbergBridgeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GutenbergBridgeDelegate.swift; path = "../../gutenberg/packages/react-native-bridge/ios/GutenbergBridgeDelegate.swift"; sourceTree = "<group>"; };
+		3F1235FC29F680F900AF54A4 /* GutenbergBridgeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GutenbergBridgeDataSource.swift; path = "../../gutenberg/packages/react-native-bridge/ios/GutenbergBridgeDataSource.swift"; sourceTree = "<group>"; };
+		3F1235FD29F680F900AF54A4 /* Gutenberg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gutenberg.swift; path = "../../gutenberg/packages/react-native-bridge/ios/Gutenberg.swift"; sourceTree = "<group>"; };
+		3F12360129F6814100AF54A4 /* GutenbergWebSingleBlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GutenbergWebSingleBlockViewController.swift; path = "../../gutenberg/packages/react-native-bridge/ios/GutenbergWebFallback/GutenbergWebSingleBlockViewController.swift"; sourceTree = "<group>"; };
+		3F12360229F6814100AF54A4 /* FallbackJavascriptInjection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FallbackJavascriptInjection.swift; path = "../../gutenberg/packages/react-native-bridge/ios/GutenbergWebFallback/FallbackJavascriptInjection.swift"; sourceTree = "<group>"; };
+		3F12360529F6815600AF54A4 /* RNReactNativeGutenbergBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RNReactNativeGutenbergBridge.swift; path = "../../gutenberg/packages/react-native-bridge/ios/RNReactNativeGutenbergBridge.swift"; sourceTree = "<group>"; };
+		3F12360629F6815600AF54A4 /* SourceFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SourceFile.swift; path = "../../gutenberg/packages/react-native-bridge/ios/SourceFile.swift"; sourceTree = "<group>"; };
+		3F12360729F6815600AF54A4 /* RNReactNativeGutenbergBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNReactNativeGutenbergBridge.m; path = "../../gutenberg/packages/react-native-bridge/ios/RNReactNativeGutenbergBridge.m"; sourceTree = "<group>"; };
+		3F12363D29F6B21300AF54A4 /* editor-style-overrides.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = "editor-style-overrides.css"; path = "../../../gutenberg/packages/react-native-bridge/common/gutenberg-web-single-block/editor-style-overrides.css"; sourceTree = "<group>"; };
+		3F12363E29F6B21300AF54A4 /* insert-block.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "insert-block.js"; path = "../../../gutenberg/packages/react-native-bridge/common/gutenberg-web-single-block/insert-block.js"; sourceTree = "<group>"; };
+		3F12363F29F6B21300AF54A4 /* content-functions.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "content-functions.js"; path = "../../../gutenberg/packages/react-native-bridge/common/gutenberg-web-single-block/content-functions.js"; sourceTree = "<group>"; };
+		3F12364029F6B21300AF54A4 /* prevent-autosaves.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "prevent-autosaves.js"; path = "../../../gutenberg/packages/react-native-bridge/common/gutenberg-web-single-block/prevent-autosaves.js"; sourceTree = "<group>"; };
+		3F12364129F6B21300AF54A4 /* inject-css.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "inject-css.js"; path = "../../../gutenberg/packages/react-native-bridge/common/gutenberg-web-single-block/inject-css.js"; sourceTree = "<group>"; };
+		3F12364229F6B21300AF54A4 /* gutenberg-observer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "gutenberg-observer.js"; path = "../../../gutenberg/packages/react-native-bridge/common/gutenberg-web-single-block/gutenberg-observer.js"; sourceTree = "<group>"; };
+		3F12364329F6B21300AF54A4 /* wp-bar-override.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = "wp-bar-override.css"; path = "../../../gutenberg/packages/react-native-bridge/common/gutenberg-web-single-block/wp-bar-override.css"; sourceTree = "<group>"; };
+		3F12364429F6B21300AF54A4 /* editor-behavior-overrides.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "editor-behavior-overrides.js"; path = "../../../gutenberg/packages/react-native-bridge/common/gutenberg-web-single-block/editor-behavior-overrides.js"; sourceTree = "<group>"; };
+		3F12364529F6B21300AF54A4 /* local-storage-overrides.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "local-storage-overrides.json"; path = "../../../gutenberg/packages/react-native-bridge/common/gutenberg-web-single-block/local-storage-overrides.json"; sourceTree = "<group>"; };
+		3F12364F29F6B23300AF54A4 /* supported-blocks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "supported-blocks.json"; path = "../../../src/block-support/supported-blocks.json"; sourceTree = "<group>"; };
+		3F8D0D472A8CB297008A5891 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = Gutenberg/Resources/assets; sourceTree = "<group>"; };
+		3FA0C5802A1C8C9700600A9A /* App.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = App.js; path = ../../../bundle/ios/App.js; sourceTree = "<group>"; };
+		3FC7862A2A53047D00A0DDAF /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
+		3FE06ABF29F3F61300F752AD /* Gutenberg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gutenberg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE06AC229F3F61300F752AD /* Gutenberg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gutenberg.h; sourceTree = "<group>"; };
+		3FE06AC829F3F6DA00F752AD /* Gutenberg-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Gutenberg-Debug.xcconfig"; sourceTree = "<group>"; };
+		3FE06AC929F3F6DA00F752AD /* Gutenberg-Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Gutenberg-Shared.xcconfig"; sourceTree = "<group>"; };
+		3FE06ACA29F3F6DA00F752AD /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		3FE06ACB29F3F6DA00F752AD /* Project-Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Shared.xcconfig"; sourceTree = "<group>"; };
+		3FE06ACC29F3F6DA00F752AD /* Gutenberg-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Gutenberg-Release.xcconfig"; sourceTree = "<group>"; };
+		3FE06ACD29F3F6DA00F752AD /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		40573892DD96031C0844CB3A /* Pods-Gutenberg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gutenberg.release.xcconfig"; path = "Target Support Files/Pods-Gutenberg/Pods-Gutenberg.release.xcconfig"; sourceTree = "<group>"; };
+		432C8665181F3EC336B71D6C /* Pods_Gutenberg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gutenberg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A1374B8A1825983C190B38 /* Pods-Gutenberg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gutenberg.debug.xcconfig"; path = "Target Support Files/Pods-Gutenberg/Pods-Gutenberg.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE06ABC29F3F61300F752AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612F325D13E652BF476ED672 /* Pods_Gutenberg.framework in Frameworks */,
+				3FC7862B2A53047D00A0DDAF /* hermes.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F12363C29F6B1E900AF54A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FA0C5802A1C8C9700600A9A /* App.js */,
+				3F12363F29F6B21300AF54A4 /* content-functions.js */,
+				3F12364429F6B21300AF54A4 /* editor-behavior-overrides.js */,
+				3F12363D29F6B21300AF54A4 /* editor-style-overrides.css */,
+				3F12364229F6B21300AF54A4 /* gutenberg-observer.js */,
+				3F12364129F6B21300AF54A4 /* inject-css.js */,
+				3F12363E29F6B21300AF54A4 /* insert-block.js */,
+				3F12364529F6B21300AF54A4 /* local-storage-overrides.json */,
+				3F12364029F6B21300AF54A4 /* prevent-autosaves.js */,
+				3F12364F29F6B23300AF54A4 /* supported-blocks.json */,
+				3F12364329F6B21300AF54A4 /* wp-bar-override.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3FE06AB329F3F46B00F752AD = {
+			isa = PBXGroup;
+			children = (
+				3F8D0D472A8CB297008A5891 /* assets */,
+				3FE06AC729F3F6DA00F752AD /* Config */,
+				3FE06AC129F3F61300F752AD /* Gutenberg */,
+				3FE06AC029F3F61300F752AD /* Products */,
+				E205127207234C97CE5B38E0 /* Pods */,
+				4FCF797BAE1CB2036BB60C7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FE06AC029F3F61300F752AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FE06ABF29F3F61300F752AD /* Gutenberg.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE06AC129F3F61300F752AD /* Gutenberg */ = {
+			isa = PBXGroup;
+			children = (
+				3F12360229F6814100AF54A4 /* FallbackJavascriptInjection.swift */,
+				3FE06AC229F3F61300F752AD /* Gutenberg.h */,
+				3F1235FD29F680F900AF54A4 /* Gutenberg.swift */,
+				3F1235FC29F680F900AF54A4 /* GutenbergBridgeDataSource.swift */,
+				3F1235FB29F680F900AF54A4 /* GutenbergBridgeDelegate.swift */,
+				3F12360129F6814100AF54A4 /* GutenbergWebSingleBlockViewController.swift */,
+				3F12363C29F6B1E900AF54A4 /* Resources */,
+				3F12360729F6815600AF54A4 /* RNReactNativeGutenbergBridge.m */,
+				3F12360529F6815600AF54A4 /* RNReactNativeGutenbergBridge.swift */,
+				3F12360629F6815600AF54A4 /* SourceFile.swift */,
+			);
+			path = Gutenberg;
+			sourceTree = "<group>";
+		};
+		3FE06AC729F3F6DA00F752AD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3FE06AC829F3F6DA00F752AD /* Gutenberg-Debug.xcconfig */,
+				3FE06ACC29F3F6DA00F752AD /* Gutenberg-Release.xcconfig */,
+				3FE06AC929F3F6DA00F752AD /* Gutenberg-Shared.xcconfig */,
+				3FE06ACD29F3F6DA00F752AD /* Project-Debug.xcconfig */,
+				3FE06ACA29F3F6DA00F752AD /* Project-Release.xcconfig */,
+				3FE06ACB29F3F6DA00F752AD /* Project-Shared.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		4FCF797BAE1CB2036BB60C7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC7862A2A53047D00A0DDAF /* hermes.xcframework */,
+				432C8665181F3EC336B71D6C /* Pods_Gutenberg.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E205127207234C97CE5B38E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49A1374B8A1825983C190B38 /* Pods-Gutenberg.debug.xcconfig */,
+				40573892DD96031C0844CB3A /* Pods-Gutenberg.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FE06ABA29F3F61300F752AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE06AC329F3F61300F752AD /* Gutenberg.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FE06ABE29F3F61300F752AD /* Gutenberg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE06AC629F3F61300F752AD /* Build configuration list for PBXNativeTarget "Gutenberg" */;
+			buildPhases = (
+				5DA264C12005B59AC528A3D3 /* [CP] Check Pods Manifest.lock */,
+				3FA0C5822A1CC63B00600A9A /* [Gutenberg] Check App.js */,
+				3FE06ABA29F3F61300F752AD /* Headers */,
+				3FE06ABB29F3F61300F752AD /* Sources */,
+				3FE06ABC29F3F61300F752AD /* Frameworks */,
+				3FE06ABD29F3F61300F752AD /* Resources */,
+				33E2599260A73CF1DC26925F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gutenberg;
+			productName = Gutenberg;
+			productReference = 3FE06ABF29F3F61300F752AD /* Gutenberg.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE06AB429F3F46B00F752AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3FE06ABE29F3F61300F752AD = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 3FE06AB729F3F46B00F752AD /* Build configuration list for PBXProject "XCFrameworkScaffold" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FE06AB329F3F46B00F752AD;
+			productRefGroup = 3FE06AC029F3F61300F752AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FE06ABE29F3F61300F752AD /* Gutenberg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE06ABD29F3F61300F752AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8D0D482A8CB297008A5891 /* assets in Resources */,
+				3FE06AD329F3F6DA00F752AD /* Project-Debug.xcconfig in Resources */,
+				3F12364E29F6B21300AF54A4 /* local-storage-overrides.json in Resources */,
+				3FE06ACE29F3F6DA00F752AD /* Gutenberg-Debug.xcconfig in Resources */,
+				3F12364829F6B21300AF54A4 /* content-functions.js in Resources */,
+				3F12364929F6B21300AF54A4 /* prevent-autosaves.js in Resources */,
+				3FE06AD229F3F6DA00F752AD /* Gutenberg-Release.xcconfig in Resources */,
+				3FE06AD129F3F6DA00F752AD /* Project-Shared.xcconfig in Resources */,
+				3FE06ACF29F3F6DA00F752AD /* Gutenberg-Shared.xcconfig in Resources */,
+				3F12364D29F6B21300AF54A4 /* editor-behavior-overrides.js in Resources */,
+				3FE06AD029F3F6DA00F752AD /* Project-Release.xcconfig in Resources */,
+				3F12364B29F6B21300AF54A4 /* gutenberg-observer.js in Resources */,
+				3F12364629F6B21300AF54A4 /* editor-style-overrides.css in Resources */,
+				3F12364A29F6B21300AF54A4 /* inject-css.js in Resources */,
+				3F12364C29F6B21300AF54A4 /* wp-bar-override.css in Resources */,
+				3F12365029F6B23300AF54A4 /* supported-blocks.json in Resources */,
+				3FA0C5812A1C8C9700600A9A /* App.js in Resources */,
+				3F12364729F6B21300AF54A4 /* insert-block.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33E2599260A73CF1DC26925F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gutenberg/Pods-Gutenberg-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gutenberg/Pods-Gutenberg-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gutenberg/Pods-Gutenberg-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FA0C5822A1CC63B00600A9A /* [Gutenberg] Check App.js */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Gutenberg] Check App.js";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/BuildPhases/check_app_js.sh\"\n";
+		};
+		5DA264C12005B59AC528A3D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gutenberg-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FE06ABB29F3F61300F752AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F12360429F6814100AF54A4 /* FallbackJavascriptInjection.swift in Sources */,
+				3F12360929F6815600AF54A4 /* SourceFile.swift in Sources */,
+				3F1235FE29F680F900AF54A4 /* GutenbergBridgeDelegate.swift in Sources */,
+				3F1235FF29F680F900AF54A4 /* GutenbergBridgeDataSource.swift in Sources */,
+				3F12360829F6815600AF54A4 /* RNReactNativeGutenbergBridge.swift in Sources */,
+				3F12360029F680F900AF54A4 /* Gutenberg.swift in Sources */,
+				3F12360329F6814100AF54A4 /* GutenbergWebSingleBlockViewController.swift in Sources */,
+				3F12360A29F6815600AF54A4 /* RNReactNativeGutenbergBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FE06AB829F3F46B00F752AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE06ACD29F3F6DA00F752AD /* Project-Debug.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../gutenberg/node_modules/react-native";
+			};
+			name = Debug;
+		};
+		3FE06AB929F3F46B00F752AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE06ACA29F3F6DA00F752AD /* Project-Release.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../gutenberg/node_modules/react-native";
+			};
+			name = Release;
+		};
+		3FE06AC429F3F61300F752AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE06AC829F3F6DA00F752AD /* Gutenberg-Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3FE06AC529F3F61300F752AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE06ACC29F3F6DA00F752AD /* Gutenberg-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE06AB729F3F46B00F752AD /* Build configuration list for PBXProject "XCFrameworkScaffold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE06AB829F3F46B00F752AD /* Debug */,
+				3FE06AB929F3F46B00F752AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE06AC629F3F61300F752AD /* Build configuration list for PBXNativeTarget "Gutenberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE06AC429F3F61300F752AD /* Debug */,
+				3FE06AC529F3F61300F752AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FE06AB429F3F46B00F752AD /* Project object */;
+}
