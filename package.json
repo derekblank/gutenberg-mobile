@@ -1,6 +1,6 @@
 {
 	"name": "gutenberg-mobile",
-	"version": "1.106.0",
+	"version": "1.107.0",
 	"private": true,
 	"config": {
 		"jsfiles": "./*.js src/*.js src/**/*.js src/**/**/*.js",
@@ -105,7 +105,7 @@
 		"lint:fix": "npm run lint -- --fix",
 		"xcframework:setup": "./bin/xcframework-setup",
 		"xcframework:build": "npm run xcframework:setup && pushd ./ios-xcframework && ./build.sh && popd",
-		"version": "npm run bundle && git add -A bundle"
+		"version": "1.107.0"
 	},
 	"dependencies": {}
 }
