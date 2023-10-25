@@ -1,7 +1,7 @@
 #!/bin/bash -eu
 
 echo '--- :node: Setup Node depenendencies'
-npm ci
+npm ci --unsafe-perm --prefer-offline --no-audit --no-progress
 
 echo '--- :ios: Set env var for iOS E2E testing'
 set -x
@@ -16,7 +16,7 @@ echo '--- :react: Build iOS app for E2E testing'
 npm run core test:e2e:build-app:ios
 
 echo '--- :react: Build iOS bundle for E2E testing'
-npm run core test:e2e:bundle:ios
+npm run test:e2e:bundle:ios
 
 echo '--- :compression: Prepare artifact for SauceLabs upload'
 WORK_DIR=$(pwd) \
